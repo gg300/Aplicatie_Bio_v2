@@ -1,0 +1,17 @@
+F:\Aplicatie_muschi\Aplicatie_muschi\bin\Debug\Aplicatie_muschi.exe.config
+F:\Aplicatie_muschi\Aplicatie_muschi\bin\Debug\Aplicatie_muschi.exe
+F:\Aplicatie_muschi\Aplicatie_muschi\bin\Debug\Aplicatie_muschi.pdb
+F:\Aplicatie_muschi\Aplicatie_muschi\obj\Debug\Aplicatie_muschi.csproj.AssemblyReference.cache
+F:\Aplicatie_muschi\Aplicatie_muschi\obj\Debug\Aplicatie_muschi.Form1.resources
+F:\Aplicatie_muschi\Aplicatie_muschi\obj\Debug\Aplicatie_muschi.muschi_abdomen.resources
+F:\Aplicatie_muschi\Aplicatie_muschi\obj\Debug\Aplicatie_muschi.muschi_cap.resources
+F:\Aplicatie_muschi\Aplicatie_muschi\obj\Debug\Aplicatie_muschi.muschi_ceafa_spate.resources
+F:\Aplicatie_muschi\Aplicatie_muschi\obj\Debug\Aplicatie_muschi.muschi_gat.resources
+F:\Aplicatie_muschi\Aplicatie_muschi\obj\Debug\Aplicatie_muschi.muschi_membre_inferioare.resources
+F:\Aplicatie_muschi\Aplicatie_muschi\obj\Debug\Aplicatie_muschi.muschi_membre_superioare.resources
+F:\Aplicatie_muschi\Aplicatie_muschi\obj\Debug\Aplicatie_muschi.muschi_torace.resources
+F:\Aplicatie_muschi\Aplicatie_muschi\obj\Debug\Aplicatie_muschi.Properties.Resources.resources
+F:\Aplicatie_muschi\Aplicatie_muschi\obj\Debug\Aplicatie_muschi.csproj.GenerateResource.cache
+F:\Aplicatie_muschi\Aplicatie_muschi\obj\Debug\Aplicatie_muschi.csproj.CoreCompileInputs.cache
+F:\Aplicatie_muschi\Aplicatie_muschi\obj\Debug\Aplicatie_muschi.exe
+F:\Aplicatie_muschi\Aplicatie_muschi\obj\Debug\Aplicatie_muschi.pdb
