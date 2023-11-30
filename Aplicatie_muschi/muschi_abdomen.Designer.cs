@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(muschi_abdomen));
             this.t_drept_abdominal = new System.Windows.Forms.TextBox();
             this.t_oblic_extern = new System.Windows.Forms.TextBox();
             this.t_transversal = new System.Windows.Forms.TextBox();
@@ -159,8 +160,9 @@
             this.Controls.Add(this.t_oblic_extern);
             this.Controls.Add(this.t_drept_abdominal);
             this.Controls.Add(this.pictureBox1);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "muschi_abdomen";
-            this.Text = "muschi_abdomen";
+            this.Text = "muschii abdominali";
             this.Load += new System.EventHandler(this.muschi_abdomen_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);

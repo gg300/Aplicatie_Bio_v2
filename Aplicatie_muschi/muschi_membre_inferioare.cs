@@ -35,7 +35,7 @@ namespace Aplicatie_muschi
         }
         private void ver_mus()
         {
-            if(t_ahile.Text== l_ahile.Text)
+            if(t_ahile.Text.ToLower() == l_ahile.Text.ToLower())
             {
                 verif_txt(t_ahile, l_ahile);
             }
@@ -43,7 +43,7 @@ namespace Aplicatie_muschi
             {
                 er_txt(t_ahile, l_ahile);
             }
-            if(t_calcai.Text == l_calcai.Text)
+            if(t_calcai.Text.ToLower() == l_calcai.Text.ToLower())
             {
                 verif_txt(t_calcai, l_calcai);
             }
@@ -51,7 +51,7 @@ namespace Aplicatie_muschi
             {
                 er_txt(t_calcai, l_calcai);
             }
-            if (t_extensor_degete.Text == l_extensor_degete.Text)
+            if (t_extensor_degete.Text.ToLower() == l_extensor_degete.Text.ToLower())
             {
                 verif_txt(t_extensor_degete, l_extensor_degete);
             }
@@ -59,7 +59,7 @@ namespace Aplicatie_muschi
             {
                 er_txt(t_extensor_degete, l_extensor_degete);
             }
-            if (t_extensor_hal.Text == l_extensor_hal.Text)
+            if (t_extensor_hal.Text.ToLower() == l_extensor_hal.Text.ToLower())
             {
                 verif_txt(t_extensor_hal, l_extensor_hal);
             }
@@ -67,7 +67,7 @@ namespace Aplicatie_muschi
             {
                 er_txt(t_extensor_hal, l_extensor_hal);
             }
-            if (t_flexor_degete.Text == l_flexor_degete.Text)
+            if (t_flexor_degete.Text.ToLower() == l_flexor_degete.Text.ToLower())
             {
                 verif_txt(t_flexor_degete, l_flexor_degete);
             }
@@ -75,7 +75,7 @@ namespace Aplicatie_muschi
             {
                 er_txt(t_flexor_degete, l_flexor_degete);
             }
-            if (t_flexor_lung.Text == l_flexor_hal.Text)
+            if (t_flexor_lung.Text.ToLower() == l_flexor_hal.Text.ToLower())
             {
                 verif_txt(t_flexor_lung, l_flexor_hal);
             }
@@ -83,7 +83,7 @@ namespace Aplicatie_muschi
             {
                 er_txt(t_flexor_lung, l_flexor_hal);
             }
-            if (t_gastrocnemiu_lateral.Text == l_gastrocnemiu_lateral.Text)
+            if (t_gastrocnemiu_lateral.Text.ToLower() == l_gastrocnemiu_lateral.Text.ToLower())
             {
                 verif_txt(t_gastrocnemiu_lateral, l_gastrocnemiu_lateral);
             }
@@ -91,7 +91,7 @@ namespace Aplicatie_muschi
             {
                 er_txt(t_gastrocnemiu_lateral, l_gastrocnemiu_lateral);
             }
-            if (t_gastrocnemiu_median.Text == l_gastrocnemiu_median.Text)
+            if (t_gastrocnemiu_median.Text.ToLower() == l_gastrocnemiu_median.Text.ToLower())
             {
                 verif_txt(t_gastrocnemiu_median, l_gastrocnemiu_median);
             }
@@ -99,7 +99,7 @@ namespace Aplicatie_muschi
             {
                 er_txt(t_gastrocnemiu_median, l_gastrocnemiu_median);
             }
-            if (t_peronier_3.Text == l_peronier_3.Text)
+            if (t_peronier_3.Text.ToLower() == l_peronier_3.Text.ToLower())
             {
                 verif_txt(t_peronier_3, l_peronier_3);
             }
@@ -107,7 +107,7 @@ namespace Aplicatie_muschi
             {
                 er_txt(t_peronier_3, l_peronier_3);
             }
-            if (t_peronier_lung.Text == l_peronier_lung.Text)
+            if (t_peronier_lung.Text.ToLower() == l_peronier_lung.Text.ToLower())
             {
                 verif_txt(t_peronier_lung, l_peronier_lung);
             }
@@ -115,7 +115,7 @@ namespace Aplicatie_muschi
             {
                 er_txt(t_peronier_lung, l_peronier_lung);
             }
-            if (t_peronier_lung_2.Text == l_peronioer_lung_2.Text)
+            if (t_peronier_lung_2.Text.ToLower() == l_peronioer_lung_2.Text.ToLower())
             {
                 verif_txt(t_peronier_lung_2, l_peronioer_lung_2);
             }
@@ -123,7 +123,7 @@ namespace Aplicatie_muschi
             {
                 er_txt(t_peronier_lung_2, l_peronioer_lung_2);
             }
-            if (t_peronier_scurt.Text == l_peronier_scurt.Text)
+            if (t_peronier_scurt.Text.ToLower() == l_peronier_scurt.Text.ToLower())
             {
                 verif_txt(t_peronier_scurt, l_peronier_scurt);
             }
@@ -131,7 +131,7 @@ namespace Aplicatie_muschi
             {
                 er_txt(t_peronier_scurt, l_peronier_scurt);
             }
-            if (t_peronier_scurt_2.Text == l_peronier_scurt_2.Text)
+            if (t_peronier_scurt_2.Text.ToLower() == l_peronier_scurt_2.Text.ToLower())
             {
                 verif_txt(t_peronier_scurt_2, l_peronier_scurt_2);
             }
@@ -139,7 +139,7 @@ namespace Aplicatie_muschi
             {
                 er_txt(t_peronier_scurt_2, l_peronier_scurt_2);
             }
-            if (t_plantar.Text == l_plantar.Text)
+            if (t_plantar.Text.ToLower() == l_plantar.Text.ToLower())
             {
                 verif_txt(t_plantar, l_plantar);
             }
@@ -147,7 +147,7 @@ namespace Aplicatie_muschi
             {
                 er_txt(t_plantar, l_plantar);
             }
-            if (t_popliteu.Text == l_popliteu.Text)
+            if (t_popliteu.Text.ToLower() == l_popliteu.Text.ToLower())
             {
                 verif_txt(t_popliteu, l_popliteu);
             }
@@ -155,7 +155,7 @@ namespace Aplicatie_muschi
             {
                 er_txt(t_popliteu, l_popliteu);
             }
-            if (t_ret_ext_inf.Text == l_ret_ext_inf.Text)
+            if (t_ret_ext_inf.Text.ToLower() == l_ret_ext_inf.Text.ToLower())
             {
                 verif_txt(t_ret_ext_inf, l_ret_ext_inf);
             }
@@ -163,7 +163,7 @@ namespace Aplicatie_muschi
             {
                 er_txt(t_ret_ext_inf, l_ret_ext_inf);
             }
-            if (t_ret_ext_sup.Text == l_ret_ext_sup.Text)
+            if (t_ret_ext_sup.Text.ToLower() == l_ret_ext_sup.Text.ToLower())
             {
                 verif_txt(t_ret_ext_sup, l_ret_ext_sup);
             }
@@ -171,7 +171,7 @@ namespace Aplicatie_muschi
             {
                 er_txt(t_ret_ext_sup, l_ret_ext_sup);
             }
-            if (t_solear.Text == l_solear.Text)
+            if (t_solear.Text.ToLower() == l_solear.Text.ToLower())
             {
                 verif_txt(t_solear, l_solear);
             }
@@ -179,7 +179,7 @@ namespace Aplicatie_muschi
             {
                 er_txt(t_solear, l_solear);
             }
-            if (t_solear_cut.Text == l_solear_cut.Text)
+            if (t_solear_cut.Text.ToLower() == l_solear_cut.Text.ToLower())
             {
                 verif_txt(t_solear_cut, l_solear_cut);
             }
@@ -187,7 +187,7 @@ namespace Aplicatie_muschi
             {
                 er_txt(t_solear_cut, l_solear_cut);
             }
-            if (t_tibial_anterior.Text == l_tibial_anterior.Text)
+            if (t_tibial_anterior.Text.ToLower() == l_tibial_anterior.Text.ToLower())
             {
                 verif_txt(t_tibial_anterior, l_tibial_anterior);
             }
@@ -195,7 +195,7 @@ namespace Aplicatie_muschi
             {
                 er_txt(t_tibial_anterior, l_tibial_anterior);
             }
-            if (t_tibial_posterior.Text == l_tibial_posterior.Text)
+            if (t_tibial_posterior.Text.ToLower() == l_tibial_posterior.Text.ToLower())
             {
                 verif_txt(t_tibial_posterior, l_tibial_posterior);
             }

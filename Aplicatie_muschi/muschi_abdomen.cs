@@ -33,7 +33,7 @@ namespace Aplicatie_muschi
         }
         private void ver_mus()
         {
-            if(t_drept_abdominal.Text == l_drept_abdominal.Text) {
+            if(t_drept_abdominal.Text.ToLower() == l_drept_abdominal.Text.ToLower()) {
                 verif_txt(t_drept_abdominal);
                 l_drept_abdominal.ForeColor = Color.Green;
             }
@@ -42,7 +42,7 @@ namespace Aplicatie_muschi
                 er_txt(t_drept_abdominal);
                 l_drept_abdominal.ForeColor= Color.Red;
             }
-            if (t_oblic_extern.Text == l_oblic_extern.Text)
+            if (t_oblic_extern.Text.ToLower() == l_oblic_extern.Text.ToLower())
             {
                 verif_txt(t_oblic_extern);
                 l_oblic_extern.ForeColor = Color.Green;
@@ -53,7 +53,7 @@ namespace Aplicatie_muschi
                 l_oblic_extern.ForeColor = Color.Red;
 
             }
-            if (t_oblic_intern.Text == l_oblic_intern.Text)
+            if (t_oblic_intern.Text.ToLower() == l_oblic_intern.Text.ToLower())
             {
                 verif_txt(t_oblic_intern);
                 l_oblic_intern.ForeColor = Color.Green;
@@ -63,7 +63,7 @@ namespace Aplicatie_muschi
                 er_txt(t_oblic_intern);
                 l_oblic_intern.ForeColor= Color.Red;
             }
-            if (t_transversal.Text == l_transversal.Text)
+            if (t_transversal.Text.ToLower() == l_transversal.Text.ToLower())
             {
                 verif_txt(t_transversal);
                 l_transversal.ForeColor = Color.Green;

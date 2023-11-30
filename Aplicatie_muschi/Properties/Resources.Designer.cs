@@ -143,6 +143,26 @@ namespace Aplicatie_muschi.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap membre_superioare_1111111111 {
+            get {
+                object obj = ResourceManager.GetObject("membre superioare_1111111111", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap membre_superioare_22222222 {
+            get {
+                object obj = ResourceManager.GetObject("membre superioare_22222222", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap membru_1_inf {
             get {
                 object obj = ResourceManager.GetObject("membru_1_inf", resourceCulture);
@@ -166,6 +186,26 @@ namespace Aplicatie_muschi.Properties {
         internal static System.Drawing.Bitmap membru_3_inf {
             get {
                 object obj = ResourceManager.GetObject("membru_3_inf", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap pectoral_muscles {
+            get {
+                object obj = ResourceManager.GetObject("pectoral-muscles", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap pectoral_muscles22 {
+            get {
+                object obj = ResourceManager.GetObject("pectoral-muscles22", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

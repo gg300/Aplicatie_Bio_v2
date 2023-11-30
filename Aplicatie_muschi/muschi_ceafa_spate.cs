@@ -18,18 +18,20 @@ namespace Aplicatie_muschi
             main = callingForm as Form1;
             InitializeComponent();
         }
-        private void verif_txt(TextBox tex)
+        private void verif_txt(TextBox tex, Label lab)
         {
             tex.BackColor = Color.Green;
             tex.ForeColor = Color.White;
             tex.ReadOnly = true;
+            lab.ForeColor = Color.Green;
 
         }
-        private void er_txt(TextBox tex)
+        private void er_txt(TextBox tex, Label lab)
         {
             tex.BackColor = Color.Red;
             tex.ForeColor = Color.White;
             tex.ReadOnly = true;
+            lab.ForeColor = Color.Red;
         }
         private void muschi_ceafa_spate_Load(object sender, EventArgs e)
         {

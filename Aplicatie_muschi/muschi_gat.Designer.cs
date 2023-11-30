@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(muschi_gat));
             this.t_digast_post = new System.Windows.Forms.TextBox();
             this.t_digast_ant = new System.Windows.Forms.TextBox();
             this.t_os_hioid = new System.Windows.Forms.TextBox();
@@ -219,7 +220,9 @@
             this.Controls.Add(this.t_digast_ant);
             this.Controls.Add(this.t_digast_post);
             this.Controls.Add(this.pictureBox1);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "muschi_gat";
+            this.Text = "muschii gatului";
             this.Load += new System.EventHandler(this.muschi_gat_Load_1);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);

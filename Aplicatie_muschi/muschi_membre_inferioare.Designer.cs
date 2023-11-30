@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(muschi_membre_inferioare));
             this.t_popliteu = new System.Windows.Forms.TextBox();
             this.t_solear_cut = new System.Windows.Forms.TextBox();
             this.t_peronier_lung_2 = new System.Windows.Forms.TextBox();
@@ -70,11 +71,11 @@
             this.l_extensor_degete = new System.Windows.Forms.Label();
             this.l_peronier_lung = new System.Windows.Forms.Label();
             this.l_tibial_anterior = new System.Windows.Forms.Label();
+            this.b_incearca = new System.Windows.Forms.Button();
+            this.b_raspunsuri = new System.Windows.Forms.Button();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.b_incearca = new System.Windows.Forms.Button();
-            this.b_raspunsuri = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -437,6 +438,28 @@
             this.l_tibial_anterior.TabIndex = 69;
             this.l_tibial_anterior.Text = "tibial anterior";
             // 
+            // b_incearca
+            // 
+            this.b_incearca.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.b_incearca.Location = new System.Drawing.Point(1005, 568);
+            this.b_incearca.Name = "b_incearca";
+            this.b_incearca.Size = new System.Drawing.Size(160, 101);
+            this.b_incearca.TabIndex = 70;
+            this.b_incearca.Text = "Incearca";
+            this.b_incearca.UseVisualStyleBackColor = true;
+            this.b_incearca.Click += new System.EventHandler(this.b_incearca_Click);
+            // 
+            // b_raspunsuri
+            // 
+            this.b_raspunsuri.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.b_raspunsuri.Location = new System.Drawing.Point(97, 555);
+            this.b_raspunsuri.Name = "b_raspunsuri";
+            this.b_raspunsuri.Size = new System.Drawing.Size(160, 101);
+            this.b_raspunsuri.TabIndex = 71;
+            this.b_raspunsuri.Text = "Raspunsuri";
+            this.b_raspunsuri.UseVisualStyleBackColor = true;
+            this.b_raspunsuri.Click += new System.EventHandler(this.b_raspunsuri_Click);
+            // 
             // pictureBox3
             // 
             this.pictureBox3.Image = global::Aplicatie_muschi.Properties.Resources.membru_3_inf;
@@ -463,28 +486,6 @@
             this.pictureBox1.Size = new System.Drawing.Size(275, 582);
             this.pictureBox1.TabIndex = 25;
             this.pictureBox1.TabStop = false;
-            // 
-            // b_incearca
-            // 
-            this.b_incearca.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.b_incearca.Location = new System.Drawing.Point(1005, 568);
-            this.b_incearca.Name = "b_incearca";
-            this.b_incearca.Size = new System.Drawing.Size(160, 101);
-            this.b_incearca.TabIndex = 70;
-            this.b_incearca.Text = "Incearca";
-            this.b_incearca.UseVisualStyleBackColor = true;
-            this.b_incearca.Click += new System.EventHandler(this.b_incearca_Click);
-            // 
-            // b_raspunsuri
-            // 
-            this.b_raspunsuri.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.b_raspunsuri.Location = new System.Drawing.Point(97, 555);
-            this.b_raspunsuri.Name = "b_raspunsuri";
-            this.b_raspunsuri.Size = new System.Drawing.Size(160, 101);
-            this.b_raspunsuri.TabIndex = 71;
-            this.b_raspunsuri.Text = "Raspunsuri";
-            this.b_raspunsuri.UseVisualStyleBackColor = true;
-            this.b_raspunsuri.Click += new System.EventHandler(this.b_raspunsuri_Click);
             // 
             // muschi_membre_inferioare
             // 
@@ -539,8 +540,9 @@
             this.Controls.Add(this.pictureBox3);
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.pictureBox1);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "muschi_membre_inferioare";
-            this.Text = "muschi_membre_inferioare";
+            this.Text = "muschii membrelor  inferioare";
             this.Load += new System.EventHandler(this.muschi_membre_inferioare_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();

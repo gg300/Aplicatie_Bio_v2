@@ -118,43 +118,55 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="ceafa si spate" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\ceafa si spate.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="membru_2_inf" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\membru_2_inf.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="abdomen" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\abdomen.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="gat" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\gat.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="membru_1_inf" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\membru_1_inf.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="membre superioare" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\membre superioare.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="membre inferioare" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\membre inferioare.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="sistem muscular" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\sistem muscular.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="torecele" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\torecele.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="membru_3_inf" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\membru_3_inf.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="membre superioare" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\membre superioare.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="torecele" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\torecele.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="membru_1_inf" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\membru_1_inf.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="abdomen1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\abdomen1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ceafa si spate" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ceafa si spate.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="gat" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\gat.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="membru_2_inf" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\membru_2_inf.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pectoral-muscles" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pectoral-muscles.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pectoral-muscles22" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pectoral-muscles22.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="membre inferioare" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\membre inferioare.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="membre superioare__22" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\membre superioare__22.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="abdomen" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\abdomen.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="fata" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\fata.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="membre superioare__22" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\membre superioare__22.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="membre superioare_1111111111" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\membre superioare_1111111111.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="membre superioare_22222222" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\membre superioare_22222222.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

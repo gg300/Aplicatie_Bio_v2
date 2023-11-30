@@ -28,706 +28,719 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(muschi_membre_superioare));
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.textBox4 = new System.Windows.Forms.TextBox();
-            this.textBox5 = new System.Windows.Forms.TextBox();
-            this.textBox6 = new System.Windows.Forms.TextBox();
-            this.textBox7 = new System.Windows.Forms.TextBox();
-            this.textBox8 = new System.Windows.Forms.TextBox();
-            this.textBox9 = new System.Windows.Forms.TextBox();
-            this.textBox10 = new System.Windows.Forms.TextBox();
-            this.textBox11 = new System.Windows.Forms.TextBox();
-            this.textBox12 = new System.Windows.Forms.TextBox();
-            this.textBox13 = new System.Windows.Forms.TextBox();
-            this.textBox14 = new System.Windows.Forms.TextBox();
-            this.textBox15 = new System.Windows.Forms.TextBox();
-            this.textBox16 = new System.Windows.Forms.TextBox();
-            this.textBox18 = new System.Windows.Forms.TextBox();
-            this.textBox17 = new System.Windows.Forms.TextBox();
-            this.textBox19 = new System.Windows.Forms.TextBox();
-            this.textBox20 = new System.Windows.Forms.TextBox();
-            this.textBox21 = new System.Windows.Forms.TextBox();
-            this.textBox22 = new System.Windows.Forms.TextBox();
-            this.textBox23 = new System.Windows.Forms.TextBox();
-            this.textBox24 = new System.Windows.Forms.TextBox();
-            this.textBox25 = new System.Windows.Forms.TextBox();
-            this.textBox26 = new System.Windows.Forms.TextBox();
-            this.textBox27 = new System.Windows.Forms.TextBox();
-            this.textBox28 = new System.Windows.Forms.TextBox();
-            this.textBox29 = new System.Windows.Forms.TextBox();
-            this.textBox30 = new System.Windows.Forms.TextBox();
-            this.textBox31 = new System.Windows.Forms.TextBox();
-            this.textBox32 = new System.Windows.Forms.TextBox();
-            this.textBox33 = new System.Windows.Forms.TextBox();
-            this.textBox34 = new System.Windows.Forms.TextBox();
-            this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
-            this.label6 = new System.Windows.Forms.Label();
-            this.label7 = new System.Windows.Forms.Label();
-            this.label8 = new System.Windows.Forms.Label();
-            this.label9 = new System.Windows.Forms.Label();
-            this.label10 = new System.Windows.Forms.Label();
-            this.label11 = new System.Windows.Forms.Label();
-            this.label12 = new System.Windows.Forms.Label();
-            this.label13 = new System.Windows.Forms.Label();
-            this.label14 = new System.Windows.Forms.Label();
-            this.label15 = new System.Windows.Forms.Label();
-            this.label16 = new System.Windows.Forms.Label();
-            this.label17 = new System.Windows.Forms.Label();
-            this.label18 = new System.Windows.Forms.Label();
-            this.label19 = new System.Windows.Forms.Label();
-            this.label20 = new System.Windows.Forms.Label();
-            this.label21 = new System.Windows.Forms.Label();
-            this.label22 = new System.Windows.Forms.Label();
-            this.label23 = new System.Windows.Forms.Label();
-            this.label24 = new System.Windows.Forms.Label();
-            this.label25 = new System.Windows.Forms.Label();
-            this.label26 = new System.Windows.Forms.Label();
-            this.label27 = new System.Windows.Forms.Label();
-            this.label28 = new System.Windows.Forms.Label();
-            this.label29 = new System.Windows.Forms.Label();
-            this.label30 = new System.Windows.Forms.Label();
-            this.label31 = new System.Windows.Forms.Label();
-            this.label32 = new System.Windows.Forms.Label();
-            this.label33 = new System.Windows.Forms.Label();
-            this.label34 = new System.Windows.Forms.Label();
+            this.t_hum = new System.Windows.Forms.TextBox();
+            this.t_coco = new System.Windows.Forms.TextBox();
+            this.t_biceps_l = new System.Windows.Forms.TextBox();
+            this.t_biceps_s = new System.Windows.Forms.TextBox();
+            this.t_triceps_cap_l = new System.Windows.Forms.TextBox();
+            this.t_brah = new System.Windows.Forms.TextBox();
+            this.t_brahr = new System.Windows.Forms.TextBox();
+            this.t_rotund_pron = new System.Windows.Forms.TextBox();
+            this.t_triceps_cap_m = new System.Windows.Forms.TextBox();
+            this.t_epic = new System.Windows.Forms.TextBox();
+            this.t_flex_rad_carp = new System.Windows.Forms.TextBox();
+            this.t_pal_l = new System.Windows.Forms.TextBox();
+            this.t_flex_sup_deg = new System.Windows.Forms.TextBox();
+            this.t_pal = new System.Windows.Forms.TextBox();
+            this.t_pat_pron = new System.Windows.Forms.TextBox();
+            this.t_retin_flex = new System.Windows.Forms.TextBox();
+            this.t_apo_pal = new System.Windows.Forms.TextBox();
+            this.t_retc_flex = new System.Windows.Forms.TextBox();
+            this.t_ext_in = new System.Windows.Forms.TextBox();
+            this.t_ext_deg_m = new System.Windows.Forms.TextBox();
+            this.t_ext_s_p = new System.Windows.Forms.TextBox();
+            this.t_flex_l_p = new System.Windows.Forms.TextBox();
+            this.t_ext_l_deg = new System.Windows.Forms.TextBox();
+            this.t_brahr_2 = new System.Windows.Forms.TextBox();
+            this.t_abd_l_pol = new System.Windows.Forms.TextBox();
+            this.t_s_ext_rad_c = new System.Windows.Forms.TextBox();
+            this.t_flex_u_c = new System.Windows.Forms.TextBox();
+            this.t_ext_l_r_c = new System.Windows.Forms.TextBox();
+            this.t_ulna = new System.Windows.Forms.TextBox();
+            this.t_anconeu = new System.Windows.Forms.TextBox();
+            this.t_triceps_lung = new System.Windows.Forms.TextBox();
+            this.t_triceps_lat = new System.Windows.Forms.TextBox();
+            this.t_tub_mc_hum = new System.Windows.Forms.TextBox();
+            this.l_hum = new System.Windows.Forms.Label();
+            this.l_coco = new System.Windows.Forms.Label();
+            this.l_triceps_cap_l = new System.Windows.Forms.Label();
+            this.l_triceps_cap_m = new System.Windows.Forms.Label();
+            this.l_rotund_pron = new System.Windows.Forms.Label();
+            this.l_epic = new System.Windows.Forms.Label();
+            this.l_flex_rad_carp = new System.Windows.Forms.Label();
+            this.l_pal_l = new System.Windows.Forms.Label();
+            this.l_flex_sup_deg = new System.Windows.Forms.Label();
+            this.l_pal = new System.Windows.Forms.Label();
+            this.l_pat_pron = new System.Windows.Forms.Label();
+            this.l_retin_flex = new System.Windows.Forms.Label();
+            this.l_apo_pal = new System.Windows.Forms.Label();
+            this.l_brahr = new System.Windows.Forms.Label();
+            this.l_brah = new System.Windows.Forms.Label();
+            this.l_biceps_s = new System.Windows.Forms.Label();
+            this.l_biceps_l = new System.Windows.Forms.Label();
+            this.l_tub_mc_hum = new System.Windows.Forms.Label();
+            this.l_ulna = new System.Windows.Forms.Label();
+            this.l_ext_l_r_c = new System.Windows.Forms.Label();
+            this.l_flex_u_c = new System.Windows.Forms.Label();
+            this.l_s_ext_rad_c = new System.Windows.Forms.Label();
+            this.l_abd_l_pol = new System.Windows.Forms.Label();
+            this.l_flex_l_p = new System.Windows.Forms.Label();
+            this.l_ext_s_p = new System.Windows.Forms.Label();
+            this.l_retc_flex = new System.Windows.Forms.Label();
+            this.l_ext_in = new System.Windows.Forms.Label();
+            this.l_ext_deg_m = new System.Windows.Forms.Label();
+            this.l_ext_l_deg = new System.Windows.Forms.Label();
+            this.l_brahr_2 = new System.Windows.Forms.Label();
+            this.l_anconeu = new System.Windows.Forms.Label();
+            this.l_triceps_lung = new System.Windows.Forms.Label();
+            this.l_triceps_lat = new System.Windows.Forms.Label();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
+            // pictureBox2
+            // 
+            this.pictureBox2.Image = global::Aplicatie_muschi.Properties.Resources.membre_superioare_22222222;
+            this.pictureBox2.Location = new System.Drawing.Point(603, 12);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(571, 686);
+            this.pictureBox2.TabIndex = 1;
+            this.pictureBox2.TabStop = false;
+            // 
             // pictureBox1
             // 
-            this.pictureBox1.Image = global::Aplicatie_muschi.Properties.Resources.membre_superioare__22;
-            this.pictureBox1.Location = new System.Drawing.Point(84, -5);
+            this.pictureBox1.Image = global::Aplicatie_muschi.Properties.Resources.membre_superioare_1111111111;
+            this.pictureBox1.Location = new System.Drawing.Point(107, 0);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(1005, 674);
+            this.pictureBox1.Size = new System.Drawing.Size(617, 698);
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
             // 
-            // textBox1
+            // t_hum
             // 
-            this.textBox1.Location = new System.Drawing.Point(658, 182);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(104, 20);
-            this.textBox1.TabIndex = 1;
+            this.t_hum.Location = new System.Drawing.Point(995, 103);
+            this.t_hum.Name = "t_hum";
+            this.t_hum.Size = new System.Drawing.Size(100, 22);
+            this.t_hum.TabIndex = 2;
             // 
-            // textBox2
+            // t_coco
             // 
-            this.textBox2.Location = new System.Drawing.Point(387, 217);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(104, 20);
-            this.textBox2.TabIndex = 2;
+            this.t_coco.Location = new System.Drawing.Point(995, 129);
+            this.t_coco.Name = "t_coco";
+            this.t_coco.Size = new System.Drawing.Size(100, 22);
+            this.t_coco.TabIndex = 3;
             // 
-            // textBox3
+            // t_biceps_l
             // 
-            this.textBox3.Location = new System.Drawing.Point(387, 243);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(104, 20);
-            this.textBox3.TabIndex = 3;
+            this.t_biceps_l.Location = new System.Drawing.Point(767, 170);
+            this.t_biceps_l.Name = "t_biceps_l";
+            this.t_biceps_l.Size = new System.Drawing.Size(100, 22);
+            this.t_biceps_l.TabIndex = 4;
             // 
-            // textBox4
+            // t_biceps_s
             // 
-            this.textBox4.Location = new System.Drawing.Point(658, 263);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(104, 20);
-            this.textBox4.TabIndex = 4;
+            this.t_biceps_s.Location = new System.Drawing.Point(758, 196);
+            this.t_biceps_s.Name = "t_biceps_s";
+            this.t_biceps_s.Size = new System.Drawing.Size(100, 22);
+            this.t_biceps_s.TabIndex = 5;
             // 
-            // textBox5
+            // t_triceps_cap_l
             // 
-            this.textBox5.Location = new System.Drawing.Point(658, 298);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(104, 20);
-            this.textBox5.TabIndex = 5;
+            this.t_triceps_cap_l.Location = new System.Drawing.Point(995, 205);
+            this.t_triceps_cap_l.Name = "t_triceps_cap_l";
+            this.t_triceps_cap_l.Size = new System.Drawing.Size(100, 22);
+            this.t_triceps_cap_l.TabIndex = 6;
             // 
-            // textBox6
+            // t_brah
             // 
-            this.textBox6.Location = new System.Drawing.Point(900, 298);
-            this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(104, 20);
-            this.textBox6.TabIndex = 6;
+            this.t_brah.Location = new System.Drawing.Point(758, 283);
+            this.t_brah.Name = "t_brah";
+            this.t_brah.Size = new System.Drawing.Size(100, 22);
+            this.t_brah.TabIndex = 7;
             // 
-            // textBox7
+            // t_brahr
             // 
-            this.textBox7.Location = new System.Drawing.Point(900, 272);
-            this.textBox7.Name = "textBox7";
-            this.textBox7.Size = new System.Drawing.Size(104, 20);
-            this.textBox7.TabIndex = 7;
+            this.t_brahr.Location = new System.Drawing.Point(758, 318);
+            this.t_brahr.Name = "t_brahr";
+            this.t_brahr.Size = new System.Drawing.Size(100, 22);
+            this.t_brahr.TabIndex = 8;
             // 
-            // textBox8
+            // t_rotund_pron
             // 
-            this.textBox8.Location = new System.Drawing.Point(900, 232);
-            this.textBox8.Name = "textBox8";
-            this.textBox8.Size = new System.Drawing.Size(104, 20);
-            this.textBox8.TabIndex = 8;
+            this.t_rotund_pron.Location = new System.Drawing.Point(995, 294);
+            this.t_rotund_pron.Name = "t_rotund_pron";
+            this.t_rotund_pron.Size = new System.Drawing.Size(100, 22);
+            this.t_rotund_pron.TabIndex = 9;
             // 
-            // textBox9
+            // t_triceps_cap_m
             // 
-            this.textBox9.Location = new System.Drawing.Point(900, 182);
-            this.textBox9.Name = "textBox9";
-            this.textBox9.Size = new System.Drawing.Size(104, 20);
-            this.textBox9.TabIndex = 9;
+            this.t_triceps_cap_m.Location = new System.Drawing.Point(995, 255);
+            this.t_triceps_cap_m.Name = "t_triceps_cap_m";
+            this.t_triceps_cap_m.Size = new System.Drawing.Size(100, 22);
+            this.t_triceps_cap_m.TabIndex = 10;
             // 
-            // textBox10
+            // t_epic
             // 
-            this.textBox10.Location = new System.Drawing.Point(670, 147);
-            this.textBox10.Name = "textBox10";
-            this.textBox10.Size = new System.Drawing.Size(104, 20);
-            this.textBox10.TabIndex = 10;
+            this.t_epic.Location = new System.Drawing.Point(995, 320);
+            this.t_epic.Name = "t_epic";
+            this.t_epic.Size = new System.Drawing.Size(100, 22);
+            this.t_epic.TabIndex = 11;
             // 
-            // textBox11
+            // t_flex_rad_carp
             // 
-            this.textBox11.Location = new System.Drawing.Point(900, 109);
-            this.textBox11.Name = "textBox11";
-            this.textBox11.Size = new System.Drawing.Size(104, 20);
-            this.textBox11.TabIndex = 11;
+            this.t_flex_rad_carp.Location = new System.Drawing.Point(980, 414);
+            this.t_flex_rad_carp.Name = "t_flex_rad_carp";
+            this.t_flex_rad_carp.Size = new System.Drawing.Size(100, 22);
+            this.t_flex_rad_carp.TabIndex = 12;
             // 
-            // textBox12
+            // t_pal_l
             // 
-            this.textBox12.Location = new System.Drawing.Point(900, 83);
-            this.textBox12.Name = "textBox12";
-            this.textBox12.Size = new System.Drawing.Size(104, 20);
-            this.textBox12.TabIndex = 12;
+            this.t_pal_l.Location = new System.Drawing.Point(970, 440);
+            this.t_pal_l.Name = "t_pal_l";
+            this.t_pal_l.Size = new System.Drawing.Size(100, 22);
+            this.t_pal_l.TabIndex = 13;
             // 
-            // textBox13
+            // t_flex_sup_deg
             // 
-            this.textBox13.Location = new System.Drawing.Point(900, 29);
-            this.textBox13.Name = "textBox13";
-            this.textBox13.Size = new System.Drawing.Size(104, 20);
-            this.textBox13.TabIndex = 13;
+            this.t_flex_sup_deg.Location = new System.Drawing.Point(970, 466);
+            this.t_flex_sup_deg.Name = "t_flex_sup_deg";
+            this.t_flex_sup_deg.Size = new System.Drawing.Size(100, 22);
+            this.t_flex_sup_deg.TabIndex = 14;
             // 
-            // textBox14
+            // t_pal
             // 
-            this.textBox14.Location = new System.Drawing.Point(863, 392);
-            this.textBox14.Name = "textBox14";
-            this.textBox14.Size = new System.Drawing.Size(104, 20);
-            this.textBox14.TabIndex = 14;
+            this.t_pal.Location = new System.Drawing.Point(980, 492);
+            this.t_pal.Name = "t_pal";
+            this.t_pal.Size = new System.Drawing.Size(100, 22);
+            this.t_pal.TabIndex = 15;
             // 
-            // textBox15
+            // t_pat_pron
             // 
-            this.textBox15.Location = new System.Drawing.Point(863, 418);
-            this.textBox15.Name = "textBox15";
-            this.textBox15.Size = new System.Drawing.Size(104, 20);
-            this.textBox15.TabIndex = 15;
+            this.t_pat_pron.Location = new System.Drawing.Point(958, 533);
+            this.t_pat_pron.Name = "t_pat_pron";
+            this.t_pat_pron.Size = new System.Drawing.Size(100, 22);
+            this.t_pat_pron.TabIndex = 16;
             // 
-            // textBox16
+            // t_retin_flex
             // 
-            this.textBox16.Location = new System.Drawing.Point(863, 443);
-            this.textBox16.Name = "textBox16";
-            this.textBox16.Size = new System.Drawing.Size(104, 20);
-            this.textBox16.TabIndex = 16;
+            this.t_retin_flex.Location = new System.Drawing.Point(948, 568);
+            this.t_retin_flex.Name = "t_retin_flex";
+            this.t_retin_flex.Size = new System.Drawing.Size(100, 22);
+            this.t_retin_flex.TabIndex = 17;
             // 
-            // textBox18
+            // t_apo_pal
             // 
-            this.textBox18.Location = new System.Drawing.Point(828, 467);
-            this.textBox18.Name = "textBox18";
-            this.textBox18.Size = new System.Drawing.Size(104, 20);
-            this.textBox18.TabIndex = 19;
+            this.t_apo_pal.Location = new System.Drawing.Point(932, 604);
+            this.t_apo_pal.Name = "t_apo_pal";
+            this.t_apo_pal.Size = new System.Drawing.Size(100, 22);
+            this.t_apo_pal.TabIndex = 18;
             // 
-            // textBox17
+            // t_retc_flex
             // 
-            this.textBox17.Location = new System.Drawing.Point(837, 486);
-            this.textBox17.Name = "textBox17";
-            this.textBox17.Size = new System.Drawing.Size(104, 20);
-            this.textBox17.TabIndex = 20;
+            this.t_retc_flex.Location = new System.Drawing.Point(239, 521);
+            this.t_retc_flex.Name = "t_retc_flex";
+            this.t_retc_flex.Size = new System.Drawing.Size(100, 22);
+            this.t_retc_flex.TabIndex = 19;
             // 
-            // textBox19
+            // t_ext_in
             // 
-            this.textBox19.Location = new System.Drawing.Point(837, 527);
-            this.textBox19.Name = "textBox19";
-            this.textBox19.Size = new System.Drawing.Size(104, 20);
-            this.textBox19.TabIndex = 21;
+            this.t_ext_in.Location = new System.Drawing.Point(239, 495);
+            this.t_ext_in.Name = "t_ext_in";
+            this.t_ext_in.Size = new System.Drawing.Size(100, 22);
+            this.t_ext_in.TabIndex = 20;
             // 
-            // textBox20
+            // t_ext_deg_m
             // 
-            this.textBox20.Location = new System.Drawing.Point(837, 503);
-            this.textBox20.Name = "textBox20";
-            this.textBox20.Size = new System.Drawing.Size(104, 20);
-            this.textBox20.TabIndex = 22;
+            this.t_ext_deg_m.Location = new System.Drawing.Point(239, 469);
+            this.t_ext_deg_m.Name = "t_ext_deg_m";
+            this.t_ext_deg_m.Size = new System.Drawing.Size(100, 22);
+            this.t_ext_deg_m.TabIndex = 21;
             // 
-            // textBox21
+            // t_ext_s_p
             // 
-            this.textBox21.Location = new System.Drawing.Point(418, 341);
-            this.textBox21.Name = "textBox21";
-            this.textBox21.Size = new System.Drawing.Size(104, 20);
-            this.textBox21.TabIndex = 23;
+            this.t_ext_s_p.Location = new System.Drawing.Point(474, 469);
+            this.t_ext_s_p.Name = "t_ext_s_p";
+            this.t_ext_s_p.Size = new System.Drawing.Size(100, 22);
+            this.t_ext_s_p.TabIndex = 22;
             // 
-            // textBox22
+            // t_flex_l_p
             // 
-            this.textBox22.Location = new System.Drawing.Point(418, 376);
-            this.textBox22.Name = "textBox22";
-            this.textBox22.Size = new System.Drawing.Size(104, 20);
-            this.textBox22.TabIndex = 24;
+            this.t_flex_l_p.Location = new System.Drawing.Point(474, 443);
+            this.t_flex_l_p.Name = "t_flex_l_p";
+            this.t_flex_l_p.Size = new System.Drawing.Size(100, 22);
+            this.t_flex_l_p.TabIndex = 23;
             // 
-            // textBox23
+            // t_ext_l_deg
             // 
-            this.textBox23.Location = new System.Drawing.Point(418, 402);
-            this.textBox23.Name = "textBox23";
-            this.textBox23.Size = new System.Drawing.Size(104, 20);
-            this.textBox23.TabIndex = 25;
+            this.t_ext_l_deg.Location = new System.Drawing.Point(239, 443);
+            this.t_ext_l_deg.Name = "t_ext_l_deg";
+            this.t_ext_l_deg.Size = new System.Drawing.Size(100, 22);
+            this.t_ext_l_deg.TabIndex = 24;
             // 
-            // textBox24
+            // t_brahr_2
             // 
-            this.textBox24.Location = new System.Drawing.Point(455, 443);
-            this.textBox24.Name = "textBox24";
-            this.textBox24.Size = new System.Drawing.Size(104, 20);
-            this.textBox24.TabIndex = 26;
+            this.t_brahr_2.Location = new System.Drawing.Point(239, 402);
+            this.t_brahr_2.Name = "t_brahr_2";
+            this.t_brahr_2.Size = new System.Drawing.Size(100, 22);
+            this.t_brahr_2.TabIndex = 25;
             // 
-            // textBox25
+            // t_abd_l_pol
             // 
-            this.textBox25.Location = new System.Drawing.Point(455, 467);
-            this.textBox25.Name = "textBox25";
-            this.textBox25.Size = new System.Drawing.Size(104, 20);
-            this.textBox25.TabIndex = 27;
+            this.t_abd_l_pol.Location = new System.Drawing.Point(443, 402);
+            this.t_abd_l_pol.Name = "t_abd_l_pol";
+            this.t_abd_l_pol.Size = new System.Drawing.Size(100, 22);
+            this.t_abd_l_pol.TabIndex = 26;
             // 
-            // textBox26
+            // t_s_ext_rad_c
             // 
-            this.textBox26.Location = new System.Drawing.Point(214, 516);
-            this.textBox26.Name = "textBox26";
-            this.textBox26.Size = new System.Drawing.Size(104, 20);
-            this.textBox26.TabIndex = 28;
+            this.t_s_ext_rad_c.Location = new System.Drawing.Point(443, 376);
+            this.t_s_ext_rad_c.Name = "t_s_ext_rad_c";
+            this.t_s_ext_rad_c.Size = new System.Drawing.Size(100, 22);
+            this.t_s_ext_rad_c.TabIndex = 27;
             // 
-            // textBox27
+            // t_flex_u_c
             // 
-            this.textBox27.Location = new System.Drawing.Point(214, 490);
-            this.textBox27.Name = "textBox27";
-            this.textBox27.Size = new System.Drawing.Size(104, 20);
-            this.textBox27.TabIndex = 29;
+            this.t_flex_u_c.Location = new System.Drawing.Point(443, 350);
+            this.t_flex_u_c.Name = "t_flex_u_c";
+            this.t_flex_u_c.Size = new System.Drawing.Size(100, 22);
+            this.t_flex_u_c.TabIndex = 28;
             // 
-            // textBox28
+            // t_ext_l_r_c
             // 
-            this.textBox28.Location = new System.Drawing.Point(214, 464);
-            this.textBox28.Name = "textBox28";
-            this.textBox28.Size = new System.Drawing.Size(104, 20);
-            this.textBox28.TabIndex = 30;
+            this.t_ext_l_r_c.Location = new System.Drawing.Point(411, 252);
+            this.t_ext_l_r_c.Name = "t_ext_l_r_c";
+            this.t_ext_l_r_c.Size = new System.Drawing.Size(100, 22);
+            this.t_ext_l_r_c.TabIndex = 29;
             // 
-            // textBox29
+            // t_ulna
             // 
-            this.textBox29.Location = new System.Drawing.Point(214, 429);
-            this.textBox29.Name = "textBox29";
-            this.textBox29.Size = new System.Drawing.Size(104, 20);
-            this.textBox29.TabIndex = 31;
+            this.t_ulna.Location = new System.Drawing.Point(411, 226);
+            this.t_ulna.Name = "t_ulna";
+            this.t_ulna.Size = new System.Drawing.Size(100, 22);
+            this.t_ulna.TabIndex = 30;
             // 
-            // textBox30
+            // t_anconeu
             // 
-            this.textBox30.Location = new System.Drawing.Point(214, 402);
-            this.textBox30.Name = "textBox30";
-            this.textBox30.Size = new System.Drawing.Size(104, 20);
-            this.textBox30.TabIndex = 32;
+            this.t_anconeu.Location = new System.Drawing.Point(137, 271);
+            this.t_anconeu.Name = "t_anconeu";
+            this.t_anconeu.Size = new System.Drawing.Size(100, 22);
+            this.t_anconeu.TabIndex = 31;
             // 
-            // textBox31
+            // t_triceps_lung
             // 
-            this.textBox31.Location = new System.Drawing.Point(108, 263);
-            this.textBox31.Name = "textBox31";
-            this.textBox31.Size = new System.Drawing.Size(104, 20);
-            this.textBox31.TabIndex = 33;
+            this.t_triceps_lung.Location = new System.Drawing.Point(137, 207);
+            this.t_triceps_lung.Name = "t_triceps_lung";
+            this.t_triceps_lung.Size = new System.Drawing.Size(100, 22);
+            this.t_triceps_lung.TabIndex = 32;
             // 
-            // textBox32
+            // t_triceps_lat
             // 
-            this.textBox32.Location = new System.Drawing.Point(108, 204);
-            this.textBox32.Name = "textBox32";
-            this.textBox32.Size = new System.Drawing.Size(104, 20);
-            this.textBox32.TabIndex = 34;
+            this.t_triceps_lat.Location = new System.Drawing.Point(137, 167);
+            this.t_triceps_lat.Name = "t_triceps_lat";
+            this.t_triceps_lat.Size = new System.Drawing.Size(100, 22);
+            this.t_triceps_lat.TabIndex = 33;
             // 
-            // textBox33
+            // t_tub_mc_hum
             // 
-            this.textBox33.Location = new System.Drawing.Point(108, 162);
-            this.textBox33.Name = "textBox33";
-            this.textBox33.Size = new System.Drawing.Size(104, 20);
-            this.textBox33.TabIndex = 35;
+            this.t_tub_mc_hum.Location = new System.Drawing.Point(365, 79);
+            this.t_tub_mc_hum.Name = "t_tub_mc_hum";
+            this.t_tub_mc_hum.Size = new System.Drawing.Size(100, 22);
+            this.t_tub_mc_hum.TabIndex = 34;
             // 
-            // textBox34
+            // l_hum
             // 
-            this.textBox34.Location = new System.Drawing.Point(343, 72);
-            this.textBox34.Name = "textBox34";
-            this.textBox34.Size = new System.Drawing.Size(104, 20);
-            this.textBox34.TabIndex = 36;
+            this.l_hum.AutoSize = true;
+            this.l_hum.Location = new System.Drawing.Point(1101, 106);
+            this.l_hum.Name = "l_hum";
+            this.l_hum.Size = new System.Drawing.Size(65, 16);
+            this.l_hum.TabIndex = 35;
+            this.l_hum.Text = "humerus";
             // 
-            // label1
+            // l_coco
             // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(456, 79);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(35, 13);
-            this.label1.TabIndex = 37;
-            this.label1.Text = "label1";
+            this.l_coco.AutoSize = true;
+            this.l_coco.Location = new System.Drawing.Point(1101, 132);
+            this.l_coco.Name = "l_coco";
+            this.l_coco.Size = new System.Drawing.Size(103, 16);
+            this.l_coco.TabIndex = 36;
+            this.l_coco.Text = "coracobrahial";
             // 
-            // label2
+            // l_triceps_cap_l
             // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(497, 220);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(35, 13);
-            this.label2.TabIndex = 38;
-            this.label2.Text = "label2";
+            this.l_triceps_cap_l.AutoSize = true;
+            this.l_triceps_cap_l.Location = new System.Drawing.Point(1101, 208);
+            this.l_triceps_cap_l.Name = "l_triceps_cap_l";
+            this.l_triceps_cap_l.Size = new System.Drawing.Size(117, 16);
+            this.l_triceps_cap_l.TabIndex = 37;
+            this.l_triceps_cap_l.Text = "triceps cap lung";
             // 
-            // label3
+            // l_triceps_cap_m
             // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(497, 246);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(35, 13);
-            this.label3.TabIndex = 39;
-            this.label3.Text = "label3";
+            this.l_triceps_cap_m.AutoSize = true;
+            this.l_triceps_cap_m.Location = new System.Drawing.Point(1101, 258);
+            this.l_triceps_cap_m.Name = "l_triceps_cap_m";
+            this.l_triceps_cap_m.Size = new System.Drawing.Size(135, 16);
+            this.l_triceps_cap_m.TabIndex = 38;
+            this.l_triceps_cap_m.Text = "triceps cap medial";
             // 
-            // label4
+            // l_rotund_pron
             // 
-            this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(528, 344);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(35, 13);
-            this.label4.TabIndex = 40;
-            this.label4.Text = "label4";
+            this.l_rotund_pron.AutoSize = true;
+            this.l_rotund_pron.Location = new System.Drawing.Point(1101, 297);
+            this.l_rotund_pron.Name = "l_rotund_pron";
+            this.l_rotund_pron.Size = new System.Drawing.Size(112, 16);
+            this.l_rotund_pron.TabIndex = 39;
+            this.l_rotund_pron.Text = "rotund pronator";
             // 
-            // label5
+            // l_epic
             // 
-            this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(528, 379);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(35, 13);
-            this.label5.TabIndex = 41;
-            this.label5.Text = "label5";
+            this.l_epic.AutoSize = true;
+            this.l_epic.Location = new System.Drawing.Point(1103, 323);
+            this.l_epic.Name = "l_epic";
+            this.l_epic.Size = new System.Drawing.Size(71, 16);
+            this.l_epic.TabIndex = 40;
+            this.l_epic.Text = "epicondil";
             // 
-            // label6
+            // l_flex_rad_carp
             // 
-            this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(528, 409);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(35, 13);
-            this.label6.TabIndex = 42;
-            this.label6.Text = "label6";
-            // 
-            // label7
-            // 
-            this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(565, 446);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(35, 13);
-            this.label7.TabIndex = 43;
-            this.label7.Text = "label7";
-            // 
-            // label8
-            // 
-            this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(565, 471);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(35, 13);
-            this.label8.TabIndex = 44;
-            this.label8.Text = "label8";
-            // 
-            // label9
-            // 
-            this.label9.AutoSize = true;
-            this.label9.Location = new System.Drawing.Point(173, 405);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(35, 13);
-            this.label9.TabIndex = 45;
-            this.label9.Text = "label9";
-            // 
-            // label10
-            // 
-            this.label10.AutoSize = true;
-            this.label10.Location = new System.Drawing.Point(167, 432);
-            this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(41, 13);
-            this.label10.TabIndex = 46;
-            this.label10.Text = "label10";
-            // 
-            // label11
-            // 
-            this.label11.AutoSize = true;
-            this.label11.Location = new System.Drawing.Point(167, 467);
-            this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(41, 13);
-            this.label11.TabIndex = 47;
-            this.label11.Text = "label11";
-            // 
-            // label12
-            // 
-            this.label12.AutoSize = true;
-            this.label12.Location = new System.Drawing.Point(167, 493);
-            this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(41, 13);
-            this.label12.TabIndex = 48;
-            this.label12.Text = "label12";
-            // 
-            // label13
-            // 
-            this.label13.AutoSize = true;
-            this.label13.Location = new System.Drawing.Point(167, 519);
-            this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(41, 13);
-            this.label13.TabIndex = 49;
-            this.label13.Text = "label13";
-            // 
-            // label14
-            // 
-            this.label14.AutoSize = true;
-            this.label14.Location = new System.Drawing.Point(61, 266);
-            this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(41, 13);
-            this.label14.TabIndex = 50;
-            this.label14.Text = "label14";
-            // 
-            // label15
-            // 
-            this.label15.AutoSize = true;
-            this.label15.Location = new System.Drawing.Point(61, 204);
-            this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(41, 13);
-            this.label15.TabIndex = 51;
-            this.label15.Text = "label15";
-            // 
-            // label16
-            // 
-            this.label16.AutoSize = true;
-            this.label16.Location = new System.Drawing.Point(61, 165);
-            this.label16.Name = "label16";
-            this.label16.Size = new System.Drawing.Size(41, 13);
-            this.label16.TabIndex = 52;
-            this.label16.Text = "label16";
-            // 
-            // label17
-            // 
-            this.label17.AutoSize = true;
-            this.label17.Location = new System.Drawing.Point(623, 150);
-            this.label17.Name = "label17";
-            this.label17.Size = new System.Drawing.Size(41, 13);
-            this.label17.TabIndex = 53;
-            this.label17.Text = "label17";
-            // 
-            // label18
-            // 
-            this.label18.AutoSize = true;
-            this.label18.Location = new System.Drawing.Point(611, 185);
-            this.label18.Name = "label18";
-            this.label18.Size = new System.Drawing.Size(41, 13);
-            this.label18.TabIndex = 54;
-            this.label18.Text = "label18";
-            // 
-            // label19
-            // 
-            this.label19.AutoSize = true;
-            this.label19.Location = new System.Drawing.Point(611, 266);
-            this.label19.Name = "label19";
-            this.label19.Size = new System.Drawing.Size(41, 13);
-            this.label19.TabIndex = 55;
-            this.label19.Text = "label19";
-            // 
-            // label20
-            // 
-            this.label20.AutoSize = true;
-            this.label20.Location = new System.Drawing.Point(611, 305);
-            this.label20.Name = "label20";
-            this.label20.Size = new System.Drawing.Size(41, 13);
-            this.label20.TabIndex = 56;
-            this.label20.Text = "label20";
-            // 
-            // label21
-            // 
-            this.label21.AutoSize = true;
-            this.label21.Location = new System.Drawing.Point(947, 534);
-            this.label21.Name = "label21";
-            this.label21.Size = new System.Drawing.Size(41, 13);
-            this.label21.TabIndex = 57;
-            this.label21.Text = "label21";
-            // 
-            // label22
-            // 
-            this.label22.AutoSize = true;
-            this.label22.Location = new System.Drawing.Point(947, 516);
-            this.label22.Name = "label22";
-            this.label22.Size = new System.Drawing.Size(41, 13);
-            this.label22.TabIndex = 58;
-            this.label22.Text = "label22";
-            // 
-            // label23
-            // 
-            this.label23.AutoSize = true;
-            this.label23.Location = new System.Drawing.Point(947, 489);
-            this.label23.Name = "label23";
-            this.label23.Size = new System.Drawing.Size(41, 13);
-            this.label23.TabIndex = 59;
-            this.label23.Text = "label23";
-            // 
-            // label24
-            // 
-            this.label24.AutoSize = true;
-            this.label24.Location = new System.Drawing.Point(938, 470);
-            this.label24.Name = "label24";
-            this.label24.Size = new System.Drawing.Size(41, 13);
-            this.label24.TabIndex = 60;
-            this.label24.Text = "label24";
-            // 
-            // label25
-            // 
-            this.label25.AutoSize = true;
-            this.label25.Location = new System.Drawing.Point(973, 446);
-            this.label25.Name = "label25";
-            this.label25.Size = new System.Drawing.Size(41, 13);
-            this.label25.TabIndex = 61;
-            this.label25.Text = "label25";
-            // 
-            // label26
-            // 
-            this.label26.AutoSize = true;
-            this.label26.Location = new System.Drawing.Point(973, 421);
-            this.label26.Name = "label26";
-            this.label26.Size = new System.Drawing.Size(41, 13);
-            this.label26.TabIndex = 62;
-            this.label26.Text = "label26";
-            // 
-            // label27
-            // 
-            this.label27.AutoSize = true;
-            this.label27.Location = new System.Drawing.Point(1010, 275);
-            this.label27.Name = "label27";
-            this.label27.Size = new System.Drawing.Size(41, 13);
-            this.label27.TabIndex = 63;
-            this.label27.Text = "label27";
-            // 
-            // label28
-            // 
-            this.label28.AutoSize = true;
-            this.label28.Location = new System.Drawing.Point(973, 395);
-            this.label28.Name = "label28";
-            this.label28.Size = new System.Drawing.Size(41, 13);
-            this.label28.TabIndex = 63;
-            this.label28.Text = "label27";
-            // 
-            // label29
-            // 
-            this.label29.AutoSize = true;
-            this.label29.Location = new System.Drawing.Point(1010, 301);
-            this.label29.Name = "label29";
-            this.label29.Size = new System.Drawing.Size(41, 13);
-            this.label29.TabIndex = 64;
-            this.label29.Text = "label29";
-            // 
-            // label30
-            // 
-            this.label30.AutoSize = true;
-            this.label30.Location = new System.Drawing.Point(1010, 235);
-            this.label30.Name = "label30";
-            this.label30.Size = new System.Drawing.Size(41, 13);
-            this.label30.TabIndex = 65;
-            this.label30.Text = "label30";
-            // 
-            // label31
-            // 
-            this.label31.AutoSize = true;
-            this.label31.Location = new System.Drawing.Point(1010, 185);
-            this.label31.Name = "label31";
-            this.label31.Size = new System.Drawing.Size(41, 13);
-            this.label31.TabIndex = 66;
-            this.label31.Text = "label31";
-            // 
-            // label32
-            // 
-            this.label32.AutoSize = true;
-            this.label32.Location = new System.Drawing.Point(1010, 112);
-            this.label32.Name = "label32";
-            this.label32.Size = new System.Drawing.Size(41, 13);
-            this.label32.TabIndex = 67;
-            this.label32.Text = "label32";
-            // 
-            // label33
-            // 
-            this.label33.AutoSize = true;
-            this.label33.Location = new System.Drawing.Point(1010, 86);
-            this.label33.Name = "label33";
-            this.label33.Size = new System.Drawing.Size(41, 13);
-            this.label33.TabIndex = 68;
-            this.label33.Text = "label33";
-            // 
-            // label34
-            // 
-            this.label34.AutoSize = true;
-            this.label34.Location = new System.Drawing.Point(1010, 32);
-            this.label34.Name = "label34";
-            this.label34.Size = new System.Drawing.Size(41, 13);
-            this.label34.TabIndex = 69;
-            this.label34.Text = "label34";
+            this.l_flex_rad_carp.AutoSize = true;
+            this.l_flex_rad_carp.Location = new System.Drawing.Point(1086, 417);
+            this.l_flex_rad_carp.Name = "l_flex_rad_carp";
+            this.l_flex_rad_carp.Size = new System.Drawing.Size(165, 16);
+            this.l_flex_rad_carp.TabIndex = 41;
+            this.l_flex_rad_carp.Text = "flexor radial al carpului";
+            // 
+            // l_pal_l
+            // 
+            this.l_pal_l.AutoSize = true;
+            this.l_pal_l.Location = new System.Drawing.Point(1076, 443);
+            this.l_pal_l.Name = "l_pal_l";
+            this.l_pal_l.Size = new System.Drawing.Size(88, 16);
+            this.l_pal_l.TabIndex = 42;
+            this.l_pal_l.Text = "palmar lung";
+            // 
+            // l_flex_sup_deg
+            // 
+            this.l_flex_sup_deg.AutoSize = true;
+            this.l_flex_sup_deg.Location = new System.Drawing.Point(1076, 469);
+            this.l_flex_sup_deg.Name = "l_flex_sup_deg";
+            this.l_flex_sup_deg.Size = new System.Drawing.Size(209, 16);
+            this.l_flex_sup_deg.TabIndex = 43;
+            this.l_flex_sup_deg.Text = "flexor superficial al degetelor";
+            // 
+            // l_pal
+            // 
+            this.l_pal.AutoSize = true;
+            this.l_pal.Location = new System.Drawing.Point(1086, 495);
+            this.l_pal.Name = "l_pal";
+            this.l_pal.Size = new System.Drawing.Size(55, 16);
+            this.l_pal.TabIndex = 44;
+            this.l_pal.Text = "palmar";
+            // 
+            // l_pat_pron
+            // 
+            this.l_pat_pron.AutoSize = true;
+            this.l_pat_pron.Location = new System.Drawing.Point(1064, 536);
+            this.l_pat_pron.Name = "l_pat_pron";
+            this.l_pat_pron.Size = new System.Drawing.Size(109, 16);
+            this.l_pat_pron.TabIndex = 45;
+            this.l_pat_pron.Text = "patrat pronator";
+            // 
+            // l_retin_flex
+            // 
+            this.l_retin_flex.AutoSize = true;
+            this.l_retin_flex.Location = new System.Drawing.Point(1054, 571);
+            this.l_retin_flex.Name = "l_retin_flex";
+            this.l_retin_flex.Size = new System.Drawing.Size(142, 16);
+            this.l_retin_flex.TabIndex = 46;
+            this.l_retin_flex.Text = "retinaculul flexorilor";
+            // 
+            // l_apo_pal
+            // 
+            this.l_apo_pal.AutoSize = true;
+            this.l_apo_pal.Location = new System.Drawing.Point(1038, 607);
+            this.l_apo_pal.Name = "l_apo_pal";
+            this.l_apo_pal.Size = new System.Drawing.Size(150, 16);
+            this.l_apo_pal.TabIndex = 47;
+            this.l_apo_pal.Text = "aponevroza palmara";
+            // 
+            // l_brahr
+            // 
+            this.l_brahr.AutoSize = true;
+            this.l_brahr.Location = new System.Drawing.Point(661, 321);
+            this.l_brahr.Name = "l_brahr";
+            this.l_brahr.Size = new System.Drawing.Size(91, 16);
+            this.l_brahr.TabIndex = 48;
+            this.l_brahr.Text = "brahioradial";
+            // 
+            // l_brah
+            // 
+            this.l_brah.AutoSize = true;
+            this.l_brah.Location = new System.Drawing.Point(698, 286);
+            this.l_brah.Name = "l_brah";
+            this.l_brah.Size = new System.Drawing.Size(55, 16);
+            this.l_brah.TabIndex = 49;
+            this.l_brah.Text = "brahial";
+            // 
+            // l_biceps_s
+            // 
+            this.l_biceps_s.AutoSize = true;
+            this.l_biceps_s.Location = new System.Drawing.Point(579, 199);
+            this.l_biceps_s.Name = "l_biceps_s";
+            this.l_biceps_s.Size = new System.Drawing.Size(174, 16);
+            this.l_biceps_s.TabIndex = 50;
+            this.l_biceps_s.Text = "capul scurt al bicepsului";
+            // 
+            // l_biceps_l
+            // 
+            this.l_biceps_l.AutoSize = true;
+            this.l_biceps_l.Location = new System.Drawing.Point(591, 170);
+            this.l_biceps_l.Name = "l_biceps_l";
+            this.l_biceps_l.Size = new System.Drawing.Size(170, 16);
+            this.l_biceps_l.TabIndex = 51;
+            this.l_biceps_l.Text = "capul lung al bicepsului";
+            // 
+            // l_tub_mc_hum
+            // 
+            this.l_tub_mc_hum.AutoSize = true;
+            this.l_tub_mc_hum.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.l_tub_mc_hum.Location = new System.Drawing.Point(470, 82);
+            this.l_tub_mc_hum.Name = "l_tub_mc_hum";
+            this.l_tub_mc_hum.Size = new System.Drawing.Size(205, 16);
+            this.l_tub_mc_hum.TabIndex = 52;
+            this.l_tub_mc_hum.Text = "turbeculul mic al humerusului";
+            // 
+            // l_ulna
+            // 
+            this.l_ulna.AutoSize = true;
+            this.l_ulna.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.l_ulna.Location = new System.Drawing.Point(517, 229);
+            this.l_ulna.Name = "l_ulna";
+            this.l_ulna.Size = new System.Drawing.Size(36, 16);
+            this.l_ulna.TabIndex = 53;
+            this.l_ulna.Text = "ulna";
+            // 
+            // l_ext_l_r_c
+            // 
+            this.l_ext_l_r_c.AutoSize = true;
+            this.l_ext_l_r_c.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.l_ext_l_r_c.Location = new System.Drawing.Point(517, 255);
+            this.l_ext_l_r_c.Name = "l_ext_l_r_c";
+            this.l_ext_l_r_c.Size = new System.Drawing.Size(231, 16);
+            this.l_ext_l_r_c.TabIndex = 54;
+            this.l_ext_l_r_c.Text = "extensorul lung radial al carpului";
+            // 
+            // l_flex_u_c
+            // 
+            this.l_flex_u_c.AutoSize = true;
+            this.l_flex_u_c.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.l_flex_u_c.Location = new System.Drawing.Point(549, 353);
+            this.l_flex_u_c.Name = "l_flex_u_c";
+            this.l_flex_u_c.Size = new System.Drawing.Size(159, 16);
+            this.l_flex_u_c.TabIndex = 55;
+            this.l_flex_u_c.Text = "flexor ulnar al carpului";
+            // 
+            // l_s_ext_rad_c
+            // 
+            this.l_s_ext_rad_c.AutoSize = true;
+            this.l_s_ext_rad_c.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.l_s_ext_rad_c.Location = new System.Drawing.Point(549, 379);
+            this.l_s_ext_rad_c.Name = "l_s_ext_rad_c";
+            this.l_s_ext_rad_c.Size = new System.Drawing.Size(223, 16);
+            this.l_s_ext_rad_c.TabIndex = 56;
+            this.l_s_ext_rad_c.Text = "scurt extensor radial al carpului";
+            // 
+            // l_abd_l_pol
+            // 
+            this.l_abd_l_pol.AutoSize = true;
+            this.l_abd_l_pol.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.l_abd_l_pol.Location = new System.Drawing.Point(549, 405);
+            this.l_abd_l_pol.Name = "l_abd_l_pol";
+            this.l_abd_l_pol.Size = new System.Drawing.Size(181, 16);
+            this.l_abd_l_pol.TabIndex = 57;
+            this.l_abd_l_pol.Text = "abductor lung al policelui";
+            // 
+            // l_flex_l_p
+            // 
+            this.l_flex_l_p.AutoSize = true;
+            this.l_flex_l_p.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.l_flex_l_p.Location = new System.Drawing.Point(580, 450);
+            this.l_flex_l_p.Name = "l_flex_l_p";
+            this.l_flex_l_p.Size = new System.Drawing.Size(158, 16);
+            this.l_flex_l_p.TabIndex = 58;
+            this.l_flex_l_p.Text = "flexor lung al policelui";
+            // 
+            // l_ext_s_p
+            // 
+            this.l_ext_s_p.AutoSize = true;
+            this.l_ext_s_p.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.l_ext_s_p.Location = new System.Drawing.Point(580, 476);
+            this.l_ext_s_p.Name = "l_ext_s_p";
+            this.l_ext_s_p.Size = new System.Drawing.Size(183, 16);
+            this.l_ext_s_p.TabIndex = 59;
+            this.l_ext_s_p.Text = "extensor scurt al policelui";
+            // 
+            // l_retc_flex
+            // 
+            this.l_retc_flex.AutoSize = true;
+            this.l_retc_flex.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.l_retc_flex.Location = new System.Drawing.Point(91, 524);
+            this.l_retc_flex.Name = "l_retc_flex";
+            this.l_retc_flex.Size = new System.Drawing.Size(142, 16);
+            this.l_retc_flex.TabIndex = 60;
+            this.l_retc_flex.Text = "retinaculul flexorilor";
+            // 
+            // l_ext_in
+            // 
+            this.l_ext_in.AutoSize = true;
+            this.l_ext_in.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.l_ext_in.Location = new System.Drawing.Point(85, 498);
+            this.l_ext_in.Name = "l_ext_in";
+            this.l_ext_in.Size = new System.Drawing.Size(148, 16);
+            this.l_ext_in.TabIndex = 61;
+            this.l_ext_in.Text = "extensor al indexului";
+            // 
+            // l_ext_deg_m
+            // 
+            this.l_ext_deg_m.AutoSize = true;
+            this.l_ext_deg_m.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.l_ext_deg_m.Location = new System.Drawing.Point(53, 472);
+            this.l_ext_deg_m.Name = "l_ext_deg_m";
+            this.l_ext_deg_m.Size = new System.Drawing.Size(179, 16);
+            this.l_ext_deg_m.TabIndex = 62;
+            this.l_ext_deg_m.Text = "extensor al degetului mic";
+            // 
+            // l_ext_l_deg
+            // 
+            this.l_ext_l_deg.AutoSize = true;
+            this.l_ext_l_deg.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.l_ext_l_deg.Location = new System.Drawing.Point(46, 443);
+            this.l_ext_l_deg.Name = "l_ext_l_deg";
+            this.l_ext_l_deg.Size = new System.Drawing.Size(187, 16);
+            this.l_ext_l_deg.TabIndex = 63;
+            this.l_ext_l_deg.Text = "extensor lung al degetelor";
+            // 
+            // l_brahr_2
+            // 
+            this.l_brahr_2.AutoSize = true;
+            this.l_brahr_2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.l_brahr_2.Location = new System.Drawing.Point(142, 402);
+            this.l_brahr_2.Name = "l_brahr_2";
+            this.l_brahr_2.Size = new System.Drawing.Size(91, 16);
+            this.l_brahr_2.TabIndex = 64;
+            this.l_brahr_2.Text = "brahioradial";
+            // 
+            // l_anconeu
+            // 
+            this.l_anconeu.AutoSize = true;
+            this.l_anconeu.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.l_anconeu.Location = new System.Drawing.Point(65, 274);
+            this.l_anconeu.Name = "l_anconeu";
+            this.l_anconeu.Size = new System.Drawing.Size(66, 16);
+            this.l_anconeu.TabIndex = 65;
+            this.l_anconeu.Text = "anconeu";
+            // 
+            // l_triceps_lung
+            // 
+            this.l_triceps_lung.AutoSize = true;
+            this.l_triceps_lung.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.l_triceps_lung.Location = new System.Drawing.Point(14, 210);
+            this.l_triceps_lung.Name = "l_triceps_lung";
+            this.l_triceps_lung.Size = new System.Drawing.Size(117, 16);
+            this.l_triceps_lung.TabIndex = 66;
+            this.l_triceps_lung.Text = "triceps cap lung";
+            // 
+            // l_triceps_lat
+            // 
+            this.l_triceps_lat.AutoSize = true;
+            this.l_triceps_lat.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.l_triceps_lat.Location = new System.Drawing.Point(-1, 167);
+            this.l_triceps_lat.Name = "l_triceps_lat";
+            this.l_triceps_lat.Size = new System.Drawing.Size(132, 16);
+            this.l_triceps_lat.TabIndex = 67;
+            this.l_triceps_lat.Text = "triceps cap lateral";
             // 
             // muschi_membre_superioare
             // 
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(1284, 681);
-            this.Controls.Add(this.label34);
-            this.Controls.Add(this.label33);
-            this.Controls.Add(this.label32);
-            this.Controls.Add(this.label31);
-            this.Controls.Add(this.label30);
-            this.Controls.Add(this.label29);
-            this.Controls.Add(this.label28);
-            this.Controls.Add(this.label27);
-            this.Controls.Add(this.label26);
-            this.Controls.Add(this.label25);
-            this.Controls.Add(this.label24);
-            this.Controls.Add(this.label23);
-            this.Controls.Add(this.label22);
-            this.Controls.Add(this.label21);
-            this.Controls.Add(this.label20);
-            this.Controls.Add(this.label19);
-            this.Controls.Add(this.label18);
-            this.Controls.Add(this.label17);
-            this.Controls.Add(this.label16);
-            this.Controls.Add(this.label15);
-            this.Controls.Add(this.label14);
-            this.Controls.Add(this.label13);
-            this.Controls.Add(this.label12);
-            this.Controls.Add(this.label11);
-            this.Controls.Add(this.label10);
-            this.Controls.Add(this.label9);
-            this.Controls.Add(this.label8);
-            this.Controls.Add(this.label7);
-            this.Controls.Add(this.label6);
-            this.Controls.Add(this.label5);
-            this.Controls.Add(this.label4);
-            this.Controls.Add(this.label3);
-            this.Controls.Add(this.label2);
-            this.Controls.Add(this.label1);
-            this.Controls.Add(this.textBox34);
-            this.Controls.Add(this.textBox33);
-            this.Controls.Add(this.textBox32);
-            this.Controls.Add(this.textBox31);
-            this.Controls.Add(this.textBox30);
-            this.Controls.Add(this.textBox29);
-            this.Controls.Add(this.textBox28);
-            this.Controls.Add(this.textBox27);
-            this.Controls.Add(this.textBox26);
-            this.Controls.Add(this.textBox25);
-            this.Controls.Add(this.textBox24);
-            this.Controls.Add(this.textBox23);
-            this.Controls.Add(this.textBox22);
-            this.Controls.Add(this.textBox21);
-            this.Controls.Add(this.textBox20);
-            this.Controls.Add(this.textBox19);
-            this.Controls.Add(this.textBox17);
-            this.Controls.Add(this.textBox18);
-            this.Controls.Add(this.textBox16);
-            this.Controls.Add(this.textBox15);
-            this.Controls.Add(this.textBox14);
-            this.Controls.Add(this.textBox13);
-            this.Controls.Add(this.textBox12);
-            this.Controls.Add(this.textBox11);
-            this.Controls.Add(this.textBox10);
-            this.Controls.Add(this.textBox9);
-            this.Controls.Add(this.textBox8);
-            this.Controls.Add(this.textBox7);
-            this.Controls.Add(this.textBox6);
-            this.Controls.Add(this.textBox5);
-            this.Controls.Add(this.textBox4);
-            this.Controls.Add(this.textBox3);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.l_triceps_lat);
+            this.Controls.Add(this.l_triceps_lung);
+            this.Controls.Add(this.l_anconeu);
+            this.Controls.Add(this.l_brahr_2);
+            this.Controls.Add(this.l_ext_l_deg);
+            this.Controls.Add(this.l_ext_deg_m);
+            this.Controls.Add(this.l_ext_in);
+            this.Controls.Add(this.l_retc_flex);
+            this.Controls.Add(this.l_ext_s_p);
+            this.Controls.Add(this.l_flex_l_p);
+            this.Controls.Add(this.l_abd_l_pol);
+            this.Controls.Add(this.l_s_ext_rad_c);
+            this.Controls.Add(this.l_flex_u_c);
+            this.Controls.Add(this.l_ext_l_r_c);
+            this.Controls.Add(this.l_ulna);
+            this.Controls.Add(this.l_tub_mc_hum);
+            this.Controls.Add(this.l_biceps_l);
+            this.Controls.Add(this.l_biceps_s);
+            this.Controls.Add(this.l_brah);
+            this.Controls.Add(this.l_brahr);
+            this.Controls.Add(this.l_apo_pal);
+            this.Controls.Add(this.l_retin_flex);
+            this.Controls.Add(this.l_pat_pron);
+            this.Controls.Add(this.l_pal);
+            this.Controls.Add(this.l_flex_sup_deg);
+            this.Controls.Add(this.l_pal_l);
+            this.Controls.Add(this.l_flex_rad_carp);
+            this.Controls.Add(this.l_epic);
+            this.Controls.Add(this.l_rotund_pron);
+            this.Controls.Add(this.l_triceps_cap_m);
+            this.Controls.Add(this.l_triceps_cap_l);
+            this.Controls.Add(this.l_coco);
+            this.Controls.Add(this.l_hum);
+            this.Controls.Add(this.t_tub_mc_hum);
+            this.Controls.Add(this.t_triceps_lat);
+            this.Controls.Add(this.t_triceps_lung);
+            this.Controls.Add(this.t_anconeu);
+            this.Controls.Add(this.t_ulna);
+            this.Controls.Add(this.t_ext_l_r_c);
+            this.Controls.Add(this.t_flex_u_c);
+            this.Controls.Add(this.t_s_ext_rad_c);
+            this.Controls.Add(this.t_abd_l_pol);
+            this.Controls.Add(this.t_brahr_2);
+            this.Controls.Add(this.t_ext_l_deg);
+            this.Controls.Add(this.t_flex_l_p);
+            this.Controls.Add(this.t_ext_s_p);
+            this.Controls.Add(this.t_ext_deg_m);
+            this.Controls.Add(this.t_ext_in);
+            this.Controls.Add(this.t_retc_flex);
+            this.Controls.Add(this.t_apo_pal);
+            this.Controls.Add(this.t_retin_flex);
+            this.Controls.Add(this.t_pat_pron);
+            this.Controls.Add(this.t_pal);
+            this.Controls.Add(this.t_flex_sup_deg);
+            this.Controls.Add(this.t_pal_l);
+            this.Controls.Add(this.t_flex_rad_carp);
+            this.Controls.Add(this.t_epic);
+            this.Controls.Add(this.t_triceps_cap_m);
+            this.Controls.Add(this.t_rotund_pron);
+            this.Controls.Add(this.t_brahr);
+            this.Controls.Add(this.t_brah);
+            this.Controls.Add(this.t_triceps_cap_l);
+            this.Controls.Add(this.t_biceps_s);
+            this.Controls.Add(this.t_biceps_l);
+            this.Controls.Add(this.t_coco);
+            this.Controls.Add(this.t_hum);
+            this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.pictureBox1);
+            this.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "muschi_membre_superioare";
+            this.Text = "muschii membrelor superioare";
             this.Load += new System.EventHandler(this.muschi_membre_superioare_Load_1);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -737,73 +750,72 @@
         #endregion
 
         private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.TextBox textBox4;
-        private System.Windows.Forms.TextBox textBox5;
-        private System.Windows.Forms.TextBox textBox6;
-        private System.Windows.Forms.TextBox textBox7;
-        private System.Windows.Forms.TextBox textBox8;
-        private System.Windows.Forms.TextBox textBox9;
-        private System.Windows.Forms.TextBox textBox10;
-        private System.Windows.Forms.TextBox textBox11;
-        private System.Windows.Forms.TextBox textBox12;
-        private System.Windows.Forms.TextBox textBox13;
-        private System.Windows.Forms.TextBox textBox14;
-        private System.Windows.Forms.TextBox textBox15;
-        private System.Windows.Forms.TextBox textBox16;
-        private System.Windows.Forms.TextBox textBox18;
-        private System.Windows.Forms.TextBox textBox17;
-        private System.Windows.Forms.TextBox textBox19;
-        private System.Windows.Forms.TextBox textBox20;
-        private System.Windows.Forms.TextBox textBox21;
-        private System.Windows.Forms.TextBox textBox22;
-        private System.Windows.Forms.TextBox textBox23;
-        private System.Windows.Forms.TextBox textBox24;
-        private System.Windows.Forms.TextBox textBox25;
-        private System.Windows.Forms.TextBox textBox26;
-        private System.Windows.Forms.TextBox textBox27;
-        private System.Windows.Forms.TextBox textBox28;
-        private System.Windows.Forms.TextBox textBox29;
-        private System.Windows.Forms.TextBox textBox30;
-        private System.Windows.Forms.TextBox textBox31;
-        private System.Windows.Forms.TextBox textBox32;
-        private System.Windows.Forms.TextBox textBox33;
-        private System.Windows.Forms.TextBox textBox34;
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.Label label8;
-        private System.Windows.Forms.Label label9;
-        private System.Windows.Forms.Label label10;
-        private System.Windows.Forms.Label label11;
-        private System.Windows.Forms.Label label12;
-        private System.Windows.Forms.Label label13;
-        private System.Windows.Forms.Label label14;
-        private System.Windows.Forms.Label label15;
-        private System.Windows.Forms.Label label16;
-        private System.Windows.Forms.Label label17;
-        private System.Windows.Forms.Label label18;
-        private System.Windows.Forms.Label label19;
-        private System.Windows.Forms.Label label20;
-        private System.Windows.Forms.Label label21;
-        private System.Windows.Forms.Label label22;
-        private System.Windows.Forms.Label label23;
-        private System.Windows.Forms.Label label24;
-        private System.Windows.Forms.Label label25;
-        private System.Windows.Forms.Label label26;
-        private System.Windows.Forms.Label label27;
-        private System.Windows.Forms.Label label28;
-        private System.Windows.Forms.Label label29;
-        private System.Windows.Forms.Label label30;
-        private System.Windows.Forms.Label label31;
-        private System.Windows.Forms.Label label32;
-        private System.Windows.Forms.Label label33;
-        private System.Windows.Forms.Label label34;
+        private System.Windows.Forms.PictureBox pictureBox2;
+        private System.Windows.Forms.TextBox t_hum;
+        private System.Windows.Forms.TextBox t_coco;
+        private System.Windows.Forms.TextBox t_biceps_l;
+        private System.Windows.Forms.TextBox t_biceps_s;
+        private System.Windows.Forms.TextBox t_triceps_cap_l;
+        private System.Windows.Forms.TextBox t_brah;
+        private System.Windows.Forms.TextBox t_brahr;
+        private System.Windows.Forms.TextBox t_rotund_pron;
+        private System.Windows.Forms.TextBox t_triceps_cap_m;
+        private System.Windows.Forms.TextBox t_epic;
+        private System.Windows.Forms.TextBox t_flex_rad_carp;
+        private System.Windows.Forms.TextBox t_pal_l;
+        private System.Windows.Forms.TextBox t_flex_sup_deg;
+        private System.Windows.Forms.TextBox t_pal;
+        private System.Windows.Forms.TextBox t_pat_pron;
+        private System.Windows.Forms.TextBox t_retin_flex;
+        private System.Windows.Forms.TextBox t_apo_pal;
+        private System.Windows.Forms.TextBox t_retc_flex;
+        private System.Windows.Forms.TextBox t_ext_in;
+        private System.Windows.Forms.TextBox t_ext_deg_m;
+        private System.Windows.Forms.TextBox t_ext_s_p;
+        private System.Windows.Forms.TextBox t_flex_l_p;
+        private System.Windows.Forms.TextBox t_ext_l_deg;
+        private System.Windows.Forms.TextBox t_brahr_2;
+        private System.Windows.Forms.TextBox t_abd_l_pol;
+        private System.Windows.Forms.TextBox t_s_ext_rad_c;
+        private System.Windows.Forms.TextBox t_flex_u_c;
+        private System.Windows.Forms.TextBox t_ext_l_r_c;
+        private System.Windows.Forms.TextBox t_ulna;
+        private System.Windows.Forms.TextBox t_anconeu;
+        private System.Windows.Forms.TextBox t_triceps_lung;
+        private System.Windows.Forms.TextBox t_triceps_lat;
+        private System.Windows.Forms.TextBox t_tub_mc_hum;
+        private System.Windows.Forms.Label l_hum;
+        private System.Windows.Forms.Label l_coco;
+        private System.Windows.Forms.Label l_triceps_cap_l;
+        private System.Windows.Forms.Label l_triceps_cap_m;
+        private System.Windows.Forms.Label l_rotund_pron;
+        private System.Windows.Forms.Label l_epic;
+        private System.Windows.Forms.Label l_flex_rad_carp;
+        private System.Windows.Forms.Label l_pal_l;
+        private System.Windows.Forms.Label l_flex_sup_deg;
+        private System.Windows.Forms.Label l_pal;
+        private System.Windows.Forms.Label l_pat_pron;
+        private System.Windows.Forms.Label l_retin_flex;
+        private System.Windows.Forms.Label l_apo_pal;
+        private System.Windows.Forms.Label l_brahr;
+        private System.Windows.Forms.Label l_brah;
+        private System.Windows.Forms.Label l_biceps_s;
+        private System.Windows.Forms.Label l_biceps_l;
+        private System.Windows.Forms.Label l_tub_mc_hum;
+        private System.Windows.Forms.Label l_ulna;
+        private System.Windows.Forms.Label l_ext_l_r_c;
+        private System.Windows.Forms.Label l_flex_u_c;
+        private System.Windows.Forms.Label l_s_ext_rad_c;
+        private System.Windows.Forms.Label l_abd_l_pol;
+        private System.Windows.Forms.Label l_flex_l_p;
+        private System.Windows.Forms.Label l_ext_s_p;
+        private System.Windows.Forms.Label l_retc_flex;
+        private System.Windows.Forms.Label l_ext_in;
+        private System.Windows.Forms.Label l_ext_deg_m;
+        private System.Windows.Forms.Label l_ext_l_deg;
+        private System.Windows.Forms.Label l_brahr_2;
+        private System.Windows.Forms.Label l_anconeu;
+        private System.Windows.Forms.Label l_triceps_lung;
+        private System.Windows.Forms.Label l_triceps_lat;
     }
 }

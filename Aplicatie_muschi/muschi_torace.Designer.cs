@@ -28,199 +28,328 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.t_pectoral_major = new System.Windows.Forms.TextBox();
-            this.textBox5 = new System.Windows.Forms.TextBox();
-            this.textBox6 = new System.Windows.Forms.TextBox();
-            this.textBox7 = new System.Windows.Forms.TextBox();
-            this.textBox8 = new System.Windows.Forms.TextBox();
-            this.t_pectoral_minor = new System.Windows.Forms.TextBox();
-            this.textBox10 = new System.Windows.Forms.TextBox();
-            this.label1 = new System.Windows.Forms.Label();
-            this.l_pectoral_major = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
-            this.label6 = new System.Windows.Forms.Label();
-            this.l_pectoral_minor = new System.Windows.Forms.Label();
-            this.label8 = new System.Windows.Forms.Label();
-            this.label9 = new System.Windows.Forms.Label();
-            this.label10 = new System.Windows.Forms.Label();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(muschi_torace));
+            this.t_sterno = new System.Windows.Forms.TextBox();
+            this.t_trapez = new System.Windows.Forms.TextBox();
+            this.t_t_sup = new System.Windows.Forms.TextBox();
+            this.t_subscap = new System.Windows.Forms.TextBox();
+            this.t_rotund_mic = new System.Windows.Forms.TextBox();
+            this.t_pectoral_min = new System.Windows.Forms.TextBox();
+            this.t_mare_dintat = new System.Windows.Forms.TextBox();
+            this.t_ext_ab = new System.Windows.Forms.TextBox();
+            this.t_deltoid = new System.Windows.Forms.TextBox();
+            this.t_pectoral_m = new System.Windows.Forms.TextBox();
+            this.t_biceps_b = new System.Windows.Forms.TextBox();
+            this.t_cocob = new System.Windows.Forms.TextBox();
+            this.t_dorsal_mare = new System.Windows.Forms.TextBox();
+            this.t_coaste = new System.Windows.Forms.TextBox();
+            this.t_strat_teaca = new System.Windows.Forms.TextBox();
+            this.l_trapez = new System.Windows.Forms.Label();
+            this.l_t_sup = new System.Windows.Forms.Label();
+            this.l_subscap = new System.Windows.Forms.Label();
+            this.l_rotund_mic = new System.Windows.Forms.Label();
+            this.l_pectoral_min = new System.Windows.Forms.Label();
+            this.l_mare_dintat = new System.Windows.Forms.Label();
+            this.l_ext_ab = new System.Windows.Forms.Label();
+            this.l_strat_teaca = new System.Windows.Forms.Label();
+            this.l_coaste = new System.Windows.Forms.Label();
+            this.l_dorsal_mare = new System.Windows.Forms.Label();
+            this.l_cocob = new System.Windows.Forms.Label();
+            this.l_biceps_b = new System.Windows.Forms.Label();
+            this.l_pectoral_m = new System.Windows.Forms.Label();
+            this.l_deltoid = new System.Windows.Forms.Label();
+            this.l_sterno = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.b_incearca = new System.Windows.Forms.Button();
+            this.b_raspunsuri = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
-            // textBox1
+            // t_sterno
             // 
-            this.textBox1.Location = new System.Drawing.Point(613, 68);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(108, 20);
-            this.textBox1.TabIndex = 1;
+            this.t_sterno.Location = new System.Drawing.Point(414, 32);
+            this.t_sterno.Name = "t_sterno";
+            this.t_sterno.Size = new System.Drawing.Size(114, 20);
+            this.t_sterno.TabIndex = 1;
             // 
-            // textBox2
+            // t_trapez
             // 
-            this.textBox2.Location = new System.Drawing.Point(769, 68);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(86, 20);
-            this.textBox2.TabIndex = 2;
+            this.t_trapez.Location = new System.Drawing.Point(905, 69);
+            this.t_trapez.Name = "t_trapez";
+            this.t_trapez.Size = new System.Drawing.Size(106, 20);
+            this.t_trapez.TabIndex = 2;
             // 
-            // textBox3
+            // t_t_sup
             // 
-            this.textBox3.Location = new System.Drawing.Point(118, 197);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(155, 20);
-            this.textBox3.TabIndex = 3;
+            this.t_t_sup.Location = new System.Drawing.Point(1044, 115);
+            this.t_t_sup.Name = "t_t_sup";
+            this.t_t_sup.Size = new System.Drawing.Size(103, 20);
+            this.t_t_sup.TabIndex = 3;
             // 
-            // t_pectoral_major
+            // t_subscap
             // 
-            this.t_pectoral_major.Location = new System.Drawing.Point(118, 267);
-            this.t_pectoral_major.Name = "t_pectoral_major";
-            this.t_pectoral_major.Size = new System.Drawing.Size(155, 20);
-            this.t_pectoral_major.TabIndex = 4;
+            this.t_subscap.Location = new System.Drawing.Point(1022, 197);
+            this.t_subscap.Name = "t_subscap";
+            this.t_subscap.Size = new System.Drawing.Size(106, 20);
+            this.t_subscap.TabIndex = 4;
             // 
-            // textBox5
+            // t_rotund_mic
             // 
-            this.textBox5.Location = new System.Drawing.Point(118, 325);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(155, 20);
-            this.textBox5.TabIndex = 5;
+            this.t_rotund_mic.Location = new System.Drawing.Point(1044, 299);
+            this.t_rotund_mic.Name = "t_rotund_mic";
+            this.t_rotund_mic.Size = new System.Drawing.Size(103, 20);
+            this.t_rotund_mic.TabIndex = 5;
             // 
-            // textBox6
+            // t_pectoral_min
             // 
-            this.textBox6.Location = new System.Drawing.Point(118, 402);
-            this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(155, 20);
-            this.textBox6.TabIndex = 6;
+            this.t_pectoral_min.Location = new System.Drawing.Point(1022, 365);
+            this.t_pectoral_min.Name = "t_pectoral_min";
+            this.t_pectoral_min.Size = new System.Drawing.Size(99, 20);
+            this.t_pectoral_min.TabIndex = 6;
             // 
-            // textBox7
+            // t_mare_dintat
             // 
-            this.textBox7.Location = new System.Drawing.Point(860, 353);
-            this.textBox7.Name = "textBox7";
-            this.textBox7.Size = new System.Drawing.Size(155, 20);
-            this.textBox7.TabIndex = 7;
+            this.t_mare_dintat.Location = new System.Drawing.Point(996, 432);
+            this.t_mare_dintat.Name = "t_mare_dintat";
+            this.t_mare_dintat.Size = new System.Drawing.Size(125, 20);
+            this.t_mare_dintat.TabIndex = 7;
             // 
-            // textBox8
+            // t_ext_ab
             // 
-            this.textBox8.Location = new System.Drawing.Point(860, 285);
-            this.textBox8.Name = "textBox8";
-            this.textBox8.Size = new System.Drawing.Size(155, 20);
-            this.textBox8.TabIndex = 8;
+            this.t_ext_ab.Location = new System.Drawing.Point(996, 537);
+            this.t_ext_ab.Name = "t_ext_ab";
+            this.t_ext_ab.Size = new System.Drawing.Size(125, 20);
+            this.t_ext_ab.TabIndex = 8;
             // 
-            // t_pectoral_minor
+            // t_deltoid
             // 
-            this.t_pectoral_minor.Location = new System.Drawing.Point(860, 226);
-            this.t_pectoral_minor.Name = "t_pectoral_minor";
-            this.t_pectoral_minor.Size = new System.Drawing.Size(155, 20);
-            this.t_pectoral_minor.TabIndex = 9;
+            this.t_deltoid.Location = new System.Drawing.Point(228, 78);
+            this.t_deltoid.Name = "t_deltoid";
+            this.t_deltoid.Size = new System.Drawing.Size(99, 20);
+            this.t_deltoid.TabIndex = 9;
             // 
-            // textBox10
+            // t_pectoral_m
             // 
-            this.textBox10.Location = new System.Drawing.Point(860, 179);
-            this.textBox10.Name = "textBox10";
-            this.textBox10.Size = new System.Drawing.Size(155, 20);
-            this.textBox10.TabIndex = 10;
+            this.t_pectoral_m.Location = new System.Drawing.Point(180, 137);
+            this.t_pectoral_m.Name = "t_pectoral_m";
+            this.t_pectoral_m.Size = new System.Drawing.Size(99, 20);
+            this.t_pectoral_m.TabIndex = 10;
             // 
-            // label1
+            // t_biceps_b
             // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(47, 200);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(35, 13);
-            this.label1.TabIndex = 11;
-            this.label1.Text = "label1";
+            this.t_biceps_b.Location = new System.Drawing.Point(157, 230);
+            this.t_biceps_b.Name = "t_biceps_b";
+            this.t_biceps_b.Size = new System.Drawing.Size(99, 20);
+            this.t_biceps_b.TabIndex = 11;
             // 
-            // l_pectoral_major
+            // t_cocob
             // 
-            this.l_pectoral_major.AutoSize = true;
-            this.l_pectoral_major.Location = new System.Drawing.Point(39, 270);
-            this.l_pectoral_major.Name = "l_pectoral_major";
-            this.l_pectoral_major.Size = new System.Drawing.Size(73, 13);
-            this.l_pectoral_major.TabIndex = 12;
-            this.l_pectoral_major.Text = "pectoral major";
+            this.t_cocob.Location = new System.Drawing.Point(110, 330);
+            this.t_cocob.Name = "t_cocob";
+            this.t_cocob.Size = new System.Drawing.Size(99, 20);
+            this.t_cocob.TabIndex = 12;
             // 
-            // label3
+            // t_dorsal_mare
             // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(47, 332);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(35, 13);
-            this.label3.TabIndex = 13;
-            this.label3.Text = "label3";
+            this.t_dorsal_mare.Location = new System.Drawing.Point(180, 432);
+            this.t_dorsal_mare.Name = "t_dorsal_mare";
+            this.t_dorsal_mare.Size = new System.Drawing.Size(99, 20);
+            this.t_dorsal_mare.TabIndex = 13;
             // 
-            // label4
+            // t_coaste
             // 
-            this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(47, 405);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(35, 13);
-            this.label4.TabIndex = 14;
-            this.label4.Text = "label4";
+            this.t_coaste.Location = new System.Drawing.Point(287, 483);
+            this.t_coaste.Name = "t_coaste";
+            this.t_coaste.Size = new System.Drawing.Size(99, 20);
+            this.t_coaste.TabIndex = 14;
             // 
-            // label5
+            // t_strat_teaca
             // 
-            this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(1038, 356);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(35, 13);
-            this.label5.TabIndex = 15;
-            this.label5.Text = "label5";
+            this.t_strat_teaca.Location = new System.Drawing.Point(228, 569);
+            this.t_strat_teaca.Name = "t_strat_teaca";
+            this.t_strat_teaca.Size = new System.Drawing.Size(99, 20);
+            this.t_strat_teaca.TabIndex = 15;
             // 
-            // label6
+            // l_trapez
             // 
-            this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(1038, 288);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(35, 13);
-            this.label6.TabIndex = 16;
-            this.label6.Text = "label6";
+            this.l_trapez.AutoSize = true;
+            this.l_trapez.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.l_trapez.Location = new System.Drawing.Point(1017, 72);
+            this.l_trapez.Name = "l_trapez";
+            this.l_trapez.Size = new System.Drawing.Size(50, 16);
+            this.l_trapez.TabIndex = 16;
+            this.l_trapez.Text = "trapez";
             // 
-            // l_pectoral_minor
+            // l_t_sup
             // 
-            this.l_pectoral_minor.AutoSize = true;
-            this.l_pectoral_minor.Location = new System.Drawing.Point(1038, 229);
-            this.l_pectoral_minor.Name = "l_pectoral_minor";
-            this.l_pectoral_minor.Size = new System.Drawing.Size(73, 13);
-            this.l_pectoral_minor.TabIndex = 17;
-            this.l_pectoral_minor.Text = "pectoral minor";
+            this.l_t_sup.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.l_t_sup.Location = new System.Drawing.Point(1153, 115);
+            this.l_t_sup.Name = "l_t_sup";
+            this.l_t_sup.Size = new System.Drawing.Size(122, 37);
+            this.l_t_sup.TabIndex = 17;
+            this.l_t_sup.Text = "tendonul supra spinos";
+            this.l_t_sup.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             // 
-            // label8
+            // l_subscap
             // 
-            this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(1038, 182);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(35, 13);
-            this.label8.TabIndex = 18;
-            this.label8.Text = "label8";
+            this.l_subscap.AutoSize = true;
+            this.l_subscap.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.l_subscap.Location = new System.Drawing.Point(1134, 200);
+            this.l_subscap.Name = "l_subscap";
+            this.l_subscap.Size = new System.Drawing.Size(92, 16);
+            this.l_subscap.TabIndex = 18;
+            this.l_subscap.Text = "subscapular";
             // 
-            // label9
+            // l_rotund_mic
             // 
-            this.label9.AutoSize = true;
-            this.label9.Location = new System.Drawing.Point(797, 52);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(35, 13);
-            this.label9.TabIndex = 19;
-            this.label9.Text = "label9";
+            this.l_rotund_mic.AutoSize = true;
+            this.l_rotund_mic.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.l_rotund_mic.Location = new System.Drawing.Point(1153, 300);
+            this.l_rotund_mic.Name = "l_rotund_mic";
+            this.l_rotund_mic.Size = new System.Drawing.Size(78, 16);
+            this.l_rotund_mic.TabIndex = 19;
+            this.l_rotund_mic.Text = "rotund mic";
             // 
-            // label10
+            // l_pectoral_min
             // 
-            this.label10.AutoSize = true;
-            this.label10.Location = new System.Drawing.Point(643, 52);
-            this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(41, 13);
-            this.label10.TabIndex = 20;
-            this.label10.Text = "label10";
+            this.l_pectoral_min.AutoSize = true;
+            this.l_pectoral_min.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.l_pectoral_min.Location = new System.Drawing.Point(1127, 368);
+            this.l_pectoral_min.Name = "l_pectoral_min";
+            this.l_pectoral_min.Size = new System.Drawing.Size(118, 16);
+            this.l_pectoral_min.TabIndex = 20;
+            this.l_pectoral_min.Text = "pectoralul minor";
+            // 
+            // l_mare_dintat
+            // 
+            this.l_mare_dintat.AutoSize = true;
+            this.l_mare_dintat.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.l_mare_dintat.Location = new System.Drawing.Point(1129, 433);
+            this.l_mare_dintat.Name = "l_mare_dintat";
+            this.l_mare_dintat.Size = new System.Drawing.Size(97, 16);
+            this.l_mare_dintat.TabIndex = 21;
+            this.l_mare_dintat.Text = "marele dintat";
+            // 
+            // l_ext_ab
+            // 
+            this.l_ext_ab.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.l_ext_ab.Location = new System.Drawing.Point(1127, 537);
+            this.l_ext_ab.Name = "l_ext_ab";
+            this.l_ext_ab.Size = new System.Drawing.Size(142, 35);
+            this.l_ext_ab.TabIndex = 22;
+            this.l_ext_ab.Text = "extensor abdominal oblic";
+            this.l_ext_ab.TextAlign = System.Drawing.ContentAlignment.TopCenter;
+            // 
+            // l_strat_teaca
+            // 
+            this.l_strat_teaca.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.l_strat_teaca.Location = new System.Drawing.Point(47, 569);
+            this.l_strat_teaca.Name = "l_strat_teaca";
+            this.l_strat_teaca.Size = new System.Drawing.Size(162, 40);
+            this.l_strat_teaca.TabIndex = 23;
+            this.l_strat_teaca.Text = "stratul anterior al tecei drepte";
+            this.l_strat_teaca.TextAlign = System.Drawing.ContentAlignment.TopCenter;
+            // 
+            // l_coaste
+            // 
+            this.l_coaste.AutoSize = true;
+            this.l_coaste.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.l_coaste.Location = new System.Drawing.Point(231, 484);
+            this.l_coaste.Name = "l_coaste";
+            this.l_coaste.Size = new System.Drawing.Size(54, 16);
+            this.l_coaste.TabIndex = 24;
+            this.l_coaste.Text = "coaste";
+            // 
+            // l_dorsal_mare
+            // 
+            this.l_dorsal_mare.AutoSize = true;
+            this.l_dorsal_mare.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.l_dorsal_mare.Location = new System.Drawing.Point(72, 432);
+            this.l_dorsal_mare.Name = "l_dorsal_mare";
+            this.l_dorsal_mare.Size = new System.Drawing.Size(102, 16);
+            this.l_dorsal_mare.TabIndex = 25;
+            this.l_dorsal_mare.Text = "dorsalul mare";
+            // 
+            // l_cocob
+            // 
+            this.l_cocob.AutoSize = true;
+            this.l_cocob.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.l_cocob.Location = new System.Drawing.Point(1, 331);
+            this.l_cocob.Name = "l_cocob";
+            this.l_cocob.Size = new System.Drawing.Size(103, 16);
+            this.l_cocob.TabIndex = 26;
+            this.l_cocob.Text = "coracobrahial";
+            // 
+            // l_biceps_b
+            // 
+            this.l_biceps_b.AutoSize = true;
+            this.l_biceps_b.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.l_biceps_b.Location = new System.Drawing.Point(45, 231);
+            this.l_biceps_b.Name = "l_biceps_b";
+            this.l_biceps_b.Size = new System.Drawing.Size(106, 16);
+            this.l_biceps_b.TabIndex = 27;
+            this.l_biceps_b.Text = "biceps brahial";
+            // 
+            // l_pectoral_m
+            // 
+            this.l_pectoral_m.AutoSize = true;
+            this.l_pectoral_m.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.l_pectoral_m.Location = new System.Drawing.Point(55, 137);
+            this.l_pectoral_m.Name = "l_pectoral_m";
+            this.l_pectoral_m.Size = new System.Drawing.Size(119, 16);
+            this.l_pectoral_m.TabIndex = 28;
+            this.l_pectoral_m.Text = "pectoralul major";
+            // 
+            // l_deltoid
+            // 
+            this.l_deltoid.AutoSize = true;
+            this.l_deltoid.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.l_deltoid.Location = new System.Drawing.Point(164, 82);
+            this.l_deltoid.Name = "l_deltoid";
+            this.l_deltoid.Size = new System.Drawing.Size(55, 16);
+            this.l_deltoid.TabIndex = 29;
+            this.l_deltoid.Text = "deltoid";
+            // 
+            // l_sterno
+            // 
+            this.l_sterno.AutoSize = true;
+            this.l_sterno.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.l_sterno.Location = new System.Drawing.Point(239, 32);
+            this.l_sterno.Name = "l_sterno";
+            this.l_sterno.Size = new System.Drawing.Size(169, 16);
+            this.l_sterno.TabIndex = 30;
+            this.l_sterno.Text = "sternocleidomastoidian";
             // 
             // pictureBox1
             // 
-            this.pictureBox1.Image = global::Aplicatie_muschi.Properties.Resources.torecele;
-            this.pictureBox1.Location = new System.Drawing.Point(278, 84);
-            this.pictureBox1.Margin = new System.Windows.Forms.Padding(2);
+            this.pictureBox1.Image = global::Aplicatie_muschi.Properties.Resources.pectoral_muscles22;
+            this.pictureBox1.Location = new System.Drawing.Point(110, -63);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(577, 408);
+            this.pictureBox1.Size = new System.Drawing.Size(1011, 680);
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
+            // 
+            // b_incearca
+            // 
+            this.b_incearca.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.b_incearca.Location = new System.Drawing.Point(1022, 575);
+            this.b_incearca.Name = "b_incearca";
+            this.b_incearca.Size = new System.Drawing.Size(160, 101);
+            this.b_incearca.TabIndex = 71;
+            this.b_incearca.Text = "Incearca";
+            this.b_incearca.UseVisualStyleBackColor = true;
+            this.b_incearca.Click += new System.EventHandler(this.b_incearca_Click);
+            // 
+            // b_raspunsuri
+            // 
+            this.b_raspunsuri.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.b_raspunsuri.Location = new System.Drawing.Point(248, 595);
+            this.b_raspunsuri.Name = "b_raspunsuri";
+            this.b_raspunsuri.Size = new System.Drawing.Size(160, 101);
+            this.b_raspunsuri.TabIndex = 72;
+            this.b_raspunsuri.Text = "Raspunsuri";
+            this.b_raspunsuri.UseVisualStyleBackColor = true;
+            this.b_raspunsuri.Click += new System.EventHandler(this.b_raspunsuri_Click);
             // 
             // muschi_torace
             // 
@@ -228,29 +357,42 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(1284, 681);
-            this.Controls.Add(this.label10);
-            this.Controls.Add(this.label9);
-            this.Controls.Add(this.label8);
-            this.Controls.Add(this.l_pectoral_minor);
-            this.Controls.Add(this.label6);
-            this.Controls.Add(this.label5);
-            this.Controls.Add(this.label4);
-            this.Controls.Add(this.label3);
-            this.Controls.Add(this.l_pectoral_major);
-            this.Controls.Add(this.label1);
-            this.Controls.Add(this.textBox10);
-            this.Controls.Add(this.t_pectoral_minor);
-            this.Controls.Add(this.textBox8);
-            this.Controls.Add(this.textBox7);
-            this.Controls.Add(this.textBox6);
-            this.Controls.Add(this.textBox5);
-            this.Controls.Add(this.t_pectoral_major);
-            this.Controls.Add(this.textBox3);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.b_raspunsuri);
+            this.Controls.Add(this.b_incearca);
+            this.Controls.Add(this.l_sterno);
+            this.Controls.Add(this.l_deltoid);
+            this.Controls.Add(this.l_pectoral_m);
+            this.Controls.Add(this.l_biceps_b);
+            this.Controls.Add(this.l_cocob);
+            this.Controls.Add(this.l_dorsal_mare);
+            this.Controls.Add(this.l_coaste);
+            this.Controls.Add(this.l_strat_teaca);
+            this.Controls.Add(this.l_ext_ab);
+            this.Controls.Add(this.l_mare_dintat);
+            this.Controls.Add(this.l_pectoral_min);
+            this.Controls.Add(this.l_rotund_mic);
+            this.Controls.Add(this.l_subscap);
+            this.Controls.Add(this.l_t_sup);
+            this.Controls.Add(this.l_trapez);
+            this.Controls.Add(this.t_strat_teaca);
+            this.Controls.Add(this.t_coaste);
+            this.Controls.Add(this.t_dorsal_mare);
+            this.Controls.Add(this.t_cocob);
+            this.Controls.Add(this.t_biceps_b);
+            this.Controls.Add(this.t_pectoral_m);
+            this.Controls.Add(this.t_deltoid);
+            this.Controls.Add(this.t_ext_ab);
+            this.Controls.Add(this.t_mare_dintat);
+            this.Controls.Add(this.t_pectoral_min);
+            this.Controls.Add(this.t_rotund_mic);
+            this.Controls.Add(this.t_subscap);
+            this.Controls.Add(this.t_t_sup);
+            this.Controls.Add(this.t_trapez);
+            this.Controls.Add(this.t_sterno);
             this.Controls.Add(this.pictureBox1);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "muschi_torace";
-            this.Text = "muschi_torace";
+            this.Text = "muschii torecelui ";
             this.Load += new System.EventHandler(this.muschi_torace_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
@@ -261,25 +403,37 @@
         #endregion
 
         private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.TextBox t_pectoral_major;
-        private System.Windows.Forms.TextBox textBox5;
-        private System.Windows.Forms.TextBox textBox6;
-        private System.Windows.Forms.TextBox textBox7;
-        private System.Windows.Forms.TextBox textBox8;
-        private System.Windows.Forms.TextBox t_pectoral_minor;
-        private System.Windows.Forms.TextBox textBox10;
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Label l_pectoral_major;
-        private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.Label l_pectoral_minor;
-        private System.Windows.Forms.Label label8;
-        private System.Windows.Forms.Label label9;
-        private System.Windows.Forms.Label label10;
+        private System.Windows.Forms.TextBox t_sterno;
+        private System.Windows.Forms.TextBox t_trapez;
+        private System.Windows.Forms.TextBox t_t_sup;
+        private System.Windows.Forms.TextBox t_subscap;
+        private System.Windows.Forms.TextBox t_rotund_mic;
+        private System.Windows.Forms.TextBox t_pectoral_min;
+        private System.Windows.Forms.TextBox t_mare_dintat;
+        private System.Windows.Forms.TextBox t_ext_ab;
+        private System.Windows.Forms.TextBox t_deltoid;
+        private System.Windows.Forms.TextBox t_pectoral_m;
+        private System.Windows.Forms.TextBox t_biceps_b;
+        private System.Windows.Forms.TextBox t_cocob;
+        private System.Windows.Forms.TextBox t_dorsal_mare;
+        private System.Windows.Forms.TextBox t_coaste;
+        private System.Windows.Forms.TextBox t_strat_teaca;
+        private System.Windows.Forms.Label l_trapez;
+        private System.Windows.Forms.Label l_t_sup;
+        private System.Windows.Forms.Label l_subscap;
+        private System.Windows.Forms.Label l_rotund_mic;
+        private System.Windows.Forms.Label l_pectoral_min;
+        private System.Windows.Forms.Label l_mare_dintat;
+        private System.Windows.Forms.Label l_ext_ab;
+        private System.Windows.Forms.Label l_strat_teaca;
+        private System.Windows.Forms.Label l_coaste;
+        private System.Windows.Forms.Label l_dorsal_mare;
+        private System.Windows.Forms.Label l_cocob;
+        private System.Windows.Forms.Label l_biceps_b;
+        private System.Windows.Forms.Label l_pectoral_m;
+        private System.Windows.Forms.Label l_deltoid;
+        private System.Windows.Forms.Label l_sterno;
+        private System.Windows.Forms.Button b_incearca;
+        private System.Windows.Forms.Button b_raspunsuri;
     }
 }

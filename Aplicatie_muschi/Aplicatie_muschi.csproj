@@ -179,5 +179,17 @@
   <ItemGroup>
     <None Include="Resources\membre superioare__22.jpg" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pectoral-muscles.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pectoral-muscles22.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\membre superioare_1111111111.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\membre superioare_22222222.jpg" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

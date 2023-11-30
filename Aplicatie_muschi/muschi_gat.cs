@@ -33,7 +33,7 @@ namespace Aplicatie_muschi
         }
         private void ver_mus()
         {
-            if(t_digast_ant.Text == l_digast_ant.Text) {
+            if(t_digast_ant.Text.ToLower() == l_digast_ant.Text.ToLower()) {
                 verif_txt(t_digast_ant);
                 l_digast_ant.ForeColor = Color.Green;
             }
@@ -42,7 +42,7 @@ namespace Aplicatie_muschi
                 er_txt(t_digast_ant);
                 l_digast_ant.ForeColor = Color.Red;
             }
-            if (t_digast_post.Text == l_digast_post.Text)
+            if (t_digast_post.Text.ToLower() == l_digast_post.Text.ToLower())
             {
                 verif_txt(t_digast_post);
                 l_digast_post.ForeColor = Color.Green;
@@ -52,7 +52,7 @@ namespace Aplicatie_muschi
                 er_txt(t_digast_post);
                 l_digast_post.ForeColor = Color.Red;
             }
-            if (t_omohioid_ant.Text == l_omohioid_ant.Text)
+            if (t_omohioid_ant.Text.ToLower() == l_omohioid_ant.Text.ToLower())
             {
                 verif_txt(t_omohioid_ant);
                 l_omohioid_ant.ForeColor = Color.Green;
@@ -62,7 +62,7 @@ namespace Aplicatie_muschi
                 er_txt(t_omohioid_ant);
                 l_omohioid_ant.ForeColor = Color.Red;
             }
-            if (t_omohioid_post.Text == l_omohioid_post.Text)
+            if (t_omohioid_post.Text.ToLower() == l_omohioid_post.Text.ToLower())
             {
                 verif_txt(t_omohioid_post);
                 l_omohioid_post.ForeColor = Color.Green;
@@ -72,7 +72,7 @@ namespace Aplicatie_muschi
                 er_txt(t_omohioid_post);
                 l_omohioid_post.ForeColor = Color.Red;
             }
-            if (t_os_hioid.Text == "osul hioid" || t_os_hioid.Text == "osul lingual" || t_os_hioid.Text == "osul lingual (hioid)" || t_os_hioid.Text == "osul hioid (lingual)" || t_os_hioid.Text == "os hioid" || t_os_hioid.Text == "os lingual" || t_os_hioid.Text == "os lingual (hioid)" || t_os_hioid.Text == "os hioid (lingual)")
+            if (t_os_hioid.Text.ToLower() == "osul hioid" || t_os_hioid.Text.ToLower() == "osul lingual" || t_os_hioid.Text.ToLower() == "osul lingual (hioid)" || t_os_hioid.Text.ToLower() == "osul hioid (lingual)" || t_os_hioid.Text.ToLower() == "os hioid" || t_os_hioid.Text.ToLower() == "os lingual" || t_os_hioid.Text.ToLower() == "os lingual (hioid)" || t_os_hioid.Text.ToLower() == "os hioid (lingual)")
             {
                 verif_txt(t_os_hioid);
                 l_os_hioid.ForeColor = Color.Green;
@@ -82,7 +82,7 @@ namespace Aplicatie_muschi
                 er_txt(t_os_hioid);
                 l_os_hioid.ForeColor = Color.Red;
             }
-            if (t_sterno.Text == l_sterno.Text)
+            if (t_sterno.Text.ToLower() == l_sterno.Text.ToLower())
             {
                 verif_txt(t_sterno);
                 l_sterno.ForeColor = Color.Green;
@@ -92,7 +92,7 @@ namespace Aplicatie_muschi
                 er_txt(t_sterno);
                 l_sterno.ForeColor = Color.Red;
             }
-            if (t_trapez.Text == l_trapez.Text)
+            if (t_trapez.Text.ToLower() == l_trapez.Text.ToLower())
             {
                 verif_txt(t_trapez);
                 l_trapez.ForeColor = Color.Green;
