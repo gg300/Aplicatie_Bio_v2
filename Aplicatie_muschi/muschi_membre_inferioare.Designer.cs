@@ -73,6 +73,8 @@
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.b_incearca = new System.Windows.Forms.Button();
+            this.b_raspunsuri = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -301,9 +303,9 @@
             this.l_gastrocnemiu_lateral.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.l_gastrocnemiu_lateral.Location = new System.Drawing.Point(497, 125);
             this.l_gastrocnemiu_lateral.Name = "l_gastrocnemiu_lateral";
-            this.l_gastrocnemiu_lateral.Size = new System.Drawing.Size(143, 15);
+            this.l_gastrocnemiu_lateral.Size = new System.Drawing.Size(139, 15);
             this.l_gastrocnemiu_lateral.TabIndex = 56;
-            this.l_gastrocnemiu_lateral.Text = "gastrocnemiu_lateral";
+            this.l_gastrocnemiu_lateral.Text = "gastrocnemiu lateral";
             // 
             // l_gastrocnemiu_median
             // 
@@ -462,12 +464,36 @@
             this.pictureBox1.TabIndex = 25;
             this.pictureBox1.TabStop = false;
             // 
+            // b_incearca
+            // 
+            this.b_incearca.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.b_incearca.Location = new System.Drawing.Point(1005, 568);
+            this.b_incearca.Name = "b_incearca";
+            this.b_incearca.Size = new System.Drawing.Size(160, 101);
+            this.b_incearca.TabIndex = 70;
+            this.b_incearca.Text = "Incearca";
+            this.b_incearca.UseVisualStyleBackColor = true;
+            this.b_incearca.Click += new System.EventHandler(this.b_incearca_Click);
+            // 
+            // b_raspunsuri
+            // 
+            this.b_raspunsuri.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.b_raspunsuri.Location = new System.Drawing.Point(97, 555);
+            this.b_raspunsuri.Name = "b_raspunsuri";
+            this.b_raspunsuri.Size = new System.Drawing.Size(160, 101);
+            this.b_raspunsuri.TabIndex = 71;
+            this.b_raspunsuri.Text = "Raspunsuri";
+            this.b_raspunsuri.UseVisualStyleBackColor = true;
+            this.b_raspunsuri.Click += new System.EventHandler(this.b_raspunsuri_Click);
+            // 
             // muschi_membre_inferioare
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(1406, 681);
+            this.Controls.Add(this.b_raspunsuri);
+            this.Controls.Add(this.b_incearca);
             this.Controls.Add(this.l_tibial_anterior);
             this.Controls.Add(this.l_peronier_lung);
             this.Controls.Add(this.l_extensor_degete);
@@ -570,5 +596,7 @@
         private System.Windows.Forms.Label l_extensor_degete;
         private System.Windows.Forms.Label l_peronier_lung;
         private System.Windows.Forms.Label l_tibial_anterior;
+        private System.Windows.Forms.Button b_incearca;
+        private System.Windows.Forms.Button b_raspunsuri;
     }
 }
