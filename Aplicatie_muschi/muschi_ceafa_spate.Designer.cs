@@ -54,6 +54,8 @@
             this.l_supraspin = new System.Windows.Forms.Label();
             this.l_rid_scap = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.b_incearca = new System.Windows.Forms.Button();
+            this.b_raspunsuri = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -145,7 +147,7 @@
             // 
             this.l_sterno.AutoSize = true;
             this.l_sterno.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.l_sterno.Location = new System.Drawing.Point(147, 115);
+            this.l_sterno.Location = new System.Drawing.Point(149, 114);
             this.l_sterno.Name = "l_sterno";
             this.l_sterno.Size = new System.Drawing.Size(169, 16);
             this.l_sterno.TabIndex = 16;
@@ -271,12 +273,36 @@
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
             // 
+            // b_incearca
+            // 
+            this.b_incearca.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.b_incearca.Location = new System.Drawing.Point(957, 550);
+            this.b_incearca.Name = "b_incearca";
+            this.b_incearca.Size = new System.Drawing.Size(160, 101);
+            this.b_incearca.TabIndex = 72;
+            this.b_incearca.Text = "Incearca";
+            this.b_incearca.UseVisualStyleBackColor = true;
+            this.b_incearca.Click += new System.EventHandler(this.b_incearca_Click);
+            // 
+            // b_raspunsuri
+            // 
+            this.b_raspunsuri.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.b_raspunsuri.Location = new System.Drawing.Point(88, 560);
+            this.b_raspunsuri.Name = "b_raspunsuri";
+            this.b_raspunsuri.Size = new System.Drawing.Size(160, 101);
+            this.b_raspunsuri.TabIndex = 73;
+            this.b_raspunsuri.Text = "Raspunsuri";
+            this.b_raspunsuri.UseVisualStyleBackColor = true;
+            this.b_raspunsuri.Click += new System.EventHandler(this.b_raspunsuri_Click);
+            // 
             // muschi_ceafa_spate
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(1284, 681);
+            this.Controls.Add(this.b_raspunsuri);
+            this.Controls.Add(this.b_incearca);
             this.Controls.Add(this.l_rid_scap);
             this.Controls.Add(this.l_supraspin);
             this.Controls.Add(this.l_infraspinos);
@@ -339,5 +365,7 @@
         private System.Windows.Forms.Label l_infraspinos;
         private System.Windows.Forms.Label l_supraspin;
         private System.Windows.Forms.Label l_rid_scap;
+        private System.Windows.Forms.Button b_incearca;
+        private System.Windows.Forms.Button b_raspunsuri;
     }
 }

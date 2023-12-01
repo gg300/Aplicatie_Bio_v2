@@ -33,9 +33,153 @@ namespace Aplicatie_muschi
             tex.ReadOnly = true;
             lab.ForeColor = Color.Red;
         }
+        private void L_hid()
+        {
+            l_deltoid.Visible = false;
+            l_dorsal_mare.Visible = false;
+            l_infraspinos.Visible = false;  
+            l_rid_scap.Visible = false;
+            l_romb_mare.Visible = false;
+            l_romb_mic.Visible = false;
+            l_rotund_mare.Visible = false;
+            l_rotund_mic.Visible = false;
+            l_sterno.Visible = false;
+            l_sterno.Visible = false;
+            l_supraspin.Visible = false;
+            l_trapez.Visible   = false;
+            l_triceps_brahial.Visible = false;
+        }
+        private void L_Show()
+        {
+            l_deltoid.Visible = true;
+            l_dorsal_mare.Visible = true;
+            l_infraspinos.Visible = true;
+            l_rid_scap.Visible = true;
+            l_romb_mare.Visible = true;
+            l_romb_mic.Visible = true;
+            l_rotund_mare.Visible = true;
+            l_rotund_mic.Visible = true;
+            l_sterno.Visible = true;
+            l_sterno.Visible = true;
+            l_supraspin.Visible = true;
+            l_trapez.Visible = true;
+            l_triceps_brahial.Visible = true;
+        }
+        private void ver_mus()
+        {
+            if (t_deltoid.Text.ToLower() == l_deltoid.Text.ToLower())
+            {
+                verif_txt(t_deltoid, l_deltoid);
+            }
+            else
+            {
+                er_txt(t_deltoid, l_deltoid);
+            }
+            if (t_dorsal_mare.Text.ToLower() == l_dorsal_mare.Text.ToLower())
+            {
+                verif_txt(t_dorsal_mare, l_dorsal_mare);
+            }
+            else
+            {
+                er_txt(t_dorsal_mare, l_dorsal_mare);
+            }
+            if (t_infraspinos.Text.ToLower() == l_infraspinos.Text.ToLower())
+            {
+                verif_txt(t_infraspinos, l_infraspinos);
+            }
+            else
+            {
+                er_txt(t_infraspinos, l_infraspinos);
+            }
+            if (t_rid_scap.Text.ToLower() == l_rid_scap.Text.ToLower())
+            {
+                verif_txt(t_rid_scap, l_rid_scap);
+            }
+            else
+            {
+                er_txt(t_rid_scap, l_rid_scap);
+            }
+            if (t_romb_mare.Text.ToLower() == l_romb_mare.Text.ToLower())
+            {
+                verif_txt(t_romb_mare, l_romb_mare);
+            }
+            else
+            {
+                er_txt(t_romb_mare, l_romb_mare);
+            }
+            if (t_romb_mic.Text.ToLower() == l_romb_mic.Text.ToLower())
+            {
+                verif_txt(t_romb_mic, l_romb_mic);
+            }
+            else
+            {
+                er_txt(t_romb_mic, l_romb_mic);
+            }
+            if (t_rotund_mare.Text.ToLower() == l_rotund_mare.Text.ToLower())
+            {
+                verif_txt(t_rotund_mare, l_rotund_mare);
+            }
+            else
+            {
+                er_txt(t_rotund_mare, l_rotund_mare);
+            }
+            if (t_rotund_mic.Text.ToLower() == l_rotund_mic.Text.ToLower())
+            {
+                verif_txt(t_rotund_mic, l_rotund_mic);
+            }
+            else
+            {
+                er_txt(t_rotund_mic, l_rotund_mic);
+            }
+            if (t_sterno.Text.ToLower() == l_sterno.Text.ToLower())
+            {
+                verif_txt(t_sterno, l_sterno);
+            }
+            else
+            {
+                er_txt(t_sterno, l_sterno);
+            }
+            if (t_supraspin.Text.ToLower() == l_supraspin.Text.ToLower())
+            {
+                verif_txt(t_supraspin, l_supraspin);
+            }
+            else
+            {
+                er_txt(t_supraspin, l_supraspin);
+            }
+            if (t_trapez.Text.ToLower() == l_trapez.Text.ToLower())
+            {
+                verif_txt(t_trapez, l_trapez);
+            }
+            else
+            {
+                er_txt(t_trapez, l_trapez);
+            }
+            if (t_triceps_brahial.Text.ToLower() == l_triceps_brahial.Text.ToLower())
+            {
+                verif_txt(t_triceps_brahial, l_triceps_brahial);
+            }
+            else
+            {
+                er_txt(t_triceps_brahial, l_triceps_brahial);
+            }
+
+        }
         private void muschi_ceafa_spate_Load(object sender, EventArgs e)
         {
+            L_hid();
+            b_raspunsuri.Enabled = false;
+        }
 
+        private void b_incearca_Click(object sender, EventArgs e)
+        {
+            ver_mus();
+            b_raspunsuri.Enabled = true;
+        }
+
+        private void b_raspunsuri_Click(object sender, EventArgs e)
+        {
+            L_Show();
         }
     }
 }
