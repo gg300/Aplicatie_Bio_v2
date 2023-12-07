@@ -51,7 +51,7 @@ namespace Aplicatie_muschi
             {
                 er_txt(t_anconeu, l_anconeu);
             }
-            if (t_apo_pal.Text.ToLower() == l_apo_pal.Text.ToLower())
+            if (t_apo_pal.Text.ToLower() == "aponevroza palmara")
             {
                 verif_txt(t_apo_pal, l_apo_pal);
             }
@@ -59,7 +59,7 @@ namespace Aplicatie_muschi
             {
                 er_txt(t_apo_pal, l_apo_pal);
             }
-            if (t_biceps_l.Text.ToLower() == l_biceps_l.Text.ToLower())
+            if (t_biceps_l.Text.ToLower() == "capul lung al bicepsului" || t_biceps_l.Text.ToLower() == "cap lung al bicepsului")
             {
                 verif_txt(t_biceps_l, l_biceps_l);
             }
@@ -67,7 +67,7 @@ namespace Aplicatie_muschi
             {
                 er_txt(t_biceps_l, l_biceps_l);
             }
-            if (t_biceps_s.Text.ToLower() == l_biceps_s.Text.ToLower())
+            if (t_biceps_s.Text.ToLower() == "capul scurt al bicepsului" || t_biceps_s.Text.ToLower() == "cap scurt al bicepsului")
             {
                 verif_txt(t_biceps_s, l_biceps_s);
             }
@@ -99,7 +99,7 @@ namespace Aplicatie_muschi
             {
                 er_txt(t_brahr_2, l_brahr_2);
             }
-            if (t_coco.Text.ToLower() == l_coco.Text.ToLower())
+            if (t_coco.Text.ToLower() == "coracobrahial" || t_coco.Text.ToLower() == "muschiul coracobrahial")
             {
                 verif_txt(t_coco, l_coco);
             }
@@ -107,7 +107,7 @@ namespace Aplicatie_muschi
             {
                 er_txt(t_coco, l_coco);
             }
-            if (t_epic.Text.ToLower() == l_epic.Text.ToLower())
+            if (t_epic.Text.ToLower() == "epicondil" || t_epic.Text.ToLower() == "muschiul epicondil")
             {
                 verif_txt(t_epic, l_epic);
             }
@@ -163,7 +163,7 @@ namespace Aplicatie_muschi
             {
                 er_txt(t_flex_l_p, l_flex_l_p);
             }
-            if (t_flex_rad_carp.Text.ToLower() == l_flex_rad_carp.Text.ToLower())
+            if (t_flex_rad_carp.Text.ToLower() == "flexor radial al carpului" || t_flex_rad_carp.Text.ToLower() == "flexorul radial al carpului" || t_flex_rad_carp.Text.ToLower() == "muschiul flexor radial al carpului")
             {
                 verif_txt(t_flex_rad_carp, l_flex_rad_carp);
             }
@@ -171,7 +171,7 @@ namespace Aplicatie_muschi
             {
                 er_txt(t_flex_rad_carp, l_flex_rad_carp);
             }
-            if (t_flex_sup_deg.Text.ToLower() == l_flex_sup_deg.Text.ToLower())
+            if (t_flex_sup_deg.Text.ToLower() == "flexor superficial al degetelor" || t_flex_sup_deg.Text.ToLower() == "flexorul superficial al degetelor" || t_flex_sup_deg.Text.ToLower() == "muschiul flexor superficial al degetelor")
             {
                 verif_txt(t_flex_sup_deg, l_flex_sup_deg);
             }
@@ -195,7 +195,7 @@ namespace Aplicatie_muschi
             {
                 er_txt(t_hum, l_hum);
             }
-            if (t_pal.Text.ToLower() == l_pal.Text.ToLower())
+            if (t_pal.Text.ToLower() == "palmar" || t_pal.Text.ToLower() == "muschiul palmar")
             {
                 verif_txt(t_pal, l_pal);
             }
@@ -211,7 +211,7 @@ namespace Aplicatie_muschi
             {
                 er_txt(t_pal_l, l_pal_l);
             }
-            if (t_pat_pron.Text.ToLower() == l_pat_pron.Text.ToLower())
+            if (t_pat_pron.Text.ToLower() == "patrat pronator" || t_pat_pron.Text.ToLower() == "muschiul patrat pronator")
             {
                 verif_txt(t_pat_pron, l_pat_pron);
             }
@@ -235,7 +235,7 @@ namespace Aplicatie_muschi
             {
                 er_txt(t_retin_flex, l_retin_flex);
             }
-            if (t_rotund_pron.Text.ToLower() == l_rotund_pron.Text.ToLower())
+            if (t_rotund_pron.Text.ToLower() == "rotund pronator" || t_rotund_pron.Text.ToLower() == "muschiul rotund pronator")
             {
                 verif_txt(t_rotund_pron, l_rotund_pron);
             }
@@ -251,7 +251,7 @@ namespace Aplicatie_muschi
             {
                 er_txt(t_s_ext_rad_c, l_s_ext_rad_c);
             }
-            if (t_triceps_cap_l.Text.ToLower() == l_triceps_cap_l.Text.ToLower())
+            if (t_triceps_cap_l.Text.ToLower() == "triceps cap lung" || t_triceps_cap_l.Text.ToLower() == "triceps lung" || t_triceps_cap_l.Text.ToLower() == "triceps capul lung" || t_triceps_cap_l.Text.ToLower() == "capul lung al tricepsului")
             {
                 verif_txt(t_triceps_cap_l, l_triceps_cap_l);
             }
@@ -259,7 +259,7 @@ namespace Aplicatie_muschi
             {
                 er_txt(t_triceps_cap_l, l_triceps_cap_l);
             }
-            if (t_triceps_cap_m.Text.ToLower() == l_triceps_cap_m.Text.ToLower())
+            if (t_triceps_cap_m.Text.ToLower() == "triceps cap medial" || t_triceps_cap_m.Text.ToLower() == "triceps medial" || t_triceps_cap_m.Text.ToLower() == "triceps capul medial" || t_triceps_cap_m.Text.ToLower() == "capul medial al tricepsului")
             {
                 verif_txt(t_triceps_cap_m, l_triceps_cap_m);
             }

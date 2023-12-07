@@ -33,7 +33,7 @@ namespace Aplicatie_muschi
         }
         private void ver_mus()
         {
-            if(t_digast_ant.Text.ToLower() == l_digast_ant.Text.ToLower()) {
+            if(t_digast_ant.Text.ToLower() == "digastric anterior" || t_digast_ant.Text.ToLower() == "muschi digastric anterior") {
                 verif_txt(t_digast_ant);
                 l_digast_ant.ForeColor = Color.Green;
             }
@@ -42,7 +42,7 @@ namespace Aplicatie_muschi
                 er_txt(t_digast_ant);
                 l_digast_ant.ForeColor = Color.Red;
             }
-            if (t_digast_post.Text.ToLower() == l_digast_post.Text.ToLower())
+            if (t_digast_post.Text.ToLower() == "digastric posterior" || t_digast_post.Text.ToLower() == "muschi digastric posterior")
             {
                 verif_txt(t_digast_post);
                 l_digast_post.ForeColor = Color.Green;
@@ -52,7 +52,7 @@ namespace Aplicatie_muschi
                 er_txt(t_digast_post);
                 l_digast_post.ForeColor = Color.Red;
             }
-            if (t_omohioid_ant.Text.ToLower() == l_omohioid_ant.Text.ToLower())
+            if (t_omohioid_ant.Text.ToLower() == "omohioid anterior" || t_omohioid_ant.Text.ToLower() == "muschi omohioid anterior")
             {
                 verif_txt(t_omohioid_ant);
                 l_omohioid_ant.ForeColor = Color.Green;
@@ -62,7 +62,7 @@ namespace Aplicatie_muschi
                 er_txt(t_omohioid_ant);
                 l_omohioid_ant.ForeColor = Color.Red;
             }
-            if (t_omohioid_post.Text.ToLower() == l_omohioid_post.Text.ToLower())
+            if (t_omohioid_post.Text.ToLower() == "omohioid posterior" || t_omohioid_post.Text.ToLower() == "muschi omohioid posterior")
             {
                 verif_txt(t_omohioid_post);
                 l_omohioid_post.ForeColor = Color.Green;

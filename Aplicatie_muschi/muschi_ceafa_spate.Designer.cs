@@ -261,7 +261,7 @@
             this.l_rid_scap.Name = "l_rid_scap";
             this.l_rid_scap.Size = new System.Drawing.Size(144, 16);
             this.l_rid_scap.TabIndex = 27;
-            this.l_rid_scap.Text = "ridicator al scapulei";
+            this.l_rid_scap.Text = "ridicător al scapulei";
             // 
             // pictureBox1
             // 

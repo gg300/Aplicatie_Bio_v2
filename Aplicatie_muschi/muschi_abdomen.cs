@@ -33,7 +33,7 @@ namespace Aplicatie_muschi
         }
         private void ver_mus()
         {
-            if(t_drept_abdominal.Text.ToLower() == l_drept_abdominal.Text.ToLower()) {
+            if(t_drept_abdominal.Text.ToLower() == "drept abdominal" || t_drept_abdominal.Text.ToLower() == "drepti abdominali" || t_drept_abdominal.Text.ToLower() == "muschiul drept abdominal" || t_drept_abdominal.Text.ToLower() == " muschi drepti abdominali") {
                 verif_txt(t_drept_abdominal);
                 l_drept_abdominal.ForeColor = Color.Green;
             }
@@ -42,7 +42,7 @@ namespace Aplicatie_muschi
                 er_txt(t_drept_abdominal);
                 l_drept_abdominal.ForeColor= Color.Red;
             }
-            if (t_oblic_extern.Text.ToLower() == l_oblic_extern.Text.ToLower())
+            if (t_oblic_extern.Text.ToLower() == "oblic extern" || t_oblic_extern.Text.ToLower() == "oblici externi" || t_oblic_extern.Text.ToLower() == "muschiul oblic extern" || t_oblic_extern.Text.ToLower() == " muschi oblici externi")
             {
                 verif_txt(t_oblic_extern);
                 l_oblic_extern.ForeColor = Color.Green;
@@ -53,7 +53,7 @@ namespace Aplicatie_muschi
                 l_oblic_extern.ForeColor = Color.Red;
 
             }
-            if (t_oblic_intern.Text.ToLower() == l_oblic_intern.Text.ToLower())
+            if (t_oblic_intern.Text.ToLower() == "oblic intern" || t_oblic_intern.Text.ToLower() == "oblici interni" || t_oblic_intern.Text.ToLower() == "muschiul oblic intern" || t_oblic_intern.Text.ToLower() == " muschi oblici interni")
             {
                 verif_txt(t_oblic_intern);
                 l_oblic_intern.ForeColor = Color.Green;
@@ -63,7 +63,7 @@ namespace Aplicatie_muschi
                 er_txt(t_oblic_intern);
                 l_oblic_intern.ForeColor= Color.Red;
             }
-            if (t_transversal.Text.ToLower() == l_transversal.Text.ToLower())
+            if (t_transversal.Text.ToLower() == "transversal" || t_transversal.Text.ToLower() == "transversali" || t_transversal.Text.ToLower() == "muschiul transversal" || t_transversal.Text.ToLower() == "muschi transversali")
             {
                 verif_txt(t_transversal);
                 l_transversal.ForeColor = Color.Green;

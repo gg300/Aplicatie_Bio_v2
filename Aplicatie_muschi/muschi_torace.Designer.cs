@@ -228,7 +228,7 @@
             this.l_mare_dintat.Name = "l_mare_dintat";
             this.l_mare_dintat.Size = new System.Drawing.Size(97, 16);
             this.l_mare_dintat.TabIndex = 21;
-            this.l_mare_dintat.Text = "marele dintat";
+            this.l_mare_dintat.Text = "marele dințat";
             // 
             // l_ext_ab
             // 

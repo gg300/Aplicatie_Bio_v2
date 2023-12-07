@@ -375,18 +375,18 @@
             this.l_triceps_cap_l.AutoSize = true;
             this.l_triceps_cap_l.Location = new System.Drawing.Point(1101, 208);
             this.l_triceps_cap_l.Name = "l_triceps_cap_l";
-            this.l_triceps_cap_l.Size = new System.Drawing.Size(117, 16);
+            this.l_triceps_cap_l.Size = new System.Drawing.Size(170, 16);
             this.l_triceps_cap_l.TabIndex = 37;
-            this.l_triceps_cap_l.Text = "triceps cap lung";
+            this.l_triceps_cap_l.Text = "capul lung al tricepsului";
             // 
             // l_triceps_cap_m
             // 
             this.l_triceps_cap_m.AutoSize = true;
             this.l_triceps_cap_m.Location = new System.Drawing.Point(1101, 258);
             this.l_triceps_cap_m.Name = "l_triceps_cap_m";
-            this.l_triceps_cap_m.Size = new System.Drawing.Size(135, 16);
+            this.l_triceps_cap_m.Size = new System.Drawing.Size(188, 16);
             this.l_triceps_cap_m.TabIndex = 38;
-            this.l_triceps_cap_m.Text = "triceps cap medial";
+            this.l_triceps_cap_m.Text = "capul medial al tricepsului";
             // 
             // l_rotund_pron
             // 
@@ -449,7 +449,7 @@
             this.l_pat_pron.Name = "l_pat_pron";
             this.l_pat_pron.Size = new System.Drawing.Size(109, 16);
             this.l_pat_pron.TabIndex = 45;
-            this.l_pat_pron.Text = "patrat pronator";
+            this.l_pat_pron.Text = "pătrat pronator";
             // 
             // l_retin_flex
             // 
@@ -467,7 +467,7 @@
             this.l_apo_pal.Name = "l_apo_pal";
             this.l_apo_pal.Size = new System.Drawing.Size(150, 16);
             this.l_apo_pal.TabIndex = 47;
-            this.l_apo_pal.Text = "aponevroza palmara";
+            this.l_apo_pal.Text = "aponevroza palmară";
             // 
             // l_brahr
             // 
@@ -553,7 +553,7 @@
             this.l_s_ext_rad_c.Name = "l_s_ext_rad_c";
             this.l_s_ext_rad_c.Size = new System.Drawing.Size(223, 16);
             this.l_s_ext_rad_c.TabIndex = 56;
-            this.l_s_ext_rad_c.Text = "scurt extensor radial al carpului";
+            this.l_s_ext_rad_c.Text = "extensor scurt radial al carpului";
             // 
             // l_abd_l_pol
             // 

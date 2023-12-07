@@ -51,7 +51,7 @@ namespace Aplicatie_muschi
             {
                 er_txt(t_coaste, l_coaste);
             }
-            if (t_cocob.Text.ToLower() == l_cocob.Text.ToLower())
+            if (t_cocob.Text.ToLower() == "coracobrahial" || t_cocob.Text.ToLower() == "muschi coracobrahial")
             {
                 verif_txt(t_cocob, l_cocob);
             }
@@ -67,7 +67,7 @@ namespace Aplicatie_muschi
             {
                 er_txt(t_deltoid, l_deltoid);
             }
-            if (t_dorsal_mare.Text.ToLower() == l_dorsal_mare.Text.ToLower())
+            if (t_dorsal_mare.Text.ToLower() == "dorsalul mare" || t_dorsal_mare.Text.ToLower() == "dorsal mare")
             {
                 verif_txt(t_dorsal_mare, l_dorsal_mare);
             }
@@ -75,7 +75,7 @@ namespace Aplicatie_muschi
             {
                 er_txt(t_dorsal_mare, l_dorsal_mare);
             }
-            if (t_ext_ab.Text.ToLower() == l_ext_ab.Text.ToLower())
+            if (t_ext_ab.Text.ToLower() == "extensor abdominal oblic" || t_ext_ab.Text.ToLower() == "extensori abdominali oblici")
             {
                 verif_txt(t_ext_ab, l_ext_ab);
             }
@@ -83,7 +83,7 @@ namespace Aplicatie_muschi
             {
                 er_txt(t_ext_ab, l_ext_ab);
             }
-            if (t_mare_dintat.Text.ToLower() == l_mare_dintat.Text.ToLower())
+            if (t_mare_dintat.Text.ToLower() == "marele dintat" || t_mare_dintat.Text.ToLower() == "muschiul marele dintat")
             {
                 verif_txt(t_mare_dintat, l_mare_dintat);
             }
@@ -91,7 +91,7 @@ namespace Aplicatie_muschi
             {
                 er_txt(t_mare_dintat, l_mare_dintat);
             }
-            if (t_pectoral_m.Text.ToLower() == l_pectoral_m.Text.ToLower())
+            if (t_pectoral_m.Text.ToLower() == "pectoralul major" || t_pectoral_m.Text.ToLower() == "pectoral major" || t_pectoral_m.Text.ToLower() == "muschiul pectoral major")
             {
                 verif_txt(t_pectoral_m, l_pectoral_m);
             }
@@ -99,7 +99,7 @@ namespace Aplicatie_muschi
             {
                 er_txt(t_pectoral_m, l_pectoral_m);
             }
-            if (t_pectoral_min.Text.ToLower() == l_pectoral_min.Text.ToLower())
+            if (t_pectoral_m.Text.ToLower() == "pectoralul minor" || t_pectoral_m.Text.ToLower() == "oblici externi" || t_pectoral_m.Text.ToLower() == "pectoralul minor" || t_pectoral_m.Text.ToLower() == "pectoral minor" || t_pectoral_m.Text.ToLower() == "muschiul pectoral major")
             {
                 verif_txt(t_pectoral_min, l_pectoral_min);
             }
@@ -131,7 +131,7 @@ namespace Aplicatie_muschi
             {
                 er_txt(t_strat_teaca, l_strat_teaca);
             }
-            if (t_subscap.Text.ToLower() == l_subscap.Text.ToLower())
+            if (t_subscap.Text.ToLower() == "subscapular" || t_subscap.Text.ToLower() == "muschi subscapular")
             {
                 verif_txt(t_subscap, l_subscap);
             }

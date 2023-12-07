@@ -356,7 +356,7 @@
             this.l_calcai.Name = "l_calcai";
             this.l_calcai.Size = new System.Drawing.Size(45, 15);
             this.l_calcai.TabIndex = 61;
-            this.l_calcai.Text = "calcai";
+            this.l_calcai.Text = "călcâi";
             // 
             // l_ret_ext_inf
             // 

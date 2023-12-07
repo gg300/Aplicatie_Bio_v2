@@ -43,7 +43,7 @@ namespace Aplicatie_muschi
             {
                 er_txt(t_ahile, l_ahile);
             }
-            if(t_calcai.Text.ToLower() == l_calcai.Text.ToLower())
+            if(t_calcai.Text.ToLower() == "calcai")
             {
                 verif_txt(t_calcai, l_calcai);
             }
@@ -83,7 +83,7 @@ namespace Aplicatie_muschi
             {
                 er_txt(t_flexor_lung, l_flexor_hal);
             }
-            if (t_gastrocnemiu_lateral.Text.ToLower() == l_gastrocnemiu_lateral.Text.ToLower())
+            if (t_gastrocnemiu_lateral.Text.ToLower() == "gastrocnemiu lateral" || t_gastrocnemiu_lateral.Text.ToLower() == "muschiul gastrocnemiu lateral")
             {
                 verif_txt(t_gastrocnemiu_lateral, l_gastrocnemiu_lateral);
             }
@@ -91,7 +91,7 @@ namespace Aplicatie_muschi
             {
                 er_txt(t_gastrocnemiu_lateral, l_gastrocnemiu_lateral);
             }
-            if (t_gastrocnemiu_median.Text.ToLower() == l_gastrocnemiu_median.Text.ToLower())
+            if (t_gastrocnemiu_median.Text.ToLower() == "gastrocnemiu median" || t_gastrocnemiu_median.Text.ToLower() == "muschiul gastrocnemiu median")
             {
                 verif_txt(t_gastrocnemiu_median, l_gastrocnemiu_median);
             }
@@ -139,7 +139,7 @@ namespace Aplicatie_muschi
             {
                 er_txt(t_peronier_scurt_2, l_peronier_scurt_2);
             }
-            if (t_plantar.Text.ToLower() == l_plantar.Text.ToLower())
+            if (t_plantar.Text.ToLower() == "plantarul" || t_plantar.Text.ToLower() == "plantar" || t_plantar.Text.ToLower() == "muschiul plantar")
             {
                 verif_txt(t_plantar, l_plantar);
             }
@@ -155,7 +155,7 @@ namespace Aplicatie_muschi
             {
                 er_txt(t_popliteu, l_popliteu);
             }
-            if (t_ret_ext_inf.Text.ToLower() == l_ret_ext_inf.Text.ToLower())
+            if (t_ret_ext_inf.Text.ToLower() == "retinaculul extensorilor inferiori" || t_ret_ext_inf.Text.ToLower() == "muschiul retinacul al extensorilor inferiori")
             {
                 verif_txt(t_ret_ext_inf, l_ret_ext_inf);
             }
@@ -163,7 +163,7 @@ namespace Aplicatie_muschi
             {
                 er_txt(t_ret_ext_inf, l_ret_ext_inf);
             }
-            if (t_ret_ext_sup.Text.ToLower() == l_ret_ext_sup.Text.ToLower())
+            if (t_ret_ext_sup.Text.ToLower() == "retinaculul extensorilor superiori" || t_ret_ext_sup.Text.ToLower() == "muschiul retinacul al extensorilor superiori")
             {
                 verif_txt(t_ret_ext_sup, l_ret_ext_sup);
             }
@@ -171,7 +171,7 @@ namespace Aplicatie_muschi
             {
                 er_txt(t_ret_ext_sup, l_ret_ext_sup);
             }
-            if (t_solear.Text.ToLower() == l_solear.Text.ToLower())
+            if (t_solear.Text.ToLower() == "muschiul solear" || t_solear.Text.ToLower() == "solear")
             {
                 verif_txt(t_solear, l_solear);
             }
@@ -179,7 +179,7 @@ namespace Aplicatie_muschi
             {
                 er_txt(t_solear, l_solear);
             }
-            if (t_solear_cut.Text.ToLower() == l_solear_cut.Text.ToLower())
+            if (t_solear_cut.Text.ToLower() == "solear" || t_solear_cut.Text.ToLower() == "muschiul solear")
             {
                 verif_txt(t_solear_cut, l_solear_cut);
             }
@@ -187,7 +187,7 @@ namespace Aplicatie_muschi
             {
                 er_txt(t_solear_cut, l_solear_cut);
             }
-            if (t_tibial_anterior.Text.ToLower() == l_tibial_anterior.Text.ToLower())
+            if (t_tibial_anterior.Text.ToLower() == "tibial anterior" || t_tibial_anterior.Text.ToLower() == "muschi tibial anterior")
             {
                 verif_txt(t_tibial_anterior, l_tibial_anterior);
             }
@@ -195,7 +195,7 @@ namespace Aplicatie_muschi
             {
                 er_txt(t_tibial_anterior, l_tibial_anterior);
             }
-            if (t_tibial_posterior.Text.ToLower() == l_tibial_posterior.Text.ToLower())
+            if (t_tibial_posterior.Text.ToLower() == "muschi tibial posterior" || t_tibial_posterior.Text.ToLower() == "muschi tibial posterior")
             {
                 verif_txt(t_tibial_posterior, l_tibial_posterior);
             }

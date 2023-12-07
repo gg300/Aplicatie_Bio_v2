@@ -75,7 +75,7 @@ namespace Aplicatie_muschi
             {
                 er_txt(t_deltoid, l_deltoid);
             }
-            if (t_dorsal_mare.Text.ToLower() == l_dorsal_mare.Text.ToLower())
+            if (t_dorsal_mare.Text.ToLower() == "dorsalul mare" || t_dorsal_mare.Text.ToLower() == "dorsal mare" || t_dorsal_mare.Text.ToLower() == "muschiul dorsal mare")
             {
                 verif_txt(t_dorsal_mare, l_dorsal_mare);
             }
@@ -83,7 +83,7 @@ namespace Aplicatie_muschi
             {
                 er_txt(t_dorsal_mare, l_dorsal_mare);
             }
-            if (t_infraspinos.Text.ToLower() == l_infraspinos.Text.ToLower())
+            if (t_infraspinos.Text.ToLower() == "infraspinos" || t_infraspinos.Text.ToLower() == "muschiul infraspinos")
             {
                 verif_txt(t_infraspinos, l_infraspinos);
             }
@@ -91,7 +91,7 @@ namespace Aplicatie_muschi
             {
                 er_txt(t_infraspinos, l_infraspinos);
             }
-            if (t_rid_scap.Text.ToLower() == l_rid_scap.Text.ToLower())
+            if (t_rid_scap.Text.ToLower() == "ridicator al scapulei" || t_rid_scap.Text.ToLower() == "ridicatorul scapulei" || t_rid_scap.Text.ToLower() == "muschiul ridicator al scapulei")
             {
                 verif_txt(t_rid_scap, l_rid_scap);
             }
@@ -99,7 +99,7 @@ namespace Aplicatie_muschi
             {
                 er_txt(t_rid_scap, l_rid_scap);
             }
-            if (t_romb_mare.Text.ToLower() == l_romb_mare.Text.ToLower())
+            if (t_romb_mare.Text.ToLower() == "romboid mare" || t_romb_mare.Text.ToLower() == "romboidul mare" ||  t_romb_mare.Text.ToLower() == "muschiul romboid mare")
             {
                 verif_txt(t_romb_mare, l_romb_mare);
             }
@@ -107,7 +107,7 @@ namespace Aplicatie_muschi
             {
                 er_txt(t_romb_mare, l_romb_mare);
             }
-            if (t_romb_mic.Text.ToLower() == l_romb_mic.Text.ToLower())
+            if (t_romb_mic.Text.ToLower() == "romboid mic" || t_romb_mic.Text.ToLower() == "romboidul mic" || t_romb_mic.Text.ToLower() == "muschiul romboid mic")
             {
                 verif_txt(t_romb_mic, l_romb_mic);
             }
@@ -115,7 +115,7 @@ namespace Aplicatie_muschi
             {
                 er_txt(t_romb_mic, l_romb_mic);
             }
-            if (t_rotund_mare.Text.ToLower() == l_rotund_mare.Text.ToLower())
+            if (t_rotund_mic.Text.ToLower() == "rotund mare" || t_rotund_mic.Text.ToLower() == "rotundul mare" || t_rotund_mic.Text.ToLower() == "muschiul rotund mare")
             {
                 verif_txt(t_rotund_mare, l_rotund_mare);
             }
@@ -123,7 +123,7 @@ namespace Aplicatie_muschi
             {
                 er_txt(t_rotund_mare, l_rotund_mare);
             }
-            if (t_rotund_mic.Text.ToLower() == l_rotund_mic.Text.ToLower())
+            if (t_rotund_mic.Text.ToLower() == "rotund mic" || t_rotund_mic.Text.ToLower() == "rotundul mic" || t_rotund_mic.Text.ToLower() == "muschiul rotund mic")
             {
                 verif_txt(t_rotund_mic, l_rotund_mic);
             }
@@ -139,7 +139,7 @@ namespace Aplicatie_muschi
             {
                 er_txt(t_sterno, l_sterno);
             }
-            if (t_supraspin.Text.ToLower() == l_supraspin.Text.ToLower())
+            if (t_supraspin.Text.ToLower() == "supraspinos" || t_supraspin.Text.ToLower() == "muschiul supraspinos")
             {
                 verif_txt(t_supraspin, l_supraspin);
             }

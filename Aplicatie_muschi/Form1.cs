@@ -58,5 +58,10 @@ namespace Aplicatie_muschi
             muschi_membre_inferioare form = new muschi_membre_inferioare(this);
             form.Show();
         }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
