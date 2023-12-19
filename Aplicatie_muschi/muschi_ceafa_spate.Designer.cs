@@ -34,7 +34,6 @@
             this.t_infraspinos = new System.Windows.Forms.TextBox();
             this.t_rotund_mic = new System.Windows.Forms.TextBox();
             this.t_rotund_mare = new System.Windows.Forms.TextBox();
-            this.t_triceps_brahial = new System.Windows.Forms.TextBox();
             this.t_dorsal_mare = new System.Windows.Forms.TextBox();
             this.t_deltoid = new System.Windows.Forms.TextBox();
             this.t_romb_mare = new System.Windows.Forms.TextBox();
@@ -47,7 +46,6 @@
             this.l_romb_mare = new System.Windows.Forms.Label();
             this.l_deltoid = new System.Windows.Forms.Label();
             this.l_dorsal_mare = new System.Windows.Forms.Label();
-            this.l_triceps_brahial = new System.Windows.Forms.Label();
             this.l_rotund_mare = new System.Windows.Forms.Label();
             this.l_rotund_mic = new System.Windows.Forms.Label();
             this.l_infraspinos = new System.Windows.Forms.Label();
@@ -93,13 +91,6 @@
             this.t_rotund_mare.Name = "t_rotund_mare";
             this.t_rotund_mare.Size = new System.Drawing.Size(155, 20);
             this.t_rotund_mare.TabIndex = 8;
-            // 
-            // t_triceps_brahial
-            // 
-            this.t_triceps_brahial.Location = new System.Drawing.Point(889, 423);
-            this.t_triceps_brahial.Name = "t_triceps_brahial";
-            this.t_triceps_brahial.Size = new System.Drawing.Size(155, 20);
-            this.t_triceps_brahial.TabIndex = 9;
             // 
             // t_dorsal_mare
             // 
@@ -203,16 +194,6 @@
             this.l_dorsal_mare.TabIndex = 21;
             this.l_dorsal_mare.Text = "dorsalul mare";
             // 
-            // l_triceps_brahial
-            // 
-            this.l_triceps_brahial.AutoSize = true;
-            this.l_triceps_brahial.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.l_triceps_brahial.Location = new System.Drawing.Point(1050, 424);
-            this.l_triceps_brahial.Name = "l_triceps_brahial";
-            this.l_triceps_brahial.Size = new System.Drawing.Size(106, 16);
-            this.l_triceps_brahial.TabIndex = 22;
-            this.l_triceps_brahial.Text = "triceps brahial";
-            // 
             // l_rotund_mare
             // 
             this.l_rotund_mare.AutoSize = true;
@@ -308,7 +289,6 @@
             this.Controls.Add(this.l_infraspinos);
             this.Controls.Add(this.l_rotund_mic);
             this.Controls.Add(this.l_rotund_mare);
-            this.Controls.Add(this.l_triceps_brahial);
             this.Controls.Add(this.l_dorsal_mare);
             this.Controls.Add(this.l_deltoid);
             this.Controls.Add(this.l_romb_mare);
@@ -321,7 +301,6 @@
             this.Controls.Add(this.t_romb_mare);
             this.Controls.Add(this.t_deltoid);
             this.Controls.Add(this.t_dorsal_mare);
-            this.Controls.Add(this.t_triceps_brahial);
             this.Controls.Add(this.t_rotund_mare);
             this.Controls.Add(this.t_rotund_mic);
             this.Controls.Add(this.t_infraspinos);
@@ -346,7 +325,6 @@
         private System.Windows.Forms.TextBox t_infraspinos;
         private System.Windows.Forms.TextBox t_rotund_mic;
         private System.Windows.Forms.TextBox t_rotund_mare;
-        private System.Windows.Forms.TextBox t_triceps_brahial;
         private System.Windows.Forms.TextBox t_dorsal_mare;
         private System.Windows.Forms.TextBox t_deltoid;
         private System.Windows.Forms.TextBox t_romb_mare;
@@ -359,7 +337,6 @@
         private System.Windows.Forms.Label l_romb_mare;
         private System.Windows.Forms.Label l_deltoid;
         private System.Windows.Forms.Label l_dorsal_mare;
-        private System.Windows.Forms.Label l_triceps_brahial;
         private System.Windows.Forms.Label l_rotund_mare;
         private System.Windows.Forms.Label l_rotund_mic;
         private System.Windows.Forms.Label l_infraspinos;

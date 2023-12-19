@@ -31,15 +31,10 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(muschi_membre_superioare));
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.t_hum = new System.Windows.Forms.TextBox();
             this.t_coco = new System.Windows.Forms.TextBox();
-            this.t_biceps_l = new System.Windows.Forms.TextBox();
-            this.t_biceps_s = new System.Windows.Forms.TextBox();
-            this.t_triceps_cap_l = new System.Windows.Forms.TextBox();
             this.t_brah = new System.Windows.Forms.TextBox();
             this.t_brahr = new System.Windows.Forms.TextBox();
             this.t_rotund_pron = new System.Windows.Forms.TextBox();
-            this.t_triceps_cap_m = new System.Windows.Forms.TextBox();
             this.t_epic = new System.Windows.Forms.TextBox();
             this.t_flex_rad_carp = new System.Windows.Forms.TextBox();
             this.t_pal_l = new System.Windows.Forms.TextBox();
@@ -59,15 +54,8 @@
             this.t_s_ext_rad_c = new System.Windows.Forms.TextBox();
             this.t_flex_u_c = new System.Windows.Forms.TextBox();
             this.t_ext_l_r_c = new System.Windows.Forms.TextBox();
-            this.t_ulna = new System.Windows.Forms.TextBox();
             this.t_anconeu = new System.Windows.Forms.TextBox();
-            this.t_triceps_lung = new System.Windows.Forms.TextBox();
-            this.t_triceps_lat = new System.Windows.Forms.TextBox();
-            this.t_tub_mc_hum = new System.Windows.Forms.TextBox();
-            this.l_hum = new System.Windows.Forms.Label();
             this.l_coco = new System.Windows.Forms.Label();
-            this.l_triceps_cap_l = new System.Windows.Forms.Label();
-            this.l_triceps_cap_m = new System.Windows.Forms.Label();
             this.l_rotund_pron = new System.Windows.Forms.Label();
             this.l_epic = new System.Windows.Forms.Label();
             this.l_flex_rad_carp = new System.Windows.Forms.Label();
@@ -79,10 +67,6 @@
             this.l_apo_pal = new System.Windows.Forms.Label();
             this.l_brahr = new System.Windows.Forms.Label();
             this.l_brah = new System.Windows.Forms.Label();
-            this.l_biceps_s = new System.Windows.Forms.Label();
-            this.l_biceps_l = new System.Windows.Forms.Label();
-            this.l_tub_mc_hum = new System.Windows.Forms.Label();
-            this.l_ulna = new System.Windows.Forms.Label();
             this.l_ext_l_r_c = new System.Windows.Forms.Label();
             this.l_flex_u_c = new System.Windows.Forms.Label();
             this.l_s_ext_rad_c = new System.Windows.Forms.Label();
@@ -95,10 +79,14 @@
             this.l_ext_l_deg = new System.Windows.Forms.Label();
             this.l_brahr_2 = new System.Windows.Forms.Label();
             this.l_anconeu = new System.Windows.Forms.Label();
-            this.l_triceps_lung = new System.Windows.Forms.Label();
-            this.l_triceps_lat = new System.Windows.Forms.Label();
             this.b_incearca = new System.Windows.Forms.Button();
             this.b_raspunsuri = new System.Windows.Forms.Button();
+            this.l_biceps = new System.Windows.Forms.Label();
+            this.t_biceps = new System.Windows.Forms.TextBox();
+            this.t_triceps = new System.Windows.Forms.TextBox();
+            this.l_triceps = new System.Windows.Forms.Label();
+            this.l_triceps_2 = new System.Windows.Forms.Label();
+            this.t_triceps_2 = new System.Windows.Forms.TextBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
@@ -121,40 +109,12 @@
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
             // 
-            // t_hum
-            // 
-            this.t_hum.Location = new System.Drawing.Point(995, 103);
-            this.t_hum.Name = "t_hum";
-            this.t_hum.Size = new System.Drawing.Size(100, 22);
-            this.t_hum.TabIndex = 2;
-            // 
             // t_coco
             // 
             this.t_coco.Location = new System.Drawing.Point(995, 129);
             this.t_coco.Name = "t_coco";
             this.t_coco.Size = new System.Drawing.Size(100, 22);
             this.t_coco.TabIndex = 3;
-            // 
-            // t_biceps_l
-            // 
-            this.t_biceps_l.Location = new System.Drawing.Point(767, 170);
-            this.t_biceps_l.Name = "t_biceps_l";
-            this.t_biceps_l.Size = new System.Drawing.Size(100, 22);
-            this.t_biceps_l.TabIndex = 4;
-            // 
-            // t_biceps_s
-            // 
-            this.t_biceps_s.Location = new System.Drawing.Point(758, 196);
-            this.t_biceps_s.Name = "t_biceps_s";
-            this.t_biceps_s.Size = new System.Drawing.Size(100, 22);
-            this.t_biceps_s.TabIndex = 5;
-            // 
-            // t_triceps_cap_l
-            // 
-            this.t_triceps_cap_l.Location = new System.Drawing.Point(995, 205);
-            this.t_triceps_cap_l.Name = "t_triceps_cap_l";
-            this.t_triceps_cap_l.Size = new System.Drawing.Size(100, 22);
-            this.t_triceps_cap_l.TabIndex = 6;
             // 
             // t_brah
             // 
@@ -176,13 +136,6 @@
             this.t_rotund_pron.Name = "t_rotund_pron";
             this.t_rotund_pron.Size = new System.Drawing.Size(100, 22);
             this.t_rotund_pron.TabIndex = 9;
-            // 
-            // t_triceps_cap_m
-            // 
-            this.t_triceps_cap_m.Location = new System.Drawing.Point(995, 255);
-            this.t_triceps_cap_m.Name = "t_triceps_cap_m";
-            this.t_triceps_cap_m.Size = new System.Drawing.Size(100, 22);
-            this.t_triceps_cap_m.TabIndex = 10;
             // 
             // t_epic
             // 
@@ -317,49 +270,12 @@
             this.t_ext_l_r_c.Size = new System.Drawing.Size(100, 22);
             this.t_ext_l_r_c.TabIndex = 29;
             // 
-            // t_ulna
-            // 
-            this.t_ulna.Location = new System.Drawing.Point(411, 226);
-            this.t_ulna.Name = "t_ulna";
-            this.t_ulna.Size = new System.Drawing.Size(100, 22);
-            this.t_ulna.TabIndex = 30;
-            // 
             // t_anconeu
             // 
             this.t_anconeu.Location = new System.Drawing.Point(137, 271);
             this.t_anconeu.Name = "t_anconeu";
             this.t_anconeu.Size = new System.Drawing.Size(100, 22);
             this.t_anconeu.TabIndex = 31;
-            // 
-            // t_triceps_lung
-            // 
-            this.t_triceps_lung.Location = new System.Drawing.Point(137, 207);
-            this.t_triceps_lung.Name = "t_triceps_lung";
-            this.t_triceps_lung.Size = new System.Drawing.Size(100, 22);
-            this.t_triceps_lung.TabIndex = 32;
-            // 
-            // t_triceps_lat
-            // 
-            this.t_triceps_lat.Location = new System.Drawing.Point(137, 167);
-            this.t_triceps_lat.Name = "t_triceps_lat";
-            this.t_triceps_lat.Size = new System.Drawing.Size(100, 22);
-            this.t_triceps_lat.TabIndex = 33;
-            // 
-            // t_tub_mc_hum
-            // 
-            this.t_tub_mc_hum.Location = new System.Drawing.Point(365, 79);
-            this.t_tub_mc_hum.Name = "t_tub_mc_hum";
-            this.t_tub_mc_hum.Size = new System.Drawing.Size(100, 22);
-            this.t_tub_mc_hum.TabIndex = 34;
-            // 
-            // l_hum
-            // 
-            this.l_hum.AutoSize = true;
-            this.l_hum.Location = new System.Drawing.Point(1101, 106);
-            this.l_hum.Name = "l_hum";
-            this.l_hum.Size = new System.Drawing.Size(65, 16);
-            this.l_hum.TabIndex = 35;
-            this.l_hum.Text = "humerus";
             // 
             // l_coco
             // 
@@ -369,24 +285,6 @@
             this.l_coco.Size = new System.Drawing.Size(103, 16);
             this.l_coco.TabIndex = 36;
             this.l_coco.Text = "coracobrahial";
-            // 
-            // l_triceps_cap_l
-            // 
-            this.l_triceps_cap_l.AutoSize = true;
-            this.l_triceps_cap_l.Location = new System.Drawing.Point(1101, 208);
-            this.l_triceps_cap_l.Name = "l_triceps_cap_l";
-            this.l_triceps_cap_l.Size = new System.Drawing.Size(170, 16);
-            this.l_triceps_cap_l.TabIndex = 37;
-            this.l_triceps_cap_l.Text = "capul lung al tricepsului";
-            // 
-            // l_triceps_cap_m
-            // 
-            this.l_triceps_cap_m.AutoSize = true;
-            this.l_triceps_cap_m.Location = new System.Drawing.Point(1101, 258);
-            this.l_triceps_cap_m.Name = "l_triceps_cap_m";
-            this.l_triceps_cap_m.Size = new System.Drawing.Size(188, 16);
-            this.l_triceps_cap_m.TabIndex = 38;
-            this.l_triceps_cap_m.Text = "capul medial al tricepsului";
             // 
             // l_rotund_pron
             // 
@@ -486,44 +384,6 @@
             this.l_brah.Size = new System.Drawing.Size(55, 16);
             this.l_brah.TabIndex = 49;
             this.l_brah.Text = "brahial";
-            // 
-            // l_biceps_s
-            // 
-            this.l_biceps_s.AutoSize = true;
-            this.l_biceps_s.Location = new System.Drawing.Point(579, 199);
-            this.l_biceps_s.Name = "l_biceps_s";
-            this.l_biceps_s.Size = new System.Drawing.Size(174, 16);
-            this.l_biceps_s.TabIndex = 50;
-            this.l_biceps_s.Text = "capul scurt al bicepsului";
-            // 
-            // l_biceps_l
-            // 
-            this.l_biceps_l.AutoSize = true;
-            this.l_biceps_l.Location = new System.Drawing.Point(591, 170);
-            this.l_biceps_l.Name = "l_biceps_l";
-            this.l_biceps_l.Size = new System.Drawing.Size(170, 16);
-            this.l_biceps_l.TabIndex = 51;
-            this.l_biceps_l.Text = "capul lung al bicepsului";
-            // 
-            // l_tub_mc_hum
-            // 
-            this.l_tub_mc_hum.AutoSize = true;
-            this.l_tub_mc_hum.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.l_tub_mc_hum.Location = new System.Drawing.Point(470, 82);
-            this.l_tub_mc_hum.Name = "l_tub_mc_hum";
-            this.l_tub_mc_hum.Size = new System.Drawing.Size(205, 16);
-            this.l_tub_mc_hum.TabIndex = 52;
-            this.l_tub_mc_hum.Text = "turbeculul mic al humerusului";
-            // 
-            // l_ulna
-            // 
-            this.l_ulna.AutoSize = true;
-            this.l_ulna.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.l_ulna.Location = new System.Drawing.Point(517, 229);
-            this.l_ulna.Name = "l_ulna";
-            this.l_ulna.Size = new System.Drawing.Size(36, 16);
-            this.l_ulna.TabIndex = 53;
-            this.l_ulna.Text = "ulna";
             // 
             // l_ext_l_r_c
             // 
@@ -645,26 +505,6 @@
             this.l_anconeu.TabIndex = 65;
             this.l_anconeu.Text = "anconeu";
             // 
-            // l_triceps_lung
-            // 
-            this.l_triceps_lung.AutoSize = true;
-            this.l_triceps_lung.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.l_triceps_lung.Location = new System.Drawing.Point(14, 210);
-            this.l_triceps_lung.Name = "l_triceps_lung";
-            this.l_triceps_lung.Size = new System.Drawing.Size(117, 16);
-            this.l_triceps_lung.TabIndex = 66;
-            this.l_triceps_lung.Text = "triceps cap lung";
-            // 
-            // l_triceps_lat
-            // 
-            this.l_triceps_lat.AutoSize = true;
-            this.l_triceps_lat.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.l_triceps_lat.Location = new System.Drawing.Point(-1, 167);
-            this.l_triceps_lat.Name = "l_triceps_lat";
-            this.l_triceps_lat.Size = new System.Drawing.Size(132, 16);
-            this.l_triceps_lat.TabIndex = 67;
-            this.l_triceps_lat.Text = "triceps cap lateral";
-            // 
             // b_incearca
             // 
             this.b_incearca.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -687,14 +527,67 @@
             this.b_raspunsuri.UseVisualStyleBackColor = true;
             this.b_raspunsuri.Click += new System.EventHandler(this.b_raspunsuri_Click);
             // 
+            // l_biceps
+            // 
+            this.l_biceps.AutoSize = true;
+            this.l_biceps.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.l_biceps.Location = new System.Drawing.Point(694, 187);
+            this.l_biceps.Name = "l_biceps";
+            this.l_biceps.Size = new System.Drawing.Size(54, 16);
+            this.l_biceps.TabIndex = 74;
+            this.l_biceps.Text = "biceps";
+            // 
+            // t_biceps
+            // 
+            this.t_biceps.Location = new System.Drawing.Point(754, 184);
+            this.t_biceps.Name = "t_biceps";
+            this.t_biceps.Size = new System.Drawing.Size(100, 22);
+            this.t_biceps.TabIndex = 75;
+            // 
+            // t_triceps
+            // 
+            this.t_triceps.Location = new System.Drawing.Point(995, 203);
+            this.t_triceps.Name = "t_triceps";
+            this.t_triceps.Size = new System.Drawing.Size(100, 22);
+            this.t_triceps.TabIndex = 76;
+            // 
+            // l_triceps
+            // 
+            this.l_triceps.AutoSize = true;
+            this.l_triceps.Location = new System.Drawing.Point(1106, 205);
+            this.l_triceps.Name = "l_triceps";
+            this.l_triceps.Size = new System.Drawing.Size(54, 16);
+            this.l_triceps.TabIndex = 77;
+            this.l_triceps.Text = "triceps";
+            // 
+            // l_triceps_2
+            // 
+            this.l_triceps_2.AutoSize = true;
+            this.l_triceps_2.Location = new System.Drawing.Point(72, 187);
+            this.l_triceps_2.Name = "l_triceps_2";
+            this.l_triceps_2.Size = new System.Drawing.Size(54, 16);
+            this.l_triceps_2.TabIndex = 79;
+            this.l_triceps_2.Text = "triceps";
+            // 
+            // t_triceps_2
+            // 
+            this.t_triceps_2.Location = new System.Drawing.Point(132, 184);
+            this.t_triceps_2.Name = "t_triceps_2";
+            this.t_triceps_2.Size = new System.Drawing.Size(100, 22);
+            this.t_triceps_2.TabIndex = 78;
+            // 
             // muschi_membre_superioare
             // 
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(1284, 681);
+            this.Controls.Add(this.l_triceps_2);
+            this.Controls.Add(this.t_triceps_2);
+            this.Controls.Add(this.l_triceps);
+            this.Controls.Add(this.t_triceps);
+            this.Controls.Add(this.t_biceps);
+            this.Controls.Add(this.l_biceps);
             this.Controls.Add(this.b_raspunsuri);
             this.Controls.Add(this.b_incearca);
-            this.Controls.Add(this.l_triceps_lat);
-            this.Controls.Add(this.l_triceps_lung);
             this.Controls.Add(this.l_anconeu);
             this.Controls.Add(this.l_brahr_2);
             this.Controls.Add(this.l_ext_l_deg);
@@ -707,10 +600,6 @@
             this.Controls.Add(this.l_s_ext_rad_c);
             this.Controls.Add(this.l_flex_u_c);
             this.Controls.Add(this.l_ext_l_r_c);
-            this.Controls.Add(this.l_ulna);
-            this.Controls.Add(this.l_tub_mc_hum);
-            this.Controls.Add(this.l_biceps_l);
-            this.Controls.Add(this.l_biceps_s);
             this.Controls.Add(this.l_brah);
             this.Controls.Add(this.l_brahr);
             this.Controls.Add(this.l_apo_pal);
@@ -722,15 +611,8 @@
             this.Controls.Add(this.l_flex_rad_carp);
             this.Controls.Add(this.l_epic);
             this.Controls.Add(this.l_rotund_pron);
-            this.Controls.Add(this.l_triceps_cap_m);
-            this.Controls.Add(this.l_triceps_cap_l);
             this.Controls.Add(this.l_coco);
-            this.Controls.Add(this.l_hum);
-            this.Controls.Add(this.t_tub_mc_hum);
-            this.Controls.Add(this.t_triceps_lat);
-            this.Controls.Add(this.t_triceps_lung);
             this.Controls.Add(this.t_anconeu);
-            this.Controls.Add(this.t_ulna);
             this.Controls.Add(this.t_ext_l_r_c);
             this.Controls.Add(this.t_flex_u_c);
             this.Controls.Add(this.t_s_ext_rad_c);
@@ -750,15 +632,10 @@
             this.Controls.Add(this.t_pal_l);
             this.Controls.Add(this.t_flex_rad_carp);
             this.Controls.Add(this.t_epic);
-            this.Controls.Add(this.t_triceps_cap_m);
             this.Controls.Add(this.t_rotund_pron);
             this.Controls.Add(this.t_brahr);
             this.Controls.Add(this.t_brah);
-            this.Controls.Add(this.t_triceps_cap_l);
-            this.Controls.Add(this.t_biceps_s);
-            this.Controls.Add(this.t_biceps_l);
             this.Controls.Add(this.t_coco);
-            this.Controls.Add(this.t_hum);
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.pictureBox1);
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -777,15 +654,10 @@
 
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.PictureBox pictureBox2;
-        private System.Windows.Forms.TextBox t_hum;
         private System.Windows.Forms.TextBox t_coco;
-        private System.Windows.Forms.TextBox t_biceps_l;
-        private System.Windows.Forms.TextBox t_biceps_s;
-        private System.Windows.Forms.TextBox t_triceps_cap_l;
         private System.Windows.Forms.TextBox t_brah;
         private System.Windows.Forms.TextBox t_brahr;
         private System.Windows.Forms.TextBox t_rotund_pron;
-        private System.Windows.Forms.TextBox t_triceps_cap_m;
         private System.Windows.Forms.TextBox t_epic;
         private System.Windows.Forms.TextBox t_flex_rad_carp;
         private System.Windows.Forms.TextBox t_pal_l;
@@ -805,15 +677,8 @@
         private System.Windows.Forms.TextBox t_s_ext_rad_c;
         private System.Windows.Forms.TextBox t_flex_u_c;
         private System.Windows.Forms.TextBox t_ext_l_r_c;
-        private System.Windows.Forms.TextBox t_ulna;
         private System.Windows.Forms.TextBox t_anconeu;
-        private System.Windows.Forms.TextBox t_triceps_lung;
-        private System.Windows.Forms.TextBox t_triceps_lat;
-        private System.Windows.Forms.TextBox t_tub_mc_hum;
-        private System.Windows.Forms.Label l_hum;
         private System.Windows.Forms.Label l_coco;
-        private System.Windows.Forms.Label l_triceps_cap_l;
-        private System.Windows.Forms.Label l_triceps_cap_m;
         private System.Windows.Forms.Label l_rotund_pron;
         private System.Windows.Forms.Label l_epic;
         private System.Windows.Forms.Label l_flex_rad_carp;
@@ -825,10 +690,6 @@
         private System.Windows.Forms.Label l_apo_pal;
         private System.Windows.Forms.Label l_brahr;
         private System.Windows.Forms.Label l_brah;
-        private System.Windows.Forms.Label l_biceps_s;
-        private System.Windows.Forms.Label l_biceps_l;
-        private System.Windows.Forms.Label l_tub_mc_hum;
-        private System.Windows.Forms.Label l_ulna;
         private System.Windows.Forms.Label l_ext_l_r_c;
         private System.Windows.Forms.Label l_flex_u_c;
         private System.Windows.Forms.Label l_s_ext_rad_c;
@@ -841,9 +702,13 @@
         private System.Windows.Forms.Label l_ext_l_deg;
         private System.Windows.Forms.Label l_brahr_2;
         private System.Windows.Forms.Label l_anconeu;
-        private System.Windows.Forms.Label l_triceps_lung;
-        private System.Windows.Forms.Label l_triceps_lat;
         private System.Windows.Forms.Button b_incearca;
         private System.Windows.Forms.Button b_raspunsuri;
+        private System.Windows.Forms.Label l_biceps;
+        private System.Windows.Forms.TextBox t_biceps;
+        private System.Windows.Forms.TextBox t_triceps;
+        private System.Windows.Forms.Label l_triceps;
+        private System.Windows.Forms.Label l_triceps_2;
+        private System.Windows.Forms.TextBox t_triceps_2;
     }
 }

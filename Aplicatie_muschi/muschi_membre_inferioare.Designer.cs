@@ -47,10 +47,6 @@
             this.t_gastrocnemiu_median = new System.Windows.Forms.TextBox();
             this.t_plantar = new System.Windows.Forms.TextBox();
             this.t_solear = new System.Windows.Forms.TextBox();
-            this.t_ahile = new System.Windows.Forms.TextBox();
-            this.t_calcai = new System.Windows.Forms.TextBox();
-            this.t_ret_ext_inf = new System.Windows.Forms.TextBox();
-            this.t_ret_ext_sup = new System.Windows.Forms.TextBox();
             this.t_peronier_3 = new System.Windows.Forms.TextBox();
             this.t_extensor_hal = new System.Windows.Forms.TextBox();
             this.t_peronier_scurt = new System.Windows.Forms.TextBox();
@@ -61,10 +57,6 @@
             this.l_gastrocnemiu_median = new System.Windows.Forms.Label();
             this.l_plantar = new System.Windows.Forms.Label();
             this.l_solear = new System.Windows.Forms.Label();
-            this.l_ahile = new System.Windows.Forms.Label();
-            this.l_calcai = new System.Windows.Forms.Label();
-            this.l_ret_ext_inf = new System.Windows.Forms.Label();
-            this.l_ret_ext_sup = new System.Windows.Forms.Label();
             this.l_peronier_3 = new System.Windows.Forms.Label();
             this.l_extensor_hal = new System.Windows.Forms.Label();
             this.l_peronier_scurt = new System.Windows.Forms.Label();
@@ -76,6 +68,8 @@
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.t_ahile = new System.Windows.Forms.TextBox();
+            this.l_ahile = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -228,34 +222,6 @@
             this.t_solear.Size = new System.Drawing.Size(131, 20);
             this.t_solear.TabIndex = 45;
             // 
-            // t_ahile
-            // 
-            this.t_ahile.Location = new System.Drawing.Point(681, 452);
-            this.t_ahile.Name = "t_ahile";
-            this.t_ahile.Size = new System.Drawing.Size(131, 20);
-            this.t_ahile.TabIndex = 46;
-            // 
-            // t_calcai
-            // 
-            this.t_calcai.Location = new System.Drawing.Point(659, 544);
-            this.t_calcai.Name = "t_calcai";
-            this.t_calcai.Size = new System.Drawing.Size(131, 20);
-            this.t_calcai.TabIndex = 47;
-            // 
-            // t_ret_ext_inf
-            // 
-            this.t_ret_ext_inf.Location = new System.Drawing.Point(209, 460);
-            this.t_ret_ext_inf.Name = "t_ret_ext_inf";
-            this.t_ret_ext_inf.Size = new System.Drawing.Size(131, 20);
-            this.t_ret_ext_inf.TabIndex = 48;
-            // 
-            // t_ret_ext_sup
-            // 
-            this.t_ret_ext_sup.Location = new System.Drawing.Point(220, 405);
-            this.t_ret_ext_sup.Name = "t_ret_ext_sup";
-            this.t_ret_ext_sup.Size = new System.Drawing.Size(131, 20);
-            this.t_ret_ext_sup.TabIndex = 49;
-            // 
             // t_peronier_3
             // 
             this.t_peronier_3.Location = new System.Drawing.Point(209, 365);
@@ -337,46 +303,6 @@
             this.l_solear.Size = new System.Drawing.Size(47, 15);
             this.l_solear.TabIndex = 59;
             this.l_solear.Text = "solear";
-            // 
-            // l_ahile
-            // 
-            this.l_ahile.AutoSize = true;
-            this.l_ahile.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.l_ahile.Location = new System.Drawing.Point(556, 452);
-            this.l_ahile.Name = "l_ahile";
-            this.l_ahile.Size = new System.Drawing.Size(119, 15);
-            this.l_ahile.TabIndex = 60;
-            this.l_ahile.Text = "tendonul lui Ahile";
-            // 
-            // l_calcai
-            // 
-            this.l_calcai.AutoSize = true;
-            this.l_calcai.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.l_calcai.Location = new System.Drawing.Point(608, 544);
-            this.l_calcai.Name = "l_calcai";
-            this.l_calcai.Size = new System.Drawing.Size(45, 15);
-            this.l_calcai.TabIndex = 61;
-            this.l_calcai.Text = "călcâi";
-            // 
-            // l_ret_ext_inf
-            // 
-            this.l_ret_ext_inf.AutoSize = true;
-            this.l_ret_ext_inf.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.l_ret_ext_inf.Location = new System.Drawing.Point(-1, 463);
-            this.l_ret_ext_inf.Name = "l_ret_ext_inf";
-            this.l_ret_ext_inf.Size = new System.Drawing.Size(209, 15);
-            this.l_ret_ext_inf.TabIndex = 62;
-            this.l_ret_ext_inf.Text = "retinaculul extensorilor inferiori";
-            // 
-            // l_ret_ext_sup
-            // 
-            this.l_ret_ext_sup.AutoSize = true;
-            this.l_ret_ext_sup.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.l_ret_ext_sup.Location = new System.Drawing.Point(-1, 406);
-            this.l_ret_ext_sup.Name = "l_ret_ext_sup";
-            this.l_ret_ext_sup.Size = new System.Drawing.Size(216, 15);
-            this.l_ret_ext_sup.TabIndex = 63;
-            this.l_ret_ext_sup.Text = "retinaculul extensorilor superiori";
             // 
             // l_peronier_3
             // 
@@ -487,6 +413,23 @@
             this.pictureBox1.TabIndex = 25;
             this.pictureBox1.TabStop = false;
             // 
+            // t_ahile
+            // 
+            this.t_ahile.Location = new System.Drawing.Point(681, 452);
+            this.t_ahile.Name = "t_ahile";
+            this.t_ahile.Size = new System.Drawing.Size(131, 20);
+            this.t_ahile.TabIndex = 46;
+            // 
+            // l_ahile
+            // 
+            this.l_ahile.AutoSize = true;
+            this.l_ahile.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.l_ahile.Location = new System.Drawing.Point(556, 452);
+            this.l_ahile.Name = "l_ahile";
+            this.l_ahile.Size = new System.Drawing.Size(119, 15);
+            this.l_ahile.TabIndex = 60;
+            this.l_ahile.Text = "tendonul lui Ahile";
+            // 
             // muschi_membre_inferioare
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -501,9 +444,6 @@
             this.Controls.Add(this.l_peronier_scurt);
             this.Controls.Add(this.l_extensor_hal);
             this.Controls.Add(this.l_peronier_3);
-            this.Controls.Add(this.l_ret_ext_sup);
-            this.Controls.Add(this.l_ret_ext_inf);
-            this.Controls.Add(this.l_calcai);
             this.Controls.Add(this.l_ahile);
             this.Controls.Add(this.l_solear);
             this.Controls.Add(this.l_plantar);
@@ -515,9 +455,6 @@
             this.Controls.Add(this.t_peronier_scurt);
             this.Controls.Add(this.t_extensor_hal);
             this.Controls.Add(this.t_peronier_3);
-            this.Controls.Add(this.t_ret_ext_sup);
-            this.Controls.Add(this.t_ret_ext_inf);
-            this.Controls.Add(this.t_calcai);
             this.Controls.Add(this.t_ahile);
             this.Controls.Add(this.t_solear);
             this.Controls.Add(this.t_plantar);
@@ -574,10 +511,6 @@
         private System.Windows.Forms.TextBox t_gastrocnemiu_median;
         private System.Windows.Forms.TextBox t_plantar;
         private System.Windows.Forms.TextBox t_solear;
-        private System.Windows.Forms.TextBox t_ahile;
-        private System.Windows.Forms.TextBox t_calcai;
-        private System.Windows.Forms.TextBox t_ret_ext_inf;
-        private System.Windows.Forms.TextBox t_ret_ext_sup;
         private System.Windows.Forms.TextBox t_peronier_3;
         private System.Windows.Forms.TextBox t_extensor_hal;
         private System.Windows.Forms.TextBox t_peronier_scurt;
@@ -588,10 +521,6 @@
         private System.Windows.Forms.Label l_gastrocnemiu_median;
         private System.Windows.Forms.Label l_plantar;
         private System.Windows.Forms.Label l_solear;
-        private System.Windows.Forms.Label l_ahile;
-        private System.Windows.Forms.Label l_calcai;
-        private System.Windows.Forms.Label l_ret_ext_inf;
-        private System.Windows.Forms.Label l_ret_ext_sup;
         private System.Windows.Forms.Label l_peronier_3;
         private System.Windows.Forms.Label l_extensor_hal;
         private System.Windows.Forms.Label l_peronier_scurt;
@@ -600,5 +529,7 @@
         private System.Windows.Forms.Label l_tibial_anterior;
         private System.Windows.Forms.Button b_incearca;
         private System.Windows.Forms.Button b_raspunsuri;
+        private System.Windows.Forms.TextBox t_ahile;
+        private System.Windows.Forms.Label l_ahile;
     }
 }

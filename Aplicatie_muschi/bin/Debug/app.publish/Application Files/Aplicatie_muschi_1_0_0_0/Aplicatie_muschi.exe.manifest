@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="Aplicatie_muschi.exe" version="1.0.0.0" publicKeyToken="a2863d379b833672" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="Aplicatie_muschi" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="Aplicatie_muschi.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Aplicatie_muschi.exe" size="11202568">
+      <assemblyIdentity name="Aplicatie_muschi" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>LVL8v/7qLOOrCqCo/m1o6lSfXZ+OO6dCuC4ase4Xd9A=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="Aplicatie_muschi.exe.config" size="189">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>R+Wg8QGvQVHX8T0ta/qbhH1bXkqY0fRnS3wBV3J0bN8=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=DESKTOP-PTTKMDA\Georgebot300" issuerKeyHash="e6eabcc47eebb6c29d4997ad4f0cd6b9faf19410" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>C0yY/zhs/ilBJvCkObjZNw0TAeuZMVGGaZ5WKjAznA4=</DigestValue></Reference></SignedInfo><SignatureValue>ZnqQORNzcMVdpa0xcrFnlxW+dB3TG3Q6TI2Jv0XN/+gmkkWNhK+jKmmfS0e4czea4MAzOU1Y+3pSRY3hogAMtL0UWGqPlRm3vXkl7453Qo1HZkYuT8rU+PpDPi0GpTOJYhJxk3pP3dLOfVKTDqz+BnWW7+PvDpbYbXrKNjiMW2U=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>s0gXOhJK3PjjE7Rq/AWfz2YqM4ZGY3ynLm6/gQl4k3ErCJLdpohENkdqq9p8jsAaZYpWY6oXb4uwM/VoiOgIS/+ShAKEDqC6QyMB4ihecSaJoT3UssoWQdEIZKgdRzkJ0Culg5YTQS+ZuRWyFIexsTVNPxZc+rIGPwISiBDddck=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="0e9c33302a569e6986513199eb01130d37d9b839a4f0264129fe6c38ff984c0b" Description="" Url=""><as:assemblyIdentity name="Aplicatie_muschi.exe" version="1.0.0.0" publicKeyToken="a2863d379b833672" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=DESKTOP-PTTKMDA\Georgebot300</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>BHgap3ypyST+YqHfN6oPP+3UPqcm9Ua7iCmgk0P9Fj8=</DigestValue></Reference></SignedInfo><SignatureValue>Qty60a/l3cVaJIRhhF207QCf9EVuvFCVkP1v25tYei3E3ZpMUqt318PmNpQdyxG0Q7yXAN2mZkKBY4+Z/xvrRvM7To7xAvh/WWT7OD8bjwqXqOyauRTVTr6lruuLa++l4aP7YeWgwjVtzr3Yp8p+D5cCBLnOo1PbK6O4HilKJHU=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>s0gXOhJK3PjjE7Rq/AWfz2YqM4ZGY3ynLm6/gQl4k3ErCJLdpohENkdqq9p8jsAaZYpWY6oXb4uwM/VoiOgIS/+ShAKEDqC6QyMB4ihecSaJoT3UssoWQdEIZKgdRzkJ0Culg5YTQS+ZuRWyFIexsTVNPxZc+rIGPwISiBDddck=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIICCTCCAXKgAwIBAgIQXpSRrj8iDZREknSalGFj6zANBgkqhkiG9w0BAQsFADBDMUEwPwYDVQQDHjgARABFAFMASwBUAE8AUAAtAFAAVABUAEsATQBEAEEAXABHAGUAbwByAGcAZQBiAG8AdAAzADAAMDAeFw0yMzEyMTgxNzQzMjlaFw0yNDEyMTcyMzQzMjlaMEMxQTA/BgNVBAMeOABEAEUAUwBLAFQATwBQAC0AUABUAFQASwBNAEQAQQBcAEcAZQBvAHIAZwBlAGIAbwB0ADMAMAAwMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCzSBc6Ekrc+OMTtGr8BZ/PZiozhkZjfKcubr+BCXiTcSsIkt2miEQ2R2qr2nyOwBplilZjqhdvi7Az9WiI6AhL/5KEAoQOoLpDIwHiKF5xJomhPdSyyhZB0QhkqB1HOQnQK6WDlhNBL5m5FbIUh7GxNU0/Flz6sgY/AhKIEN11yQIDAQABMA0GCSqGSIb3DQEBCwUAA4GBAG20E5BTM3mii600thVCN4GEXK+VP0PTLDOUtciRO21JU9FrBNwmAiS4iZkpF5azDxqCR40fIvJT7XB6fbC/1TGmppFnWqGG0Zm8WudC5rVyERX44gY3AlBUc3FocitXMJlt4PVj9LB0oc3JQahUWSjia5HrJujUx1Tp8TIssd1B</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>

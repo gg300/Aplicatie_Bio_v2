@@ -59,22 +59,7 @@ namespace Aplicatie_muschi
             {
                 er_txt(t_apo_pal, l_apo_pal);
             }
-            if (t_biceps_l.Text.ToLower() == "capul lung al bicepsului" || t_biceps_l.Text.ToLower() == "cap lung al bicepsului")
-            {
-                verif_txt(t_biceps_l, l_biceps_l);
-            }
-            else
-            {
-                er_txt(t_biceps_l, l_biceps_l);
-            }
-            if (t_biceps_s.Text.ToLower() == "capul scurt al bicepsului" || t_biceps_s.Text.ToLower() == "cap scurt al bicepsului")
-            {
-                verif_txt(t_biceps_s, l_biceps_s);
-            }
-            else
-            {
-                er_txt(t_biceps_s, l_biceps_s);
-            }
+            
             if (t_brah.Text.ToLower() == l_brah.Text.ToLower())
             {
                 verif_txt(t_brah, l_brah);
@@ -187,14 +172,6 @@ namespace Aplicatie_muschi
             {
                 er_txt(t_flex_u_c, l_flex_u_c);
             }
-            if (t_hum.Text.ToLower() == l_hum.Text.ToLower())
-            {
-                verif_txt(t_hum, l_hum);
-            }
-            else
-            {
-                er_txt(t_hum, l_hum);
-            }
             if (t_pal.Text.ToLower() == "palmar" || t_pal.Text.ToLower() == "muschiul palmar")
             {
                 verif_txt(t_pal, l_pal);
@@ -251,53 +228,29 @@ namespace Aplicatie_muschi
             {
                 er_txt(t_s_ext_rad_c, l_s_ext_rad_c);
             }
-            if (t_triceps_cap_l.Text.ToLower() == "triceps cap lung" || t_triceps_cap_l.Text.ToLower() == "triceps lung" || t_triceps_cap_l.Text.ToLower() == "triceps capul lung" || t_triceps_cap_l.Text.ToLower() == "capul lung al tricepsului")
+            if (t_triceps.Text.ToLower() == l_triceps.Text.ToLower())
             {
-                verif_txt(t_triceps_cap_l, l_triceps_cap_l);
+                verif_txt(t_triceps, l_triceps);
             }
             else
             {
-                er_txt(t_triceps_cap_l, l_triceps_cap_l);
+                er_txt(t_triceps, l_triceps);
             }
-            if (t_triceps_cap_m.Text.ToLower() == "triceps cap medial" || t_triceps_cap_m.Text.ToLower() == "triceps medial" || t_triceps_cap_m.Text.ToLower() == "triceps capul medial" || t_triceps_cap_m.Text.ToLower() == "capul medial al tricepsului")
+            if (t_triceps_2.Text.ToLower() == l_triceps_2.Text.ToLower())
             {
-                verif_txt(t_triceps_cap_m, l_triceps_cap_m);
-            }
-            else
-            {
-                er_txt(t_triceps_cap_m, l_triceps_cap_m);
-            }
-            if (t_triceps_lat.Text.ToLower() == l_triceps_lat.Text.ToLower())
-            {
-                verif_txt(t_triceps_lat, l_triceps_lat);
+                verif_txt(t_triceps_2, l_triceps_2);
             }
             else
             {
-                er_txt(t_triceps_lat, l_triceps_lat);
+                er_txt(t_triceps_2, l_triceps_2);
             }
-            if (t_triceps_lung.Text.ToLower() == l_triceps_lung.Text.ToLower())
+            if (t_biceps.Text.ToLower() == l_biceps.Text.ToLower())
             {
-                verif_txt(t_triceps_lung, l_triceps_lung);
-            }
-            else
-            {
-                er_txt(t_triceps_lung, l_triceps_lung);
-            }
-            if (t_tub_mc_hum.Text.ToLower() == l_tub_mc_hum.Text.ToLower())
-            {
-                verif_txt(t_tub_mc_hum, l_tub_mc_hum);
+                verif_txt(t_biceps, l_biceps);
             }
             else
             {
-                er_txt(t_tub_mc_hum, l_tub_mc_hum);
-            }
-            if (t_ulna.Text.ToLower() == l_ulna.Text.ToLower())
-            {
-                verif_txt(t_ulna, l_ulna);
-            }
-            else
-            {
-                er_txt(t_ulna, l_ulna);
+                er_txt(t_biceps, l_biceps);
             }
 
         }
@@ -306,8 +259,6 @@ namespace Aplicatie_muschi
             l_abd_l_pol.Visible = false;
             l_anconeu.Visible = false;
             l_apo_pal.Visible = false;
-            l_biceps_l.Visible = false;
-            l_biceps_s.Visible = false;
             l_brah.Visible = false;
             l_brahr.Visible = false;
             l_brahr_2.Visible = false;
@@ -322,7 +273,6 @@ namespace Aplicatie_muschi
             l_flex_rad_carp.Visible = false;
             l_flex_sup_deg.Visible=false;
             l_flex_u_c.Visible=false;
-            l_hum.Visible = false;
             l_pal.Visible = false;
             l_pal_l.Visible = false;
             l_pat_pron.Visible = false;
@@ -330,20 +280,17 @@ namespace Aplicatie_muschi
             l_retin_flex.Visible = false;
             l_rotund_pron.Visible = false;
             l_s_ext_rad_c.Visible = false;
-            l_triceps_cap_l.Visible = false;
-            l_triceps_cap_m.Visible = false;
-            l_triceps_lat.Visible = false;
-            l_triceps_lung.Visible = false;
-            l_tub_mc_hum.Visible = false;
-            l_ulna.Visible = false;
+            l_triceps.Visible = false;
+            l_triceps_2.Visible = false;
+            l_biceps.Visible = false;
+
         }
         private void L_Show()
         {
             l_abd_l_pol.Visible = true;
             l_anconeu.Visible = true;
             l_apo_pal.Visible = true;
-            l_biceps_l.Visible = true;
-            l_biceps_s.Visible = true;
+
             l_brah.Visible = true;
             l_brahr.Visible = true;
             l_brahr_2.Visible = true;
@@ -358,7 +305,6 @@ namespace Aplicatie_muschi
             l_flex_rad_carp.Visible = true;
             l_flex_sup_deg.Visible = true;
             l_flex_u_c.Visible = true;
-            l_hum.Visible = true;
             l_pal.Visible = true;
             l_pal_l.Visible = true;
             l_pat_pron.Visible = true;
@@ -366,12 +312,10 @@ namespace Aplicatie_muschi
             l_retin_flex.Visible = true;
             l_rotund_pron.Visible = true;
             l_s_ext_rad_c.Visible = true;
-            l_triceps_cap_l.Visible = true;
-            l_triceps_cap_m.Visible = true;
-            l_triceps_lat.Visible = true;
-            l_triceps_lung.Visible = true;
-            l_tub_mc_hum.Visible = true;
-            l_ulna.Visible = true;
+            l_triceps.Visible = true;
+            l_triceps_2.Visible = true;
+            l_biceps.Visible = true;
+
         }
 
         private void muschi_membre_superioare_Load_1(object sender, EventArgs e)

@@ -47,7 +47,6 @@ namespace Aplicatie_muschi
             l_sterno.Visible = false;
             l_supraspin.Visible = false;
             l_trapez.Visible   = false;
-            l_triceps_brahial.Visible = false;
         }
         private void L_Show()
         {
@@ -63,7 +62,6 @@ namespace Aplicatie_muschi
             l_sterno.Visible = true;
             l_supraspin.Visible = true;
             l_trapez.Visible = true;
-            l_triceps_brahial.Visible = true;
         }
         private void ver_mus()
         {
@@ -154,14 +152,6 @@ namespace Aplicatie_muschi
             else
             {
                 er_txt(t_trapez, l_trapez);
-            }
-            if (t_triceps_brahial.Text.ToLower() == l_triceps_brahial.Text.ToLower())
-            {
-                verif_txt(t_triceps_brahial, l_triceps_brahial);
-            }
-            else
-            {
-                er_txt(t_triceps_brahial, l_triceps_brahial);
             }
 
         }

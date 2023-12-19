@@ -32,3 +32,7 @@ F:\Aplicatie_muschi\Aplicatie_Bio_v2\Aplicatie_muschi\obj\Debug\Aplicatie_muschi
 F:\Aplicatie_muschi\Aplicatie_Bio_v2\Aplicatie_muschi\obj\Debug\Aplicatie_muschi.csproj.CoreCompileInputs.cache
 F:\Aplicatie_muschi\Aplicatie_Bio_v2\Aplicatie_muschi\obj\Debug\Aplicatie_muschi.exe
 F:\Aplicatie_muschi\Aplicatie_Bio_v2\Aplicatie_muschi\obj\Debug\Aplicatie_muschi.pdb
+F:\Aplicatie_muschi\Aplicatie_Bio_v2\Aplicatie_muschi\bin\Debug\Aplicatie_muschi.exe.manifest
+F:\Aplicatie_muschi\Aplicatie_Bio_v2\Aplicatie_muschi\bin\Debug\Aplicatie_muschi.application
+F:\Aplicatie_muschi\Aplicatie_Bio_v2\Aplicatie_muschi\obj\Debug\Aplicatie_muschi.exe.manifest
+F:\Aplicatie_muschi\Aplicatie_Bio_v2\Aplicatie_muschi\obj\Debug\Aplicatie_muschi.application

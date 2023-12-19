@@ -43,14 +43,7 @@ namespace Aplicatie_muschi
             {
                 er_txt(t_ahile, l_ahile);
             }
-            if(t_calcai.Text.ToLower() == "calcai")
-            {
-                verif_txt(t_calcai, l_calcai);
-            }
-            else
-            {
-                er_txt(t_calcai, l_calcai);
-            }
+          
             if (t_extensor_degete.Text.ToLower() == l_extensor_degete.Text.ToLower())
             {
                 verif_txt(t_extensor_degete, l_extensor_degete);
@@ -155,22 +148,7 @@ namespace Aplicatie_muschi
             {
                 er_txt(t_popliteu, l_popliteu);
             }
-            if (t_ret_ext_inf.Text.ToLower() == "retinaculul extensorilor inferiori" || t_ret_ext_inf.Text.ToLower() == "muschiul retinacul al extensorilor inferiori")
-            {
-                verif_txt(t_ret_ext_inf, l_ret_ext_inf);
-            }
-            else
-            {
-                er_txt(t_ret_ext_inf, l_ret_ext_inf);
-            }
-            if (t_ret_ext_sup.Text.ToLower() == "retinaculul extensorilor superiori" || t_ret_ext_sup.Text.ToLower() == "muschiul retinacul al extensorilor superiori")
-            {
-                verif_txt(t_ret_ext_sup, l_ret_ext_sup);
-            }
-            else
-            {
-                er_txt(t_ret_ext_sup, l_ret_ext_sup);
-            }
+         
             if (t_solear.Text.ToLower() == "muschiul solear" || t_solear.Text.ToLower() == "solear")
             {
                 verif_txt(t_solear, l_solear);
@@ -208,7 +186,7 @@ namespace Aplicatie_muschi
         private void L_hid()
         {
             l_ahile.Visible = false;
-            l_calcai.Visible = false;
+
             l_extensor_degete.Visible = false;
             l_extensor_hal.Visible = false;
             l_flexor_degete.Visible = false;
@@ -222,8 +200,7 @@ namespace Aplicatie_muschi
             l_peronioer_lung_2.Visible = false;
             l_plantar.Visible = false;
             l_popliteu.Visible = false;
-            l_ret_ext_inf.Visible = false;
-            l_ret_ext_sup.Visible = false;
+
             l_solear.Visible = false;
             l_solear_cut.Visible = false;
             l_tibial_anterior.Visible = false;
@@ -232,7 +209,6 @@ namespace Aplicatie_muschi
         private void L_Show()
         {
             l_ahile.Visible = true;
-            l_calcai.Visible = true;
             l_extensor_degete.Visible = true;
             l_extensor_hal.Visible = true;
             l_flexor_degete.Visible = true;
@@ -246,8 +222,6 @@ namespace Aplicatie_muschi
             l_peronioer_lung_2.Visible = true;
             l_plantar.Visible = true;
             l_popliteu.Visible = true;
-            l_ret_ext_inf.Visible = true;
-            l_ret_ext_sup.Visible = true;
             l_solear.Visible = true;
             l_solear_cut.Visible = true;
             l_tibial_anterior.Visible = true;
